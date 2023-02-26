@@ -13,7 +13,7 @@ class Footer extends HTMLElement {
       </h2>
 
       <div
-        class="flex justify-between items-center gap-10 pt-5 text-center w-[63%] m-auto"
+        class="flex justify-between items-center gap-10 pt-5 text-center w-[1280px] px-4 md:px-6 m-auto"
       >
         <div>
           <img
@@ -72,7 +72,7 @@ class Footer extends HTMLElement {
     </div>
   </section>
             <footer class="bg-[#fbfbfb]  ">
-            <section class=" w-[64%] m-auto">
+            <section class="w-[1280px] px-4 md:px-6 m-auto">
             <div class="grid grid-cols-2 gap-3 py-8 md:grid-cols-6">
               <div>
                 <h2
