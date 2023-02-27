@@ -469,11 +469,11 @@ height:20px;
 .tooltip-inside-text {
   visibility: hidden;
   position: absolute;
-  width: 250px;
-  font-size: 13px;
-  text-align: center;
+  width: 270px;
+  font-size: 13px !important;
+  text-align: left;
   top: 50%;
-  right: -200px;
+  right: -202px;
   border: 1px solid rgba(0, 0, 0, .2);
   z-index: 10;
   background: #fff;

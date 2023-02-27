@@ -1029,19 +1029,11 @@ input:checked + .toggle-bg {
   position: relative;
 }
 
-.sticky {
-  position: sticky;
-}
-
 .inset-0 {
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-}
-
-.top-3 {
-  top: 0.75rem;
 }
 
 .top-\[39\%\] {
@@ -1086,10 +1078,6 @@ input:checked + .toggle-bg {
 
 .bottom-0 {
   bottom: 0px;
-}
-
-.top-\[10\%\] {
-  top: 10%;
 }
 
 .z-10 {
@@ -3042,11 +3030,11 @@ height:20px;
 .tooltip-inside-text {
   visibility: hidden;
   position: absolute;
-  width: 250px;
-  font-size: 13px;
-  text-align: center;
+  width: 270px;
+  font-size: 13px !important;
+  text-align: left;
   top: 50%;
-  right: -200px;
+  right: -202px;
   border: 1px solid rgba(0, 0, 0, .2);
   z-index: 10;
   background: #fff;
