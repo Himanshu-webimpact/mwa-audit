@@ -13,11 +13,11 @@ class Footer extends HTMLElement {
       </h2>
 
       <div
-        class="flex justify-between items-center gap-10 pt-5 text-center w-[63%] m-auto"
+        class="flex justify-between items-center  pt-5 text-center container xl:max-w-screen-xl m-auto"
       >
         <div>
           <img
-            class="w-[200px]"
+            class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-paul-stoute-only-image.svg"
             alt=""
           />
@@ -28,7 +28,7 @@ class Footer extends HTMLElement {
         </div>
         <div>
           <img
-            class="w-[200px]"
+            class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-john-falke-only-image.svg"
             alt=""
           />
@@ -39,7 +39,7 @@ class Footer extends HTMLElement {
         </div>
         <div>
           <img
-            class="w-[200px]"
+            class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-rob-riggs-only-image.svg"
             alt=""
           />
@@ -50,7 +50,7 @@ class Footer extends HTMLElement {
         </div>
         <div>
           <img
-            class="w-[200px]"
+            class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-carol-stambaugh-only-image.svg"
             alt=""
           />
@@ -59,7 +59,7 @@ class Footer extends HTMLElement {
         </div>
         <div>
           <img
-            class="w-[200px]"
+            class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-barry-belotti-only-image.svg"
             alt=""
           />
@@ -71,8 +71,8 @@ class Footer extends HTMLElement {
       </div>
     </div>
   </section>
-            <footer class="bg-[#fbfbfb]  ">
-            <section class=" w-[64%] m-auto">
+   <footer class="bg-[#fbfbfb]  ">
+            <section class="container xl:max-w-screen-xl m-auto">
             <div class="grid grid-cols-2 gap-3 py-8 md:grid-cols-6">
               <div>
                 <h2
@@ -180,16 +180,16 @@ class Footer extends HTMLElement {
                     Use Cases
                   </h2>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Close More Sales</a>
+                    <a href="/public/close-more-sale.html" class="hover:underline">Close More Sales</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Lead Generation</a>
+                    <a href="/public/lead-generation.html" class="hover:underline">Lead Generation</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Webinars &amp; Workshops</a>
+                    <a href="/public/webinars-and-workshops.html" class="hover:underline">Webinars &amp; Workshops</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Retainers & Care Plans</a>
+                    <a href="/public/retainers-and-care-plans.html" class="hover:underline">Retainers & Care Plans</a>
                   </li>
                 </ul>
               </div>
