@@ -347,7 +347,7 @@ height:20px;
   padding: 0 10px;
 }
 
-.report-wrapper::before {
+.report-wrapper a::before {
   content: "";
   position: absolute;
   left: 0;
@@ -392,11 +392,11 @@ height:20px;
   opacity: 1;
 }
 
-.report-wrapper:hover::before {
+.report-wrapper a:hover::before {
   opacity: 1 !important;
 }
 
-.report-wrapper .report-wrapper-img {
+.report-wrapper a {
   box-shadow: 5px 5px rgb(0 0 0 / 10%);
   background: #e5e5e5;
 
@@ -672,6 +672,7 @@ height:20px;
       width: 100%;
       content: "";
     }
+
   .close-more-hero-section::before {
     background: #fbfbfb;
     transform: skewY(10deg) scaleY(1);
