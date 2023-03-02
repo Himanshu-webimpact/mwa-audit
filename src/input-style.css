@@ -32,7 +32,9 @@
 .swiper-button-prev::after {
   display: none !important;
 }
-
+.max-inherit {
+  max-width: inherit !important;
+}
 .swiper-button-next {
   background-image: url(../src/assets/home/arrow-right-solid.svg);
   background-repeat: no-repeat;
@@ -149,7 +151,19 @@
   width: 100%;
   content: "";
 }
-
+.blog-section::after {
+  background: #f7f7f7;
+  transform: skewY(-15deg) scaleY(1);
+  -moz-transform: skewY(-15deg) scaleY(1);
+  -webkit-transform: skewY(-15deg) scaleY(1);
+  position: absolute;
+  top: -95%;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+}
 .arrow-bounce {
   animation: features-arrow-bounce 2s infinite;
 }
@@ -269,8 +283,7 @@ height:20px;
 
 .home-hero-wrapper {
   height: auto;
-  width: 700px;
-  overflow: hidden;
+  width: 100%;
   position: relative;
   z-index: 1;
   margin: auto;

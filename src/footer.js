@@ -82,44 +82,44 @@ class Footer extends HTMLElement {
                 </h2>
                 <ul class="text-[#3d3d4d] dark:text-gray-400 text-xs">
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Website Audit</a>
+                    <a href="website-audit-template.html" class="hover:underline">Website Audit</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">E-commerce Website Audit</a>
+                    <a href="e-commerce-website-audit.html" class="hover:underline">E-commerce Website Audit</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline"
+                    <a href="google-business-profile-audit.html" class="hover:underline"
                       >Google Business Profile Audit</a
                     >
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">On Page SEO Audit</a>
+                    <a href="on-page-seo-audit.html" class="hover:underline">On Page SEO Audit</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Landing Page Audit</a>
+                    <a href="landing-page-audit.html" class="hover:underline">Landing Page Audit</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline"
+                    <a href="return-on-investment-template.html" class="hover:underline"
                       >Return On Investment Audit</a
                     >
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline"
+                    <a href="page-speed-insights-report.html" class="hover:underline"
                       >Page Speed Insights Audit</a
                     >
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline"
+                    <a href="page-speed-lead-magnet.html" class="hover:underline"
                       >Page Speed Lead Magnet Audit</a
                     >
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline"
+                    <a href="digital-competitive.html" class="hover:underline"
                       >Competitive Analysis Audit</a
                     >
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">View All Audit Reports</a>
+                    <a href="sample.html" class="hover:underline">View All Audit Reports</a>
                   </li>
                 </ul>
               </div>
@@ -142,19 +142,19 @@ class Footer extends HTMLElement {
                     <a href="#" class="hover:underline">BrightLocal Alternative</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Success Stories</a>
+                    <a href="success-stories.html" class="hover:underline">Success Stories</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Pricing</a>
+                    <a href="price.html" class="hover:underline">Pricing</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Features</a>
+                    <a href="feature.html" class="hover:underline">Features</a>
                   </li>
                   <li class="mb-3">
                     <a href="#" class="hover:underline">Lead Widgets</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Blog</a>
+                    <a href="blog.html" class="hover:underline">Blog</a>
                   </li>
                   <li class="mb-3">
                     <a href="#" class="hover:underline">Agency Playbooks</a>

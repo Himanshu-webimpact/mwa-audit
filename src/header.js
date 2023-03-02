@@ -51,7 +51,7 @@ class Header extends HTMLElement {
              >
                <li>
                  <a
-                   href="#"
+                   href="/public/success-stories.html"
                    class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#0d96df] md:p-0 dark:text-gray-400 md:dark:hover:text-[#0d96df]  dark:hover:bg-gray-700 dark:hover:text-[#0d96df]  md:dark:hover:bg-transparent dark:border-gray-700"
                    aria-current="page"
                    >Success Stories</a
@@ -62,7 +62,7 @@ class Header extends HTMLElement {
                    id="mega-menu-full-cta-dropdown-button"
                    data-collapse-toggle="mega-menu-full-cta-dropdown"
                    data-dropdown-placement="bottom"
-                   class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#0d96df]  md:p-0 dark:text-gray-400 md:dark:hover:text-[#0d96df]  dark:hover:bg-gray-700 dark:hover:text-[#0d96df]  md:dark:hover:bg-transparent dark:border-gray-700"
+                   class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-700 border-b  border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#0d96df]  md:p-0 dark:text-gray-400 md:dark:hover:text-[#0d96df]  dark:hover:bg-gray-700 dark:hover:text-[#0d96df]  md:dark:hover:bg-transparent dark:border-gray-700"
                  >
                  <a href="/public/sample.html"> Sample Reports</a>
                    <svg
@@ -124,8 +124,8 @@ class Header extends HTMLElement {
                </li>
                <li>
                  <a
-                   href="#"
-                   class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#0d96df]  md:p-0 dark:text-gray-400 md:dark:hover:text-[#0d96df]  dark:hover:bg-gray-700 dark:hover:text-[#0d96df]  md:dark:hover:bg-transparent dark:border-gray-700"
+                   href="blog.html"
+                   class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#0d96df]  md:p-0 dark:text-gray-400 md:dark:hover:text-[#0d96df]  dark:hover:bg-gray-700 dark:hover:text-[#0d96df]  md:dark:hover:bg-transparent dark:border-gray-700  "
                    >Blog</a
                  >
                </li>
