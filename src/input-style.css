@@ -33,11 +33,18 @@
   display: none !important;
 }
 
+.lead-widgets-bg {
+  background: linear-gradient(135deg, rgba(245, 245, 245, 1) 0, rgba(229, 246, 255, 1) 100%);
+}
 .max-inherit {
   max-width: inherit !important;
 }
+
 .box-shadow {
   box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%)
+}
+.playbook-hero-section {
+  background: url(../src/assets/playbooks/playbook-header-background.svg) 0 -130px/100% auto #f7f7f7;
 }
 .swiper-button-next {
   background-image: url(../src/assets/home/arrow-right-solid.svg);
@@ -88,6 +95,24 @@
   width: 100%;
 }
 
+.playbooks-list {
+  position: relative;
+}
+
+.playbooks-list::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  background: #daeffa;
+  left: 15px;
+  right: -15px;
+  top: 15px;
+  bottom: -15px;
+  border-radius: 8px;
+  height: auto;
+  width: auto;
+
+}
 .mwa-text-active.active::after {
   width: 100%;
   border: 1px solid #b3dff9;
@@ -744,7 +769,7 @@ height:20px;
     border-style: solid;
     border-width: 10px 0 10px 15px;
     border-color: transparent transparent transparent #e7f6fe !important;
-      margin-top: -10px;
+    margin-top: -10px;
       opacity: 0;
       transition: all 0.5s ease-out;
       -moz-transition: all 0.5s ease-out;

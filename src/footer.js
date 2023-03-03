@@ -151,13 +151,13 @@ class Footer extends HTMLElement {
                     <a href="feature.html" class="hover:underline">Features</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Lead Widgets</a>
+                    <a href="lead-widgets.html" class="hover:underline">Lead Widgets</a>
                   </li>
                   <li class="mb-3">
                     <a href="blog.html" class="hover:underline">Blog</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Agency Playbooks</a>
+                    <a href="playbooks.html" class="hover:underline">Agency Playbooks</a>
                   </li>
                   <li class="mb-3">
                     <a href="#" class="hover:underline">Roadmap</a>

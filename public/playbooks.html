@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="playbook.js" type="text/javascript" defer></script>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../src/assets/logo/MWA Icon.svg"
+    />
+    <link rel="stylesheet" href="output-style.css" />
+    <link rel="stylesheet" href="../src/input-style.css" />
+    <script src="/src/header.js" type="text/javascript" defer></script>
+    <script src="/src/footer.js" type="text/javascript" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>Agency Playbooks</title>
+  </head>
+
+  <body>
+    <section>
+      <header-component></header-component>
+      <main class="pt-[90px] overflow-hidden">
+        <section class="playbook-hero-section relative pb-[120px]">
+          <div class="container xl:max-w-screen-xl m-auto py-10 z-20 relative">
+            <h1
+              class="text-center text-[#2b333f] text-[45px] leading-10 font-[poppins-medium]"
+            >
+              Agency Playbooks
+            </h1>
+            <p
+              class="text-xl text-[#2b333f] leading-9 font-[roboto-regural] pt-7 text-center"
+            >
+              It’s hard to find high value actionable content for agencies that
+              actually work.
+            </p>
+            <p
+              class="text-xl text-[#2b333f] leading-9 font-[roboto-regural] text-center"
+            >
+              We make it easier to run and grow your agency with our Agency
+              Playbooks.
+            </p>
+            <p
+              class="text-xl text-[#2b333f] leading-9 font-[roboto-regural] text-center"
+            >
+              These are tactics, best practices, and strategies that are
+              currently being used by
+            </p>
+            <p
+              class="text-xl text-[#2b333f] leading-9 font-[roboto-regural] text-center"
+            >
+              6 and 7 figure agencies from around the world.
+            </p>
+          </div>
+        </section>
+        <section>
+          <div class="-mt-32 container xl:max-w-screen-xl mx-auto mb-11">
+            <div
+              class="flex justify-between items-start w-[100%] flex-wrap"
+              id="playbooks-container"
+            ></div>
+          </div>
+        </section>
+      </main>
+      <footer-component></footer-component>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 6,
+        spaceBetween: 40,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      $(document).ready(function () {
+        $("ul li.mwa-text-active").click(function () {
+          $("ul li.mwa-text-active").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>
