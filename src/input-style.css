@@ -32,8 +32,12 @@
 .swiper-button-prev::after {
   display: none !important;
 }
+
 .max-inherit {
   max-width: inherit !important;
+}
+.box-shadow {
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%)
 }
 .swiper-button-next {
   background-image: url(../src/assets/home/arrow-right-solid.svg);
@@ -103,9 +107,37 @@
   transition: all 0.5s ease-out;
 }
 
-
-
+.mwa-lead-active.active::before,
 .mwa-text-active.active::before {
+  border-color: transparent transparent transparent #e7f6fe;
+  opacity: 1;
+}
+
+.mwa-lead-active {
+  transition: all 0.5s ease-out;
+  background-color: #ffffff;
+}
+
+.mwa-lead-active.active::after {
+  width: 100%;
+  border: 1px solid #b3dff9;
+  transition: all 0s ease-out;
+}
+
+.mwa-lead-active::after {
+  background: linear-gradient(135deg,
+      rgba(245, 245, 245, 1) 0,
+      rgba(229, 246, 255, 1) 100%);
+  height: 100%;
+  width: 0;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0s ease-out;
+}
+
+.mwa-lead-active.active::before {
   border-color: transparent transparent transparent #e7f6fe;
   opacity: 1;
 }
@@ -151,6 +183,7 @@
   width: 100%;
   content: "";
 }
+
 .blog-section::after {
   background: #f7f7f7;
   transform: skewY(-15deg) scaleY(1);
@@ -164,6 +197,7 @@
   width: 100%;
   content: "";
 }
+
 .arrow-bounce {
   animation: features-arrow-bounce 2s infinite;
 }
@@ -709,6 +743,25 @@ height:20px;
     height: 0;
     border-style: solid;
     border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent #e7f6fe !important;
+      margin-top: -10px;
+      opacity: 0;
+      transition: all 0.5s ease-out;
+      -moz-transition: all 0.5s ease-out;
+      -webkit-transition: all 0.5s ease-out;
+      z-index: 1;
+    }
+    
+    .mwa-lead-active::before {
+      position: absolute;
+      content: "";
+      top: -4%;
+      width: 0;
+      left: 46%;
+      transform: rotate(270deg);
+      height: 0;
+      border-style: solid;
+      border-width: 10px 0 10px 15px;
     border-color: transparent transparent transparent transparent;
     margin-top: -10px;
     opacity: 0;
@@ -729,7 +782,6 @@ height:20px;
     width: 100%;
     content: "";
     height: 100%;
-
   }
 
   .about-hero-section::after {
