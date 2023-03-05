@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../src/assets/logo/MWA Icon.svg"
+    />
     <link rel="stylesheet" href="output-style.css" />
     <link rel="stylesheet" href="../src/input-style.css" />
     <script src="/src/header.js" type="text/javascript" defer></script>
@@ -21,7 +26,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <title>My Page Title</title>
+    <title>Website Audits That Help Web Agencies Close More Deals</title>
 
     <style></style>
   </head>
@@ -32,10 +37,10 @@
       <main>
         <section class="home-section relative">
           <div
-            class="flex justify-between items-center md:pt-[90px] z-20 relative w-[1280px] px-4 md:px-6 m-auto "
+            class="flex justify-between items-center pt-[90px] z-20 relative container xl:max-w-screen-xl   m-auto flex-wrap lg:text-left text-center"
           >
-            <div class=" w-[46%]">
-              <h1 class="text-[45px] font-medium tracking-3 ">
+            <div class="lg:w-[47%] w-[90%]">
+              <h1 class="text-[45px] font-medium tracking-3 leading-tight">
                 Audits that help your agency close more deals.
               </h1>
               <h3 class="text-[20px] mt-4 leading-9">
@@ -43,16 +48,19 @@
                 beautiful, actionable, and easy to understand website audits.
               </h3>
 
-              <div class="flex justify-start items-center gap-5 my-6">
+              <div
+                class="flex lg:justify-start justify-center items-center gap-5 my-6"
+              >
                 <button
                   type="button"
+                  onclick="window.location.href='/public/sample.html';"
                   class="text-white bg-[#1b75bb] hover:bg-[#1b75bb] focus:ring-4 focus:ring-blue-300 font-medium rounded-sm text-sm px-6 py-4 focus:outline-none"
                 >
                   View Sample Audits
                 </button>
                 <a
                   class="text-[#0d96df]"
-                  href="#"
+                  href="success-stories.html"
                   title="Or view success stories"
                   >Or view success stories</a
                 >
@@ -62,17 +70,17 @@
                 Shopify and Magento.
               </p>
             </div>
-            <div class=" w-[50%]">
+            <div class="lg:w-[50%] contents lg:flex m-auto w-[90%]">
               <div class="home-hero-wrapper">
-              <img
-              class="w-full h-full"
-                src="../src/assets/home/paul-stoute-hero-image.svg"
-                alt="home hero banner"
-              />
-            </div>
+                <img
+                  class="max-inherit h-full  m-auto"
+                  src="../src/assets/home/paul-stoute-hero-image.svg"
+                  alt="home hero banner"
+                />
+              </div>
             </div>
           </div>
-          <div class="py-8 w-[70%] m-auto my-4 relative z-20">
+          <div class="py-8 xl:w-[70%] w-[90%] m-auto my-4 relative z-20">
             <p class="text-[#5b626f] text-[20px] text-center">
               Featured and trusted by some of the world's fastest growing
               companies that serve agencies
@@ -151,7 +159,9 @@
           </div>
         </section>
         <section>
-          <div class="bg-gray-100 py-10 px-20 w-[55%] m-auto">
+          <div
+            class="bg-gray-100 py-10 px-20 xl:w-[55%] w-[988px] m-auto container"
+          >
             <h2
               class="text-[32px] text-[#2b333f] text-center my-4 font-[poppins-medium]"
             >
@@ -178,7 +188,9 @@
               />
               Your browser does not support the video tag.
             </video>
-            <div class="flex justify-evenly gap-8 py-4">
+            <div
+              class="flex justify-evenly gap-8 py-4 flex-wrap lg:flex-nowrap flex-col lg:flex-row"
+            >
               <div class="flex-1">
                 <h6 class="text-lg py-2 font-[roboto-medium] text-[#222]">
                   Audit sites in minutes.
@@ -215,7 +227,7 @@
           </div>
         </section>
         <section>
-          <div class="py-16">
+          <div class="py-16 container m-auto">
             <h2
               class="text-[32px] text-[#2b333f] text-center my-4 font-[poppins-medium]"
             >
@@ -229,9 +241,11 @@
             </h4>
           </div>
           <div
-            class="flex justify-between gap-12 my-6 items-start w-[59%] m-auto"
+            class="flex justify-between gap-12 lg:my-6 items-start xl:w-[59%] w-[988px] m-auto lg:flex-nowrap flex-wrap lg:flex-row flex-col"
           >
-            <div class="mb-4 w-[40%]">
+            <div
+              class="mb-4 w-[70%] m-auto lg:w-[40%] border border-[#3097d1] lg:border-none"
+            >
               <ul
                 class="-mb-px text-sm font-medium"
                 id="myTab"
@@ -239,11 +253,11 @@
                 role="tablist"
               >
                 <li
-                  class="bg-[#fff] py-2 px-2 shadow-md mwa-text-active relative"
+                  class="bg-[#fff] lg:py-2 py-1 border-b border-[#e4e4e4] px-2 shadow-md mwa-text-active relative"
                   role="presentation"
                 >
                   <button
-                    class="p-4 flex items-center align-middle gap-6 text-left relative z-10"
+                    class="lg:p-4 p-2 flex items-center align-middle gap-6 text-left relative z-10"
                     id="profile-tab"
                     data-tabs-target="#profile"
                     type="button"
@@ -259,11 +273,13 @@
                       />
                     </div>
                     <div class="w-[80%]">
-                      <h3 class="font-[roboto-medium] text-lg text-[#2b333f]">
+                      <h3
+                        class="font-[roboto-medium] lg:text-lg text-sm text-[#2b333f]"
+                      >
                         Website Audit
                       </h3>
                       <p
-                        class="font-[roboto-regural] text-[15px] text-[#2b333f]"
+                        class="font-[roboto-regural] text-[15px] text-[#2b333f] hidden lg:block"
                       >
                         Comprehensive website assessment to help you 2X your
                         client’s website leads.
@@ -272,11 +288,11 @@
                   </button>
                 </li>
                 <li
-                  class="bg-[#fff] py-2 px-2 shadow-md my-6 mwa-text-active relative"
+                  class="bg-[#fff] lg:py-2 py-1 border-b border-[#e4e4e4] px-2 shadow-md lg:my-6 mwa-text-active relative"
                   role="presentation"
                 >
                   <button
-                    class="p-4 flex items-center align-middle gap-6 text-left relative z-10"
+                    class="lg:p-4 p-2 flex items-center align-middle gap-6 text-left relative z-10"
                     id="dashboard-tab"
                     data-tabs-target="#dashboard"
                     type="button"
@@ -292,11 +308,13 @@
                       />
                     </div>
                     <div class="w-[80%]">
-                      <h3 class="font-[roboto-medium] text-lg text-[#2b333f]">
+                      <h3
+                        class="font-[roboto-medium] lg:text-lg text-sm text-[#2b333f]"
+                      >
                         Google Business Profile Audit
                       </h3>
                       <p
-                        class="font-[roboto-regural] text-[15px] text-[#2b333f]"
+                        class="font-[roboto-regural] text-[15px] text-[#2b333f] hidden lg:block"
                       >
                         GBP Audit is perfect for generating an actionable
                         checklist of recommended on...
@@ -305,11 +323,11 @@
                   </button>
                 </li>
                 <li
-                  class="bg-[#fff] py-2 px-2 shadow-md my-6 mwa-text-active relative"
+                  class="bg-[#fff] lg:py-2 py-1 border-b border-[#e4e4e4] px-2 shadow-md lg:my-6 mwa-text-active relative"
                   role="presentation"
                 >
                   <button
-                    class="p-4 flex items-center align-middle gap-6 text-left relative z-10"
+                    class="lg:p-4 p-2 flex items-center align-middle gap-6 text-left relative z-10"
                     id="settings-tab"
                     data-tabs-target="#settings"
                     type="button"
@@ -325,11 +343,13 @@
                       />
                     </div>
                     <div class="w-[80%]">
-                      <h3 class="font-[roboto-medium] text-lg text-[#2b333f]">
+                      <h3
+                        class="font-[roboto-medium] lg:text-lg text-sm text-[#2b333f]"
+                      >
                         On Page SEO Audit
                       </h3>
                       <p
-                        class="font-[roboto-regural] text-[15px] text-[#2b333f]"
+                        class="font-[roboto-regural] text-[15px] text-[#2b333f] hidden lg:block"
                       >
                         Generate dozens of actionable on page SEO insights in
                         minutes.
@@ -338,11 +358,11 @@
                   </button>
                 </li>
                 <li
-                  class="bg-[#fff] py-2 px-2 shadow-md my-6 mwa-text-active relative"
+                  class="bg-[#fff] lg:py-2 py-1 border-b border-[#e4e4e4] px-2 shadow-md lg:my-6 mwa-text-active relative"
                   role="presentation"
                 >
                   <button
-                    class="p-4 flex items-center align-middle gap-6 text-left relative z-10"
+                    class="lg:p-4 p-2 flex items-center align-middle gap-6 text-left relative z-10"
                     id="contacts-tab"
                     data-tabs-target="#contacts"
                     type="button"
@@ -358,11 +378,13 @@
                       />
                     </div>
                     <div class="w-[80%]">
-                      <h3 class="font-[roboto-medium] text-lg text-[#2b333f]">
+                      <h3
+                        class="font-[roboto-medium] lg:text-lg text-sm text-[#2b333f]"
+                      >
                         Digital Competitive Analysis Audit
                       </h3>
                       <p
-                        class="font-[roboto-regural] text-[15px] text-[#2b333f]"
+                        class="font-[roboto-regural] text-[15px] text-[#2b333f] hidden lg:block"
                       >
                         Strategically deliver value and build trust with your
                         prospects and clients.
@@ -371,11 +393,11 @@
                   </button>
                 </li>
                 <li
-                  class="bg-[#fff] py-2 px-2 shadow-md my-6 mwa-text-active relative"
+                  class="bg-[#fff] lg:py-2 py-1 border-b border-[#e4e4e4] px-2 lg:shadow-md lg:my-6 mwa-text-active relative"
                   role="presentation"
                 >
                   <button
-                    class="p-4 flex items-center align-middle text-left gap-6 relative z-10"
+                    class="lg:p-4 p-2 flex items-center align-middle text-left gap-6 relative z-10"
                     id="contacts-tab-2"
                     data-tabs-target="#contacts-2"
                     type="button"
@@ -391,11 +413,13 @@
                       />
                     </div>
                     <div class="w-[80%]">
-                      <h3 class="font-[roboto-medium] text-lg text-[#2b333f]">
+                      <h3
+                        class="font-[roboto-medium] lg:text-lg text-sm text-[#2b333f]"
+                      >
                         E-commerce Website Audit
                       </h3>
                       <p
-                        class="font-[roboto-regural] text-[15px] text-[#2b333f]"
+                        class="font-[roboto-regural] text-[15px] text-[#2b333f] hidden lg:block"
                       >
                         Use our comprehensive e-commerce audit to boost
                         conversions by 25% or more!
@@ -406,12 +430,13 @@
               </ul>
               <button
                 type="button"
-                class="text-white bg-[#1b75bb] font-medium rounded-sm text-sm px-5 py-3 mb-2 flex justify-center items-center m-auto"
+                onclick="window.location.href='/public/sample.html';"
+                class="text-white bg-[#1b75bb] font-medium rounded-sm text-sm px-5 py-3 mb-2 flex justify-center items-center m-auto mt-2 lg:mt-0"
               >
                 View All Audit Reports
               </button>
             </div>
-            <div id="myTabContent" class="w-[60%] mt-[-40px]">
+            <div id="myTabContent" class="w-[60%] mt-[-40px] m-auto">
               <div
                 class="hidden relative"
                 id="profile"
@@ -523,7 +548,7 @@
         <section>
           <div
             id="controls-carousel"
-            class="relative w-[65%] m-auto"
+            class="relative xl:w-[65%] w-[985px] m-auto"
             data-carousel="static"
           >
             <!-- Carousel wrapper -->
@@ -566,6 +591,7 @@
                   </p>
                   <button
                     type="button"
+                    onclick="window.location.href='/public/success-stories.html';"
                     class="bg-[#fff] text-[#0d96df] rounded-sm text-center text-sm py-2 px-4 border-2 border-[#0d96df]"
                   >
                     View All Success Stories
@@ -607,6 +633,7 @@
                   </p>
                   <button
                     type="button"
+                    onclick="window.location.href='/public/success-stories.html';"
                     class="bg-[#fff] text-[#0d96df] rounded-sm text-center text-sm py-2 px-4 border-2 border-[#0d96df]"
                   >
                     View All Success Stories
@@ -649,6 +676,7 @@
                   </p>
                   <button
                     type="button"
+                    onclick="window.location.href='/public/success-stories.html';"
                     class="bg-[#fff] text-[#0d96df] rounded-sm text-center text-sm py-2 px-4 border-2 border-[#0d96df]"
                   >
                     View All Success Stories
@@ -721,8 +749,10 @@
               we're different.
             </h4>
           </div>
-          <div class="flex justify-center gap-8 w-[64%] m-auto">
-            <div class="flex-1 lg-audit-deal text-center py-10 px-8 ">
+          <div
+            class="flex justify-center gap-8 container xl:max-w-screen-xl m-auto lg:flex-nowrap flex-wrap flex-col lg:flex-row"
+          >
+            <div class="flex-1 lg-audit-deal text-center py-10 px-8">
               <img
                 class="m-auto"
                 src="../src/assets/home/Screenshot 2023-02-13 at 6.47.41 PM.png"
@@ -750,7 +780,7 @@
                 Businesses care about revenue and ROI. We evaluate dozens of
                 points and present them in terms anyone can understand.
               </h6>
-            </div> 
+            </div>
             <div class="flex-1 lg-audit-deal text-center py-8 px-6">
               <img
                 class="m-auto"
@@ -766,7 +796,9 @@
               </h6>
             </div>
           </div>
-          <div class="flex justify-center gap-8 w-[64%] m-auto my-8">
+          <div
+            class="flex justify-center gap-8 container xl:max-w-screen-xl m-auto my-8 lg:flex-nowrap flex-wrap flex-col lg:flex-row"
+          >
             <div class="flex-1 lg-audit-deal text-center py-10 px-8">
               <img
                 class="m-auto"
@@ -782,7 +814,7 @@
                 smoothing the sales process.
               </h6>
             </div>
-             <div class="flex-1 lg-audit-deal text-center py-10 px-8">
+            <div class="flex-1 lg-audit-deal text-center py-10 px-8">
               <img
                 class="m-auto"
                 src="../src/assets/home/Screenshot 2023-02-13 at 6.53.32 PM.png"
@@ -813,7 +845,9 @@
               </h6>
             </div>
           </div>
-          <div class="flex justify-center gap-8 w-[64%] m-auto my-8">
+          <div
+            class="flex justify-center gap-8 container xl:max-w-screen-xl m-auto my-8 lg:flex-nowrap flex-wrap flex-col lg:flex-row"
+          >
             <div class="flex-1 lg-audit-deal text-center py-10 px-8">
               <img
                 class="m-auto"
@@ -855,7 +889,7 @@
                 Connect the apps you use in your lead generation and sales
                 process with My Web Audit so you can automate your workflows.
               </h6>
-            </div> 
+            </div>
           </div>
         </setion>
       </main>
@@ -879,10 +913,7 @@
           $(this).addClass("active");
         });
       });
-
-     
     </script>
-    
 
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>

@@ -13,11 +13,15 @@ class Footer extends HTMLElement {
       </h2>
 
       <div
+<<<<<<< HEAD
         class="flex justify-between items-center gap-10 pt-5 text-center w-[1280px] px-4 md:px-6 m-auto"
+=======
+        class="flex justify-between items-center  pt-5 text-center container xl:max-w-screen-xl m-auto"
+>>>>>>> acdd12927b7a1764f5f4263c687fc725ffe2af6e
       >
         <div>
           <img
-            class="w-[200px]"
+            class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-paul-stoute-only-image.svg"
             alt=""
           />
@@ -28,7 +32,7 @@ class Footer extends HTMLElement {
         </div>
         <div>
           <img
-            class="w-[200px]"
+            class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-john-falke-only-image.svg"
             alt=""
           />
@@ -39,7 +43,7 @@ class Footer extends HTMLElement {
         </div>
         <div>
           <img
-            class="w-[200px]"
+            class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-rob-riggs-only-image.svg"
             alt=""
           />
@@ -50,7 +54,7 @@ class Footer extends HTMLElement {
         </div>
         <div>
           <img
-            class="w-[200px]"
+            class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-carol-stambaugh-only-image.svg"
             alt=""
           />
@@ -59,7 +63,7 @@ class Footer extends HTMLElement {
         </div>
         <div>
           <img
-            class="w-[200px]"
+            class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-barry-belotti-only-image.svg"
             alt=""
           />
@@ -71,8 +75,13 @@ class Footer extends HTMLElement {
       </div>
     </div>
   </section>
+<<<<<<< HEAD
             <footer class="bg-[#fbfbfb]  ">
             <section class="w-[1280px] px-4 md:px-6 m-auto">
+=======
+   <footer class="bg-[#fbfbfb]  ">
+            <section class="container xl:max-w-screen-xl m-auto">
+>>>>>>> acdd12927b7a1764f5f4263c687fc725ffe2af6e
             <div class="grid grid-cols-2 gap-3 py-8 md:grid-cols-6">
               <div>
                 <h2
@@ -82,44 +91,44 @@ class Footer extends HTMLElement {
                 </h2>
                 <ul class="text-[#3d3d4d] dark:text-gray-400 text-xs">
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Website Audit</a>
+                    <a href="website-audit-template.html" class="hover:underline">Website Audit</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">E-commerce Website Audit</a>
+                    <a href="e-commerce-website-audit.html" class="hover:underline">E-commerce Website Audit</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline"
+                    <a href="google-business-profile-audit.html" class="hover:underline"
                       >Google Business Profile Audit</a
                     >
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">On Page SEO Audit</a>
+                    <a href="on-page-seo-audit.html" class="hover:underline">On Page SEO Audit</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Landing Page Audit</a>
+                    <a href="landing-page-audit.html" class="hover:underline">Landing Page Audit</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline"
+                    <a href="return-on-investment-template.html" class="hover:underline"
                       >Return On Investment Audit</a
                     >
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline"
+                    <a href="page-speed-insights-report.html" class="hover:underline"
                       >Page Speed Insights Audit</a
                     >
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline"
+                    <a href="page-speed-lead-magnet.html" class="hover:underline"
                       >Page Speed Lead Magnet Audit</a
                     >
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline"
+                    <a href="digital-competitive.html" class="hover:underline"
                       >Competitive Analysis Audit</a
                     >
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">View All Audit Reports</a>
+                    <a href="sample.html" class="hover:underline">View All Audit Reports</a>
                   </li>
                 </ul>
               </div>
@@ -142,22 +151,22 @@ class Footer extends HTMLElement {
                     <a href="#" class="hover:underline">BrightLocal Alternative</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Success Stories</a>
+                    <a href="success-stories.html" class="hover:underline">Success Stories</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Pricing</a>
+                    <a href="price.html" class="hover:underline">Pricing</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Features</a>
+                    <a href="feature.html" class="hover:underline">Features</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Lead Widgets</a>
+                    <a href="lead-widgets.html" class="hover:underline">Lead Widgets</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Blog</a>
+                    <a href="blog.html" class="hover:underline">Blog</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Agency Playbooks</a>
+                    <a href="playbooks.html" class="hover:underline">Agency Playbooks</a>
                   </li>
                   <li class="mb-3">
                     <a href="#" class="hover:underline">Roadmap</a>
@@ -180,16 +189,16 @@ class Footer extends HTMLElement {
                     Use Cases
                   </h2>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Close More Sales</a>
+                    <a href="/public/close-more-sale.html" class="hover:underline">Close More Sales</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Lead Generation</a>
+                    <a href="/public/lead-generation.html" class="hover:underline">Lead Generation</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Webinars &amp; Workshops</a>
+                    <a href="/public/webinars-and-workshops.html" class="hover:underline">Webinars &amp; Workshops</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Retainers & Care Plans</a>
+                    <a href="/public/retainers-and-care-plans.html" class="hover:underline">Retainers & Care Plans</a>
                   </li>
                 </ul>
               </div>

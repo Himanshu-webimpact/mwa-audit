@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../src/assets/logo/MWA Icon.svg"
+    />
     <link rel="stylesheet" href="output-style.css" />
     <link rel="stylesheet" href="../src/input-style.css" />
     <script src="/src/header.js" type="text/javascript" defer></script>
     <script src="/src/footer.js" type="text/javascript" defer></script>
-    <title>My Page Title</title>
+    <title>My Web Audit Plans & Pricing</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -617,16 +622,17 @@
             </div>
           </div>
           <div class="py-2 relative z-20 w-[63%] m-auto">
-           <h3
+            <h3
               class="text-[20px] text-center font-[poppins-medium] flex items-center justify-center flex-col gap-4 cursor-pointer"
             >
-            <a href="#feature-list-text"> View Complete Features List
-             <img
-                class="arrow-bounce cursor-pointer mx-auto my-5"
-                src="https://ywusq.s3-us-west-2.amazonaws.com/img/long-arrow-down.svg "
-                alt="down-arrow"
+              <a href="#feature-list-text">
+                View Complete Features List
+                <img
+                  class="arrow-bounce cursor-pointer mx-auto my-5"
+                  src="https://ywusq.s3-us-west-2.amazonaws.com/img/long-arrow-down.svg "
+                  alt="down-arrow"
               /></a>
-         </h3>
+            </h3>
           </div>
           <div
             class="py-8 px-12 flex items-center justify-between gap-12 relative z-20 w-[57%] m-auto lg-audit-deal my-8"
@@ -648,6 +654,7 @@
             <div class="w-[30%] flex justify-end">
               <button
                 type="button"
+                onclick="window.location.href='#feature-list-text';"
                 class="text-white bg-[#1b75bb] font-medium rounded-[3px] text-sm px-5 py-3.5 mr-2 mb-2"
               >
                 View and Compare All Plan Details
@@ -706,6 +713,7 @@
                   </p>
                   <button
                     type="button"
+                    onclick="window.location.href='/public/success-stories.html';"
                     class="bg-[#fff] text-[#0d96df] rounded-sm text-center text-sm py-2 px-4 border-2 border-[#0d96df]"
                   >
                     View All Success Stories
@@ -747,6 +755,7 @@
                   </p>
                   <button
                     type="button"
+                    onclick="window.location.href='/public/success-stories.html';"
                     class="bg-[#fff] text-[#0d96df] rounded-sm text-center text-sm py-2 px-4 border-2 border-[#0d96df]"
                   >
                     View All Success Stories
@@ -789,6 +798,7 @@
                   </p>
                   <button
                     type="button"
+                    onclick="window.location.href='/public/success-stories.html';"
                     class="bg-[#fff] text-[#0d96df] rounded-sm text-center text-sm py-2 px-4 border-2 border-[#0d96df]"
                   >
                     View All Success Stories
@@ -849,7 +859,7 @@
         </section>
         <section class="w-[54%] m-auto py-12" id="feature-list-text">
           <div
-            class="text-2xl flex justify-end items-center gap-24 mt-9 mb-4  mr-20"
+            class="text-2xl flex justify-end items-center gap-24 mt-9 mb-4 mr-20"
           >
             <h2>Starter</h2>
             <h2>
@@ -908,7 +918,7 @@
                           alt="image-right"
                         />
                       </td>
-                      <td class="px-6 py-4 ">
+                      <td class="px-6 py-4">
                         <img
                           src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
                           alt="image-right"
@@ -1277,14 +1287,14 @@
             <h2 id="accordion-collapse-heading-2">
               <button
                 type="button"
-                class="flex items-center w-full py-5 font-medium text-left text-black  border-t border-gray-200 gap-4 feature-list-audit-report"
+                class="flex items-center w-full py-5 font-medium text-left text-black border-t border-gray-200 gap-4 feature-list-audit-report"
                 data-accordion-target="#accordion-collapse-body-2"
                 aria-expanded="false"
                 aria-controls="accordion-collapse-body-2"
               >
                 <svg
                   data-accordion-icon
-                  class="w-6 h-6 -rotate-90  shrink-0"
+                  class="w-6 h-6 -rotate-90 shrink-0"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -2034,6 +2044,7 @@
               <div>
                 <button
                   type="button"
+                  onclick="window.location.href='/public/sample.html';"
                   class="py-3.5 px-10 text-sm font-medium text-gray-900 rounded-sm border-[#1b75bb] border text-[#1b75bb] w-[260px] btn-slider-animation"
                 >
                   View All Audits
@@ -2042,6 +2053,7 @@
               <div>
                 <button
                   type="button"
+                  onclick="window.location.href='/public/feature.html';"
                   class="py-3.5 px-10 text-sm font-medium text-gray-900 rounded-sm border-[#1b75bb] border text-[#1b75bb] w-[260px] btn-slider-animation"
                 >
                   View Features
@@ -2050,6 +2062,7 @@
               <div>
                 <button
                   type="button"
+                  onclick="window.location.href='/public/blog.html';"
                   class="py-3.5 px-10 text-sm font-medium text-gray-900 rounded-sm border-[#1b75bb] border text-[#1b75bb] w-[260px] btn-slider-animation"
                 >
                   View Free Resources
@@ -2065,36 +2078,80 @@
             >
               Frequently asked questions
             </h3>
-            <div id="accordion-collapse" data-accordion="collapse" class="my-8 ">
+            <div id="accordion-collapse" data-accordion="collapse" class="my-8">
               <h2 id="accordion-collapse-heading-10">
                 <button
                   type="button"
-                  class="flex items-center w-full py-5 gap-4 text-[19px] font-[roboto-medium] text-left text-[#333] faq-container "
+                  class="flex items-center w-full py-5 gap-4 text-[19px] font-[roboto-medium] text-left text-[#333] faq-container"
                   data-accordion-target="#accordion-collapse-body-10"
                   aria-expanded="true"
                   aria-controls="accordion-collapse-body-10"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>Is the audit count / limit monthly or total?</span>
                 </button>
               </h2>
               <div
                 id="accordion-collapse-body-10"
-                class="hidden "
+                class="hidden"
                 aria-labelledby="accordion-collapse-heading-10"
               >
-                <div class="py-1 px-12 font-light ">
+                <div class="py-1 px-12 font-light">
                   <p class="mb-2 text-gray-500 dark:text-gray-400">
                     Each plan comes with a specific number of audits that renew
                     each month. The Agency annual plan has 500/mo., the Agency
@@ -2111,18 +2168,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-12"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>Can I purchase additional audit credits?</span>
                 </button>
               </h2>
@@ -2149,18 +2250,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-13"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>Do you have an unlimited audits plan?</span>
                 </button>
               </h2>
@@ -2189,18 +2334,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-14"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span
                     >Is the front end translated into other languages aside from
                     English?</span
@@ -2230,18 +2419,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-15"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>Who is this built for?</span>
                 </button>
               </h2>
@@ -2267,18 +2500,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-16"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span
                     >Can I get the PowerPoint Report outside of the Agency
                     plan?</span
@@ -2306,18 +2583,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-17"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span
                     >Can I get the White Label Domain outside of the Agency
                     plan?</span
@@ -2346,18 +2667,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-18"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>Do you offer a Money Back Guarantee?</span>
                 </button>
               </h2>
@@ -2384,18 +2749,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-19"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>Are there any long term commitments or contracts?</span>
                 </button>
               </h2>
@@ -2421,18 +2830,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-20"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>What types of payment do you accept?</span>
                 </button>
               </h2>
@@ -2450,23 +2903,67 @@
               <h2 id="accordion-collapse-heading-21">
                 <button
                   type="button"
-                  class="flex items-center w-full py-5 gap-4 text-[19px] font-[roboto-medium] text-left text-[#333] border-t border-gray-200  faq-container" 
+                  class="flex items-center w-full py-5 gap-4 text-[19px] font-[roboto-medium] text-left text-[#333] border-t border-gray-200 faq-container"
                   data-accordion-target="#accordion-collapse-body-21"
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-21"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span> How can I cancel my plan?</span>
                 </button>
               </h2>
@@ -2490,18 +2987,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-22"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>Is my information kept private?</span>
                 </button>
               </h2>
@@ -2525,18 +3066,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-23"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>Still have questions? Request a demo.</span>
                 </button>
               </h2>
@@ -2562,18 +3147,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-24"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>Do you support custom plans?</span>
                 </button>
               </h2>
@@ -2598,18 +3227,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-25"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>Is My Web Audit a fully automated tool?</span>
                 </button>
               </h2>
@@ -2642,18 +3315,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-26"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span
                     >My Web Audit looks good but I'm not sure I can justify the
                     investment?</span
@@ -2694,18 +3411,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-28"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span
                     >Why should I choose My Web Audit over a cheaper solution?
                   </span>
@@ -2741,18 +3502,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-29"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span
                     >Does My Web Audit cover everything that's wrong with a
                     website?</span
@@ -2786,18 +3591,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-30"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span
                     >I don't have very many leads coming in. How do I know if I
                     will use this system enough each month?
@@ -2832,18 +3681,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-31"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span
                     >I'm not sure if I'll have time… How much time does this
                     take to set up?
@@ -2870,18 +3763,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-32"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>Is this a lead generation app?</span>
                 </button>
               </h2>
@@ -2909,18 +3846,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-33"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>How can I get help to implement this?</span>
                 </button>
               </h2>
@@ -2947,18 +3928,62 @@
                   aria-expanded="false"
                   aria-controls="accordion-collapse-body-34"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="plus-faq w-6 h-6">
-                  <g id="Expand-icon" transform="translate(-1309 -1221)">
-                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="19.5" cy="19.5" r="19.5" transform="translate(1309 1221)" fill="#414853"/>
-                    <path id="Path_3" data-name="Path 3" d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z" transform="translate(1310.5 1222.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" class="minus-faq w-6 h-6">
-                  <g id="Collapse-icon" transform="translate(-1396 -1222)">
-                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(1396 1222)" fill="#414853"/>
-                    <path id="Path_4" data-name="Path 4" d="M25.523,19.477H10.477V16.523H25.523Z" transform="translate(1397.5 1223.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="plus-faq w-6 h-6"
+                  >
+                    <g id="Expand-icon" transform="translate(-1309 -1221)">
+                      <circle
+                        id="Ellipse_1"
+                        data-name="Ellipse 1"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1309 1221)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M25.523,19.477H19.477v6.047H16.523V19.477H10.477V16.523h6.047V10.477h2.953v6.047h6.047Z"
+                        transform="translate(1310.5 1222.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    class="minus-faq w-6 h-6"
+                  >
+                    <g id="Collapse-icon" transform="translate(-1396 -1222)">
+                      <circle
+                        id="Ellipse_2"
+                        data-name="Ellipse 2"
+                        cx="19.5"
+                        cy="19.5"
+                        r="19.5"
+                        transform="translate(1396 1222)"
+                        fill="#414853"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M25.523,19.477H10.477V16.523H25.523Z"
+                        transform="translate(1397.5 1223.5)"
+                        fill="#fff"
+                        stroke="#fff"
+                        stroke-width="1"
+                      />
+                    </g>
+                  </svg>
                   <span>What is your refund policy? </span>
                 </button>
               </h2>
@@ -2967,7 +3992,7 @@
                 class="hidden"
                 aria-labelledby="accordion-collapse-heading-34"
               >
-                <div class="py-1 px-12  font-light border-b-0 border-gray-200">
+                <div class="py-1 px-12 font-light border-b-0 border-gray-200">
                   <p class="text-gray-500 dark:text-gray-400">
                     Your investment in My Web Audit is 100% protected by our no
                     hassle, no-questions, 7-Day Money Back Guarantee. Why?
