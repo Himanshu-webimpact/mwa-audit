@@ -13,11 +13,7 @@ class Footer extends HTMLElement {
       </h2>
 
       <div
-<<<<<<< HEAD
-        class="flex justify-between items-center gap-10 pt-5 text-center w-[1280px] px-4 md:px-6 m-auto"
-=======
         class="flex justify-between items-center  pt-5 text-center container xl:max-w-screen-xl m-auto"
->>>>>>> acdd12927b7a1764f5f4263c687fc725ffe2af6e
       >
         <div>
           <img
@@ -75,13 +71,8 @@ class Footer extends HTMLElement {
       </div>
     </div>
   </section>
-<<<<<<< HEAD
-            <footer class="bg-[#fbfbfb]  ">
-            <section class="w-[1280px] px-4 md:px-6 m-auto">
-=======
    <footer class="bg-[#fbfbfb]  ">
             <section class="container xl:max-w-screen-xl m-auto">
->>>>>>> acdd12927b7a1764f5f4263c687fc725ffe2af6e
             <div class="grid grid-cols-2 gap-3 py-8 md:grid-cols-6">
               <div>
                 <h2
