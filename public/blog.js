@@ -109,7 +109,7 @@ const content = data
               <button
               type="button"
               onclick="window.location.href='#';"
-              class="py-3 !mt-5 !ml-0 text-sm font-medium text-gray-900 rounded-sm border-[#1b75bb] border text-[#1b75bb] w-[190px] btn-slider-animation"
+              class="py-3 !mt-5 !ml-0 text-sm  font-[roboto-regural] rounded-sm border-[#1b75bb] border text-[#1b75bb] w-[190px] btn-slider-animation"
             >
             Continue Reading
             </button>
