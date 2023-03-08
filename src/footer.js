@@ -131,12 +131,12 @@ class Footer extends HTMLElement {
                 </h2>
                 <ul class="text-[#3d3d4d] dark:text-gray-400 text-xs">
                   <li class="mb-3">
-                    <a href="#" class="hover:underline"
+                    <a href="mysiteauditor-alternative.html" class="hover:underline"
                       >MySiteAuditor Alternative</a
                     >
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">WooRank Alternative</a>
+                    <a href="woorank-alternative.html" class="hover:underline">WooRank Alternative</a>
                   </li>
                   <li class="mb-3">
                     <a href="#" class="hover:underline">BrightLocal Alternative</a>

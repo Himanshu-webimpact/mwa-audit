@@ -1,61 +1,1823 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="../src/assets/logo/MWA Icon.svg"
-    />
-    <link rel="stylesheet" href="output-style.css" />
-    <link rel="stylesheet" href="../src/input-style.css" />
-    <script src="/src/header.js" type="text/javascript" defer></script>
-    <script src="/src/footer.js" type="text/javascript" defer></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <title>
-        Hear From Our Happy Customers - My Web Audit
-    </title>
-  </head>
-  <body>
-    <section>
-      <header-component></header-component>
-      <main class="pt-[90px] overflow-hidden"></main>
-      <footer-component></footer-component>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 6,
-        spaceBetween: 40,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
+  <link rel="icon" type="image/x-icon" href="../src/assets/logo/MWA Icon.svg" />
+  <link rel="stylesheet" href="output-style.css" />
+  <link rel="stylesheet" href="../src/input-style.css" />
+  <script src="/src/header.js" type="text/javascript" defer></script>
+  <script src="/src/footer.js" type="text/javascript" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <title>Hear From Our Happy Customers - My Web Audit</title>
+</head>
+
+<body>
+  <section>
+    <header-component></header-component>
+    <main class="pt-[90px] overflow-hidden">
+      <section class="relative success-hero-section">
+        <div class="container xl:max-w-screen-xl mx-auto relative z-20">
+          <h1 class="text-[#2b333f] text-[34px] font-[poppins-medium] text-center">
+            Success stories
+          </h1>
+          <p class="text-[#2b333f] text-[20px] font-[roboto-regural] mt-3 leading-9 text-center">
+            Hundreds of web professionals use My Web Audit to build trust, add
+            value, establish their expertise, <br />
+            stand out from the competition… And close more deals. Here are
+            just a few.
+          </p>
+          <div class="flex items-center justify-between my-10">
+            <div class="w-[54%] my-7">
+              <div class="playbooks-list">
+                <iframe class="w-[690px] h-[410px] border border-[#e8e8e8] relative z-20 rounded-lg"
+                  src="https://www.youtube.com/embed/1-cRZrHDK4Y?rel=0&controls=0&showinfo=0"></iframe>
+              </div>
+            </div>
+            <div class="w-[39%]">
+              <h2 class="mt-11 text-[#000f28] text-[22px] font-[poppins-medium] leading-[50px]">
+                It has been a game changer for us. Our clients are blown away
+                by the reports. You can easily make your money back. I highly
+                recommend it.
+              </h2>
+              <div class="flex justify-start items-center gap-5 mt-5">
+                <div>
+                  <h3 class="text-xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    John Falke
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Owner, Johnny Flash
+                  </h4>
+                </div>
+                <button type="button" onclick="window.location.href='#';"
+                  class="!py-2 !ml-0 !text-[13px] font-[roboto-regural] rounded-sm border-[#1b75bb] border text-[#1b75bb] !px-3 btn-slider-animation">
+                  View Case Study
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-12">
+        <div class="container xl:max-w-screen-xl mx-auto flex justify-between">
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  I recently subscribed to my web audit and out of the five
+                  website audits I sent out today, I've already secured two
+                  new clients. The other three haven't read the email yet but
+                  wow 🤩
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/kreete-tokman.png"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Kreete Tokman
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Owner, Digital By Kreete
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe class="w-[600px] h-[338px] relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/7BJDEzloiFQ?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  My Web Audit Projects allowed us to provide a clear and
+                  concise dashboard and report that we can pull up every month
+                  and show our clients.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/aaron-marquez.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Aaron Marquez
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    AMARQUEZ
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  Closed over $4.5k in new business in the first 90 days!
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  My Web Audit helped us close over $4,500 in new business in
+                  the first 90 days! We've sold these audits for as high as
+                  $1,000 each and clients love them! My Web Audit provides the
+                  plug-and-play framework to produce quick, professional, and
+                  customizable audits to get more business.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/david-wauters.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    David Wauters
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Online Store Coach
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe class="w-[600px] h-[338px] relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/TvxPQ1ThmRA?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  We have an 80% closing rate and a 98X ROI from what we paid
+                  for My Web Audit. I can't say enough! You've got to get My
+                  Web Audit.
+                </p>
+                <button type="button" onclick="window.location.href='#';"
+                  class="!py-2 !mt-5 !ml-0 !text-[13px] font-[roboto-regural] rounded-sm border-[#1b75bb] border text-[#1b75bb] !px-3 btn-slider-animation">
+                  View Case Study
+                </button>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/paul-stoute.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Paul Stoute
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Owner, Stoute Web Solutions
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe class="w-[600px] h-[338px] relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/p0cbIldvCNk?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  Building trust and delivering value early helped us close a
+                  couple of deals over $20,000!
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/michael-wailes.png"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Michael D. Wailes
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Spectrum Interactive Group
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  My Web Audit is a really comprehensive audit tool.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  My Web Audit is a really comprehensive audit tool that
+                  perfectly integrates into creative / web / marketing company
+                  workflows. It seems to have been created specifically for
+                  full service web focused companies and goes way beyond the
+                  SEO audit realm of its competitors.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/ray-dale.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Ray Dale
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    The SeedMill
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe class="w-[600px] h-[338px] relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/Snj0MSTt8vU?rel=0&controls=0&showinfo=0"></iframe>
+
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[22px] font-[poppins-medium]">
+                  We’ve been fortunate to be a customer of My Web Audit for
+                  several years.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  We initially used it for website evaluations for inbound
+                  leads, now we use it for GBP audits, evaluate websites for
+                  care plans, run WordPress audits and a lot of other things.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/adam-silverman.png"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Adam Silverman
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Founder, Muletown Digital
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  A paid audit (at only $300) landed me a new web host client
+                  ($220/mo), a retainer project of $2,000/mo, and a web
+                  redesign project for Q1 in 2023. This particular prospect
+                  was burned pretty badly by another agency that promised them
+                  the world, yet their rankings have nose-dived tragically. I
+                  was able to show them the data of exactly what was wrong
+                  (and the findings matched up with their suspicions, which
+                  made hiring me a no-brainer).
+                </p>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  Excuse me while I pick my jaw up from the ground. Thank you
+                  so much for making it so easy to grow my agency. The tools
+                  helped back up my expertise with hard numbers and data that
+                  the prospects would have had to take me at my word for
+                  otherwise.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10"
+                  src="../src/assets/success-stories/lisette-harrington.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Lisette Harrington
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Founder &amp; Lead Designer, Mila Design Co.<sup>®</sup>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  My Web Audit has helped us land many projects to enhance and
+                  improve our clients digital presence. The reports are easy
+                  to create, and so easy for our clients to read and
+                  understand. They have made our job much more efficient and
+                  effective! The My Web Audit service and reports are amazing
+                  but the team behind My Web Audit, along with the education,
+                  resources and support are what make it the best tool in our
+                  toolbox.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/sarah-kuglin.png"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Sarah Kuglin
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Owner, Redwood Valley Tech Solutions Web Design
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe class="w-[600px] h-[338px] relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/fTnzJpJ5jlU?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  One meeting and one report. I was able to land a 6-month
+                  contract for over $5,000 a month.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10"
+                  src="../src/assets/success-stories/stephanie-hudson.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Stephanie Hudson
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Sweet Tea Marketing
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  In the first month, I landed 3 new clients.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  Subscribing to the My Web Audit agency plan is one of the
+                  best decisions I made for my business. It has been an
+                  absolute game-changer for me. In the first month, I landed
+                  three new clients because of the website assessments. The
+                  up-front and recurring revenue from just those deals was a
+                  more than 10X return. That was 18 months ago. Between then
+                  and now, the value I have received from My Web Audit and
+                  Cliff is incalculable.
+                </p>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  If you're on the fence, stop fretting! Push that "Sign Me
+                  Up" button right now.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/michael-gburski.png"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Michael Gburski
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    JadeFire Dev
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe class="w-[600px] h-[338px] relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/nrgDv_JsH24?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  If you are looking at running audits or if you're looking at
+                  using the concept of an audit as a tool within your agency,
+                  you'd be stupid not to check out My Web Audit.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/nick-gulic.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Nick Gulic
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Nick Gulic
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  MyWebAudit has been an invaluable part of our agency
+                  toolbox.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  Before having a tool like MyWebAudit, we used to avoid even
+                  suggesting audits. Now, we are able to complete them
+                  efficiently & accurately and easily present the results in a
+                  way the customer can understand. MyWebAudit has been an
+                  invaluable part of our agency toolbox.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/john-bendever.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    John Bendever
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Local Marketing Pros
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/2Q_QjTsJU0k?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  It has increased our project revenue and allowed us to win
+                  projects of over 15k to 20k in total since we start using My
+                  Web Audit.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/mark-werle.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Mark Werle
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Werle Creative
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#f6f8f9] pt-16 pb-52">
+        <div class="container xl:max-w-screen-xl mx-auto flex justify-between items-center">
+          <div class="w-[44%] relative img-testimonial-success">
+            <img class="ml-[25%] relative z-20" src="../src/assets/success-stories/michael-short-cover.png" alt="" />
+            <div class="absolute -bottom-8 -right-3 bg-[#fff] rounded py-[10px] px-[30px] z-30">
+              <h4 class="text-xl font-[poppins-medium]">Michael Short</h4>
+              <p class="text-base font-[roboto-regural] text-[#2b333f] mt-3">
+                Blitz Industries, Inc.
+              </p>
+            </div>
+          </div>
+          <div class="w-[48%]">
+            <h2 class="text-[30px] leading-[50px] font-[poppins-medium]">
+              With My Web Audit, I can quickly identify issues in my
+              prospect's websites
+            </h2>
+            <p
+              class="font-[roboto-light] italic text-[22px] text-[#2b333f] mt-7 pl-5 border-l-2 border-[#1b75bb] leading-10">
+              With My Web Audit, I can quickly identify issues in my
+              prospect's websites and provide them with detailed reports that
+              instantly builds trust. Not only does this allow us to show off
+              our expertise, but it enables us to do it in record time, which
+              always impresses leads. I would definitely recommend this tool
+              as it makes it much easier and quicker to convert more
+              customers.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="-mt-24">
+        <div class="container xl:max-w-screen-xl mx-auto flex justify-between">
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium] leading-[50px]">
+                  10X Return On Investment the first week.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  I can't believe I hesitated on signing up for the Agency
+                  Plan. I closed two projects in the first week using My Web
+                  Audit. It more than paid for itself. This will be my
+                  standard procedure on new projects.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10"
+                  src="../src/assets/success-stories/melanie-g-adcock.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Melanie G Adcock
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Adcock Creative
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/in0l28JhOyo?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  I use it with existing clients to get them onto marketing
+                  retainers. We've found it to be a great sales tool as well.
+                  We've found it absolutely fantastic!
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/simon-kelly.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Simon Kelly
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Owner, Renegade Empire
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  We just landed another 2 jobs using My Web Audit
+                </h2>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/adam-silverman.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Adam Silverman
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Muletown Digital
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/iuz61N5uMNc?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  We've have more than doubled our close ratio on websites! It
+                  also helps us provide valuable info for our clients. I hope
+                  it helps other agencies like it's helped us.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/jennifer-christensen.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Jennifer Christensen
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    VP, Beacon Media + Marketing
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  Having the leads come directly from our agency site is the
+                  best part.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  We started using My Web Audit during its beta stage. we have
+                  watched this software grow into a tool that every marketer
+                  should be using. Having the leads come directly from our
+                  agency site is the best part. Leads are generated
+                  automatically. The email reply feature can be customized to
+                  get the best reply rate. If you are serious about your
+                  company and your success, you need to get this software.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/terry-samuels.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Terry Samuels
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Salterra Web Services
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/odYpIqNnmrQ?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  We've seen at least a 60% conversion rate on audits we've
+                  done. Not only are we able to use it on existing clients, we
+                  use it with leads.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/Tom-Legens.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Tom Legens
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    CEO, WebArc Technologies
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/da2fwpL5dPU?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  This tool has been amazing! It's a time save, makes our
+                  sales conversations really smooth, and the reports are
+                  beautiful.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/trina-fisher.png" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Trina Fisher
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Partner, Left Right Labs
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/tXHEoZgWGJA?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  We convert way better now that we use My Web Audit! We get
+                  better insights into our clients website and use these
+                  audits anytime we onboard new clients to our website support
+                  plans.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/kristina-remoro.png" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Kristina Romero
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Owner, KR Media & Designs
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  Able to grow my list 53% so far using this tool.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  This audit tool has been critical for expanding my reach. It
+                  integrates seamlessly with my current systems and the
+                  reports are attractive and easy for users to understand.
+                  I've been able to grow my list 53% so far using this tool.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/brandy-lawson.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Brandy Lawson
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    FieryFX
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#f6f8f9] pt-16 pb-52">
+        <div class="container xl:max-w-screen-xl mx-auto flex justify-between items-center">
+          <div class="w-[44%] relative img-testimonial-success">
+            <img class="ml-[25%] relative z-20" src="../src/assets/success-stories/jeff-walters-cover.png" alt="" />
+            <div class="absolute -bottom-8 -right-3 bg-[#fff] rounded py-[10px] px-[30px] z-30">
+              <h4 class="text-xl font-[poppins-medium]">Jeff Walters</h4>
+              <p class="text-base font-[roboto-regural] text-[#2b333f] mt-3">
+                Jeff Walters Designs
+              </p>
+            </div>
+          </div>
+          <div class="w-[48%]">
+            <h2 class="text-[30px] leading-[50px] font-[poppins-medium]">
+              My Web Audit has been a great tool for helping my clients
+              understand what needs to be improved on their websites
+            </h2>
+            <p
+              class="font-[roboto-light] italic text-[22px] text-[#2b333f] mt-7 pl-5 border-l-2 border-[#1b75bb] leading-10">
+              My Web Audit has been a great tool for helping my clients
+              understand what needs to be improved on their websites to get
+              better results and grow their businesses. I use MWA to create
+              roadmaps for my clients' websites and am able to show them very
+              clearly how changes are being made and the impact those changes
+              will have.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="-mt-24">
+        <div class="container xl:max-w-screen-xl mx-auto flex justify-between">
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  Sent my first audit to a $1k landing page, now signing up
+                  for a $3k retainer.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  Well, that was easy. Sent my first audit to a $1k landing
+                  page project client who knew their WP site was trash and
+                  didn't know what to fix next. Now signing up for a $3k
+                  retainer.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/victor-ramirez.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Victor Ramirez
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Abstract Agency, LLC
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/4pFXCR91uhs?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  I just closed a huge client, 2 sites to build plus 2 full
+                  blown marketing packages to the tune of $2900.00/month.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/jamie-hill.png" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Jamie Hill
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    iNovate Marketing, Inc
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/BuQyKM64gYI?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  During the trial I ran 5 audits. I decided to invest in the
+                  annual Agency plan. On day 1 of the paid plan I landed a
+                  design and support deal from an audit I ran during the trial
+                  that more than paid for the tool!
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/Christine-Ferguson.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Christine Ferguson
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Ferguson Computers, Inc.
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/mnr7ES0qOm8?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  I'm a strong believer in delivering value. My Web Audit has
+                  been that tool to help my provide that value very, very
+                  quickly. I've used it for lead gen, paid discovery and paid
+                  audits. It's paid for itself several times over already.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/Adam-Lowe.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Adam Lowe
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Adam Lowe Creative
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  I don't want other agencies to have this "secret sauce."
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  Great products change your process by creating new
+                  opportunities. Exceptional products create new opportunities
+                  and continue to grow and change to meet needs you didn't
+                  even realize you had. My Web Audit is exceptional. I
+                  couldn't be happier. My only hesitation in recommending them
+                  is that I don't want other agencies to have this "secret
+                  sauce.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10"
+                  src="../src/assets/success-stories/erika-dickstein.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Erika Dickstein
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Spring Insight
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/-sUM18i8eLM?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  I've used SEM Rush, Spyfu and Moz. This is the first system
+                  that actually helps us sell what we do best. It helps us
+                  close high value deals.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/jonathan-hinshaw.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Jonathan Hinshaw
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    CEO, Ebway
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#f6f8f9] py-14">
+        <div class="container xl:max-w-screen-xl mx-auto">
+          <p class="text-[#2b333f] text-3xl leading-[50px] font-[roboto-light] text-center w-[85%] mx-auto">
+            We had an overwhelming response to our offer for free web reviews
+            on Facebook. We had a system, but it was still time-consuming to
+            do each review. The "My Web Audit" tool saved us so much time! I
+            was facing over 14 hours worth of "free work" and we were able to
+            condense that down to 2 hours.
+          </p>
+          <div class="flex justify-center gap-6 items-center mt-7">
+            <img class="rounded-full w-[50px]" src="../src/assets/success-stories/gretchen-cawthon.jpeg" alt="" />
+            <div class="">
+              <span class="text-[#2b333f] font-[roboto-light] text-xl">
+                <b>Gretchen Cawthon</b> /Left Right Labs</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-14">
+        <div class="container xl:max-w-screen-xl mx-auto flex justify-between">
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/C-89a8jOQdM?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  I've been extremely impressed with this tool. It's
+                  revolutionized how we run audits. Their team is really
+                  dedicated to customer success.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/bryon-mccartney.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Bryon McCartney
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Chief, Be Brilliant Marketing
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  My Web Audit has helped my business close deals and get more
+                  work with less effort.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  My Web Audit has helped my business close deals and get more
+                  work with less effort than otherwise. Clients appreciate the
+                  professional look and insights included in the reports. In
+                  some cases, we don't provide the audit to the client but use
+                  it to assess a website prior to giving an estimate or
+                  deciding if the site is one we want to take on, which is a
+                  huge timesaver.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10"
+                  src="../src/assets/success-stories/colleen-gratzer.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Colleen Gratzer
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Gratzer Graphics LLC
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/dLOceKM9-hs?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  I can't say enough good things about My Web Audit. In the
+                  free trial alone, I was able to close 4 deals.
+                </p>
+                <button type="button" onclick="window.location.href='#';"
+                  class="!py-2 !mt-5 !ml-0 !text-[13px] font-[roboto-regural] rounded-sm border-[#1b75bb] border text-[#1b75bb] !px-3 btn-slider-animation">
+                  View Case Study
+                </button>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/paul-stoute.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Paul Stoute
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Owner, Stoute Web Solutions
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  I've secured an SEO contract and two new website builds.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  I wanted to ramp up my lead generation, so I decided to give
+                  My Web Audit a shot. And it's been a revelation. I sent out
+                  a free offer for a free website health check to my list. 39
+                  people responded, and (so far) I have followed up with 12 of
+                  them. Of the nine that met with me I've secured an SEO
+                  contract and two new website builds. My Web Audit is now at
+                  the core of my lead generation and sales strategy. Thanks
+                  Cliff--you rock!
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10"
+                  src="../src/assets/success-stories/catherine-trebble.png" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Catherine Trebble
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Full Appointment Book
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/CNNUg71q5cQ?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  It allows me to quickly generate a compelling but easy to
+                  understand website audit in just a couple of minutes.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/christina-hawkins.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Christina Hawkins
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    GlobalSpex, Inc
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/OCq3z3yFttE?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  It helps me charge better rates and give my clients a much,
+                  much better product. It's a fantastic tool.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/leslie-surel.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Leslie Surel
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Owner, Surelutions Web Design
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#f6f8f9] py-14">
+        <div class="container xl:max-w-screen-xl mx-auto">
+          <p class="text-[#2b333f] text-3xl leading-[50px] font-[roboto-light] text-center w-[85%] mx-auto">
+            My Web Audit is an outstanding tool for showing potential clients
+            your value and for mining potential improvements throughout the
+            client life-cycle. It is incredibly comprehensive and
+            customizable. Your reports can be laser-focused or cover a range
+            of website issues. I love it and feel as though I haven't even
+            scratched the surface of its benefits yet.
+          </p>
+          <div class="flex justify-center gap-6 items-center mt-7">
+            <img class="rounded-full w-[50px]" src="../src/assets/success-stories/maureen-ciaccio.png" alt="" />
+            <div class="">
+              <span class="text-[#2b333f] font-[roboto-light] text-xl">
+                <b>Maureen Ciaccio</b> /mhcDesign</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-14">
+        <div class="container xl:max-w-screen-xl mx-auto flex justify-between">
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/7ra2ItAqG60?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  I am incredibly impressed with the amount of value it allows me to deliver my clients . The first 2
+                  audits I did got me $1500 in recurring revenue.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/Josiah-Goff.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Josiah Goff
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Josiah Goff
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/1lVjSkfG_Go?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  Since using My Web Audit, we have been able to close almost 90% of the businesses we have pitched.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/derek-schmidt.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Derek Schmidt
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    DesignLoud
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/Phy-po4_4-4?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  Honestly the web audit, ROI calculator and competitive analysis all together make a really handy
+                  report to hand to a client and say here are opportunities for improvement. Let us show you how we can
+                  take your presence to the next level.
+                </p>
+                <button type="button" onclick="window.location.href='#';"
+                  class="!py-2 !mt-5 !ml-0 !text-[13px] font-[roboto-medium] rounded-sm border-[#1b75bb] border text-[#1b75bb] !px-3 btn-slider-animation">
+                  View Case Study
+                </button>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/Rob-Riggs.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Rob Riggs
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    President, Your Design Online
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/NKA2KPV19rc?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  I used the Return on Investment report feature to show the potential exciting project we were
+                  proposing and I think that really allowed us to stand out from our competitors and lend the job.
+                </p>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/Mark-Reynolds.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Mark Reynolds
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Profit Reach
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="bg-[#f6f8f9] pt-14 pb-36">
+
+        <div class="flex items-center justify-between my-10 container xl:max-w-screen-xl mx-auto">
+          <div class=" w-[36%]">
+            <h2 class=" text-[#000f28] text-[22px] font-[poppins-medium] leading-[50px]">
+              We use My Web Audit in our website sales process and it has completely transformed our sales process.
+            </h2>
+
+            <div class="mt-8">
+              <h3 class="text-xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                Catherine Wilson
+              </h3>
+              <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                Owner, Eviva Media
+              </h4>
+            </div>
+
+
+          </div>
+          <div class="w-[54%] relative">
+
+            <div class="playbooks-list ">
+              <iframe class="w-[690px] h-[410px] border border-[#e8e8e8] relative z-20 rounded-lg"
+                src="https://www.youtube.com/embed/FTawZJu_WvY?rel=0&controls=0&showinfo=0"></iframe>
+              <img class="absolute -bottom-[20px] -right-[80px] max-inherit "
+                src="../src/assets/success-stories/testimonial-video-backgrund-graphics.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section class="-mt-20">
+        <div class="container xl:max-w-screen-xl mx-auto flex justify-between">
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/QWrFdMRP54E?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  Between our website audits and business that we have closed because of My Web Audit, it has literally
+                  paid for itself 30X.
+                </p>
+                <button type="button" onclick="window.location.href='#';"
+                  class="!py-2 !mt-5 !ml-0 !text-[13px] font-[roboto-medium] rounded-sm border-[#1b75bb] border text-[#1b75bb] !px-3 btn-slider-animation">
+                  View Case Study
+                </button>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/john-falke.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    John Falke
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Owner, Johnny Flash
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/V_EszHqxlAM?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  Before My Web Audit, we used to spend 2-3 hours on analyzing the leads, now we spend 5 - 10 minutes.
+                  The tool auto-scans the site and allows us to add our manual input.
+                </p>
+
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/mike-ruman.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Mike Ruman
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    CEO, Local Growth
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/xDmXAK1UG4U?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  I don't think you are going to lose money on this tool, I think you're only going to gain value and
+                  close more deals.
+                </p>
+
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/james-leff.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    James Leff
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    CEO, JSL Marketing
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  My Web Audit gives my agency instant credibility with prospects.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  The audit report is clean and professional and that helps us make a great first impression. We also
+                  love the Better Leads functionality. It really helps us with our cold outreach. My Web Audit has
+                  definitely helped us land some great projects.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10"
+                  src="../src/assets/success-stories/mike-winterthieme.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Mike Winterthieme
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Ozark Mountains Digital Marketing
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  My Web Audit helps me close leads faster.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  My Web Audit helps me close leads faster by offering a huge amount of value without investing hours
+                  splicing together different reports. There are many website audit options available on the market, but
+                  My Web Audit takes it to the next level! My Web Audit makes it easy to communicate the wins &
+                  opportunities about a site while providing a ton of value. Clients love the audits and they are so
+                  easy to customize and run.
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/mitch-britt.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Mitch Britt
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Bold Eye Media
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/Et0gpsCCQ0E?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  I have really high retention and signup rates once I provide these audits. I'm really happy with the
+                  product.
+
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/noah-britton.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Noah Britton
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    CEO, Thrive
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/pIEEl_s_jl4?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  I thoroughly recommend My Web Audit. It has been a game-changer for our digital agency.
+                  <button type="button" onclick="window.location.href='#';"
+                    class="!py-2 !mt-5 !ml-0 !text-[13px] font-[roboto-medium] rounded-sm border-[#1b75bb] border text-[#1b75bb] !px-3 btn-slider-animation">
+                    View Case Study
+                  </button>
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/carol-stambaugh.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Carol Stambaugh
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Owner, Radiate WP
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/Z4Y3VfOPHBY?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  1 FB Post = 14 Audits = 1 Web Rebuild and other possible work.
+
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/peter-butler.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Peter Butler
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Smarter Websites
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#f6f8f9] py-14">
+        <div class="container xl:max-w-screen-xl mx-auto">
+          <p class="text-[#2b333f] text-3xl leading-[50px] font-[roboto-light] text-center w-[85%] mx-auto">
+            My Web Audit has been a vital tool in a pro active sales approach. It has allowed me to provide value
+            upfront within the first interaction resulting in closing 5 new deals being closed!
+          </p>
+          <div class="flex justify-center gap-6 items-center mt-7">
+            <img class="rounded-full w-[50px]" src="../src/assets/success-stories/marcus-ohanesian.jpeg" alt="" />
+            <div class="">
+              <span class="text-[#2b333f] font-[roboto-light] text-xl">
+                <b>Marcus Ohanesian</b> /Perfect Evolution</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-14">
+        <div class="container xl:max-w-screen-xl mx-auto flex justify-between">
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/fatFomfU1jI?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  My Web Audit is more than a sales tool. Also, Clifford's weekly strategy sessions are perfect for me.
+                  He takes the time to advise and support agencies, no matter their size.
+
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/cassandra-may.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Cassandra May
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Affordable Web Solutions
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  It can be used in so many different ways. I love the customization possibilities!
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  My Web Audit is a game changer. It can be used in so many ways - as a free lead magnet, an inexpensive
+                  paid tripwire, or as a fully paid product. It's so easy to use and so effective with clients that it's
+                  profitable for me, even if I give it away as a lead magnet!
+                </p>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  The content helps me provide real, actionable value to my clients regardless of the price point and
+                  makes a great impression to help me earn their trust.
+                </p>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  As a Certified StoryBrand Guide I've even added a custom section all about messaging and can break
+                  that out into its own standalone audit also. Love the customization possibilities!
+                </p>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  Cliff and his team are doing great things - constantly improving and adding to the offering plus
+                  providing amazing service to their agency clients. Highly, highly recommend to any web designer, SEO,
+                  or copywriter who wants to serve their clients with excellence while growing their business!
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/chris-shull.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Chris Shull
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Heyday Web Media
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  My Web Audit is truly amazing, it provides us the key points to discuss with our prospects to close
+                  the deal. 100% of the time they know something is not working for them or could be working much
+                  better. But most of the times they don't know what that is or how to go about fixing. Providing them
+                  with a comprehensive, professional audit tailored specifically for them, gives us the talking points
+                  on what needs to be corrected and most importantly, in what order of importance.
+                </p>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  Best of all, once the deal is closed, the audit itself gives our team the template to work off to
+                  prepare a specific strategy roadmap leaving no doubt that nothing is being missed.
+                </p>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  We have tried practically every tool out there and this one is without a doubt the best.
+                </p>
+
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10" src="../src/assets/success-stories/sam-newman.jpeg"
+                  alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Sam Newman
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    https://www.newmanwebsolutions.com/
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  It's been enormous time saver/benefit for our firm. A no-brainer in terms of ROI.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  My Web Audit has been an enormous time saver/benefit for our firm and is a no-brainer in terms of ROI.
+                  Integrating MWA into our process has let us complete our website reviews quicker through their
+                  friendly UI, and we love the automated review points, so not everything has to be done manually.
+                  Support is always speedy to respond and helpful. The addition of the Better Leads add-on is pretty
+                  sweet for our sales team. Since we started using MWA, they've been adding more and more resources for
+                  customers as well as new features, and we're thrilled to have found it!
+                </p>
+
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 w-[100px]"
+                  src="../src/assets/success-stories/ron-johnson.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Ron Johnson
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Founder CyberOptik
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  Best website audit presentation on the market.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  Best website audit presentation on the market, step up your game and impress your prospects with My
+                  Web Audit!
+                </p>
+
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 w-[100px]"
+                  src="../src/assets/success-stories/alex-c-barr.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Alex C Barr
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    alexcbarr.com
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[47.1%]">
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  MWA has been amazing for my firm! I find my potential clients are a bit hesitant to trust me and this
+                  tool helps me to determine a quickly break through that barrier. I'm able to generate a useful, clear
+                  plan of action that they can understand. Also - the company is just amazing in all the updates,
+                  improvements, and features they continue to offer. The Resources section alone has provided an awesome
+                  copy &amp; paste sales strategy. You won't find anything else out there like this, totally recommend!
+                </p>
+
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 w-[100px]"
+                  src="../src/assets/success-stories/Karin-Conroy.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Karin Conroy
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Conroy Creative Counsel
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <iframe width="600px" height="330px" class="relative z-20 rounded-t-lg"
+                src="https://www.youtube.com/embed/WUJVC3fwR_4?rel=0&controls=0&showinfo=0"></iframe>
+              <div class="bg-[#fff] py-8 px-12 rounded-b-xl relative success-stories-box">
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light]">
+                  I'm able to save time, build trust so much faster and most importantly I am able to close more deals.
+                  It's been a complete game changer.
+
+              </div>
+
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 max-w-[100px]"
+                  src="../src/assets/success-stories/jason-garcia.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Jason Garcia
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    New Oceans Digital
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  My Web Audit report can be easily understood by your prospects.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  Have you ever wanted to expand your marketing by offering website audits, but hesitated about the time
+                  commitment? My Web Audit automates everything that can be automated and delivers a comprehensive
+                  report with minimal effort. Best of all, it is a report that can be easily understood by your
+                  prospects.
+                </p>
+
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 w-[100px]"
+                  src="../src/assets/success-stories/boel-stoddard.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Boel Stoddard
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Boel Stoddard Web Design
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  WOW talk about a game changer. I was looking for a tool that I could use to #1 look at a website and
+                  determine its fitness (so to speak) and #2 to use that tool &amp; report to customize a plan of action
+                  to submit to my clients.
+                </p>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  Well, Clifford and his team did it! My Web Audit does exactly that and more! I can even add a Chrome
+                  Extension to my browser and use that to go deep into my client's sites!
+                </p>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  And, it gets better - the dashboard that I have access to is amazing - giving me the reports and the
+                  ability download and send to my clients (or, use as an internal audit) ... and, at the click of a
+                  button I can rerun the report to see the updates....
+                </p>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  There are so many more great features as well - but, you'll need to sign up and just see for
+                  yourself!"
+                </p>
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 w-[100px]"
+                  src="../src/assets/success-stories/phillis-benson.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Phillis Benson
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Virtual Partner Web Design
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="pb-[60px]">
+              <div class="bg-[#fff] py-8 px-12 rounded-xl relative success-stories-box">
+
+                <h2 class="text-[#000f28] text-[24px] font-[poppins-medium]">
+                  It amplified my prospecting outreach significantly.
+                </h2>
+                <p class="text-base text-[#2b333f] leading-6 font-[roboto-light] mt-3">
+                  When you follow-up with a prospect, they are looking for something of value for their time. My Web
+                  Audit allowed me to confidently reach out to prospects who I had touched base with and give them
+                  actionable, valuable insights on their web strategy. In seconds, literally, I was sending out emails
+                  that I knew would start a conversation. It amplified my prospecting outreach significantly.
+                </p>
+
+              </div>
+              <div class="flex gap-5 items-center relative">
+                <img class="rounded-full absolute top-6 left-10 w-[100px]"
+                  src="../src/assets/success-stories/akande-davis.jpeg" alt="" />
+
+                <div class="ml-40 py-8">
+                  <h3 class="text-2xl leading-9 font-[poppins-medium] text-[#2b333f]">
+                    Akande Davis
+                  </h3>
+                  <h4 class="text-[#2b333f] text-lg leading-6 font-[roboto-light] italic">
+                    Digital Pew
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container xl:max-w-screen-xl mx-auto">
+          <p class="text-xs "> <strong>Disclaimer:</strong> Each customer testimonial listed on this page is based on
+            what our customers tell us. We don't verify financial statements, we take their word on it. Getting results
+            in
+            building a business is hard, and each of our customers take action, use our platform and work hard to get
+            results. You recognize that your success or failure will be the result of your own efforts, business
+            processes
+            and other circumstances beyond our control.
+          </p>
+        </div>
+      </section>
+
+
+
+
+    </main>
+    <footer-component></footer-component>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 6,
+      spaceBetween: 40,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    $(document).ready(function () {
+      $("ul li.mwa-text-active").click(function () {
+        $("ul li.mwa-text-active").removeClass("active");
+        $(this).addClass("active");
       });
+    });
+  </script>
 
-      $(document).ready(function () {
-        $("ul li.mwa-text-active").click(function () {
-          $("ul li.mwa-text-active").removeClass("active");
-          $(this).addClass("active");
-        });
-      });
-    </script>
+  <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
 
-    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
-  </body>
 </html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="67" viewBox="0 0 101 67">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1374" data-name="Rectangle 1374" width="101" height="67" transform="translate(0 0.093)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Down_Side_Quote_Icon" data-name="Down Side Quote Icon" transform="translate(0 -0.094)" clip-path="url(#clip-path)">
+    <g id="Group_6511" data-name="Group 6511" transform="translate(0 -0.19)" opacity="0.4">
+      <path id="Path_91" data-name="Path 91" d="M79.167,50.454v4.733Q58,67.373,53.032,86.085q5.368-3.5,9.768-3.5a15.666,15.666,0,0,1,12.38,5.921A21.571,21.571,0,0,1,80.232,103,21.263,21.263,0,0,1,73.6,118.9a22.59,22.59,0,0,1-16.329,6.424q-9.694,0-16.209-8.175T34.544,96.8q0-17.144,13.112-30.732A50.3,50.3,0,0,1,79.167,50.454Zm55.546,0v4.733q-21.176,12.186-26.144,30.9,5.374-3.5,9.853-3.5a15.6,15.6,0,0,1,12.3,5.921A21.565,21.565,0,0,1,135.77,103a21.308,21.308,0,0,1-6.6,15.9,22.435,22.435,0,0,1-16.286,6.424q-9.764,0-16.243-8.175T90.162,96.8q0-17.144,13.074-30.732A50.146,50.146,0,0,1,134.713,50.454Z" transform="translate(-34.544 -50.454)" fill="#e5f2ff"/>
+    </g>
+  </g>
+</svg>

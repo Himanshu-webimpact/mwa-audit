@@ -36,6 +36,7 @@
 .lead-widgets-bg {
   background: linear-gradient(135deg, rgba(245, 245, 245, 1) 0, rgba(229, 246, 255, 1) 100%);
 }
+
 .max-inherit {
   max-width: inherit !important;
 }
@@ -43,9 +44,14 @@
 .box-shadow {
   box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%)
 }
+.box-shadow-mysiteAuditor {
+  box-shadow: 0 0 25px rgb(0 0 0 / 30%);
+}
+
 .playbook-hero-section {
   background: url(../src/assets/playbooks/playbook-header-background.svg) 0 -130px/100% auto #f7f7f7;
 }
+
 .swiper-button-next {
   background-image: url(../src/assets/home/arrow-right-solid.svg);
   background-repeat: no-repeat;
@@ -113,6 +119,7 @@
   width: auto;
 
 }
+
 .mwa-text-active.active::after {
   width: 100%;
   border: 1px solid #b3dff9;
@@ -209,6 +216,34 @@
   content: "";
 }
 
+.img-testimonial-success::after {
+
+  background-image: url(../src/assets/home/testimonial-dotted-graphics.svg);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 7px;
+  width: 48%;
+  height: 43%;
+  z-index: 0;
+
+}
+
+.success-stories-box {
+  -webkit-box-shadow: 0 10px 40px rgb(160 160 160 / 30%);
+}
+
+.success-stories-box::after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 15px 0 15px;
+  border-color: #fff transparent transparent transparent;
+  position: absolute;
+  left: 78px;
+  bottom: -13px;
+  content: "";
+}
 .blog-section::after {
   background: #f7f7f7;
   transform: skewY(-15deg) scaleY(1);
@@ -770,7 +805,7 @@ height:20px;
     border-width: 10px 0 10px 15px;
     border-color: transparent transparent transparent #e7f6fe !important;
     margin-top: -10px;
-      opacity: 0;
+    opacity: 0;
       transition: all 0.5s ease-out;
       -moz-transition: all 0.5s ease-out;
       -webkit-transition: all 0.5s ease-out;
@@ -823,6 +858,32 @@ height:20px;
     content: "";
   }
 
+                                                                                                                                                                                                                                                                .success-hero-section::before {
+                                                                                                                                                                                                                                                                  background: #fbfbfb;
+                                                                                                                                                                                                                                                                  transform: skewY(10deg) scaleY(1);
+                                                                                                                                                                                                                                                                  -moz-transform: skewY(10deg) scaleY(1);
+                                                                                                                                                                                                                                                                  -webkit-transform: skewY(10deg) scaleY(1);
+                                                                                                                                                                                                                                                                  position: absolute;
+                                                                                                                                                                                                                                                                  top: -170px;
+                                                                                                                                                                                                                                                                  right: -32%;
+                                                                                                                                                                                                                                                                  width: 100%;
+                                                                                                                                                                                                                                                                  content: "";
+                                                                                                                                                                                                                                                                  height: 100%;
+                                                                                                                                                                                                                                                                }
+                                                                                                                                
+                                                                                                                                                                                                                                                                .success-hero-section::after {
+                                                                                                                                                                                                                                                                  background: #f7f7f7;
+                                                                                                                                                                                                                                                                  transform: skewY(-15deg) scaleY(1);
+                                                                                                                                                                                                                                                                  -moz-transform: skewY(-15deg) scaleY(1);
+                                                                                                                                                                                                                                                                  -webkit-transform: skewY(-15deg) scaleY(1);
+                                                                                                                                                                                                                                                                  position: absolute;
+                                                                                                                                                                                                                                                                  top: -350px;
+                                                                                                                                                                                                                                                                  right: 0;
+                                                                                                                                                                                                                                                                  left: 0;
+                                                                                                                                                                                                                                                                  height: 100%;
+                                                                                                                                                                                                                                                                  width: 100%;
+                                                                                                                                                                                                                                                                  content: "";
+                                                                                                                                                                                                                                                                }
 }
 
 @media screen and (max-width: 1740px) {
