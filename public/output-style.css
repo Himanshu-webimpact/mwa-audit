@@ -1855,6 +1855,10 @@ input:checked + .toggle-bg {
   width: 16rem;
 }
 
+.w-\[60px\] {
+  width: 60px;
+}
+
 .max-w-\[700px\] {
   max-width: 700px;
 }
@@ -2752,6 +2756,11 @@ input:checked + .toggle-bg {
 .px-\[30px\] {
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.py-\[3px\] {
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .pt-\[90px\] {
@@ -4815,6 +4824,10 @@ height:20px;
 
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:w-\[1084px\] {
+    width: 1084px;
   }
 
   .lg\:min-w-\[33\%\] {
