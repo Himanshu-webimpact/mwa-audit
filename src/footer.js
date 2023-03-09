@@ -16,7 +16,7 @@ class Footer extends HTMLElement {
         class="flex justify-between items-center  pt-5 text-center container xl:max-w-screen-xl m-auto"
       >
         <div>
-          <img
+         <a href="paul-stoute.html"> <img
             class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-paul-stoute-only-image.svg"
             alt=""
@@ -24,10 +24,10 @@ class Footer extends HTMLElement {
           <h4 class="mt-4 mb-2 text-lg">Paul Stoute</h4>
           <span class="text-[#21323b99] my-5 text-base"
             >Stoute Web Solutions</span
-          >
+          ></a>
         </div>
         <div>
-          <img
+        <a href="johhny-falke.html"> <img
             class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-john-falke-only-image.svg"
             alt=""
@@ -35,10 +35,10 @@ class Footer extends HTMLElement {
           <h4 class="mt-4 mb-2 text-lg">John Falke</h4>
           <span class="text-[#21323b99] my-5 text-base"
             >Johnny Flash</span
-          >
+          ></a>
         </div>
         <div>
-          <img
+        <a href="rob-riggs.html"><img
             class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-rob-riggs-only-image.svg"
             alt=""
@@ -46,19 +46,20 @@ class Footer extends HTMLElement {
           <h4 class="mt-4 mb-2 text-lg">Rob Riggs</h4>
           <span class="text-[#21323b99] my-5 text-base"
             >Code Conspirators</span
-          >
+          ></a>
         </div>
         <div>
-          <img
+        <a href="carol-stambaugh.html"> <img
             class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-carol-stambaugh-only-image.svg"
             alt=""
           />
           <h4 class="mt-4 mb-2 text-lg">Carol Stambaugh</h4>
           <span class="text-[#21323b99] my-5 text-base">RadiateWP</span>
+          </a>
         </div>
         <div>
-          <img
+        <a href="barry-belotti.html"> <img
             class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-barry-belotti-only-image.svg"
             alt=""
@@ -66,7 +67,7 @@ class Footer extends HTMLElement {
           <h4 class="mt-4 mb-2 text-lg">Barry Belotti</h4>
           <span class="text-[#21323b99] my-5 text-base"
             >Belgraphix Marketing Group</span
-          >
+          ></a>
         </div>
       </div>
     </div>
@@ -204,16 +205,16 @@ class Footer extends HTMLElement {
                     <a href="paul-stoute.html" class="hover:underline">Stoute Web Solutions</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">RadiateWP</a>
+                    <a href="carol-stambaugh.html" class="hover:underline">RadiateWP</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Code Conspirators</a>
+                    <a href="rob-riggs.html" class="hover:underline">Code Conspirators</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">Johnny Flash</a>
+                    <a href="johhny-falke.html" class="hover:underline">Johnny Flash</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline"
+                    <a href="barry-belotti.html" class="hover:underline"
                       >Belgraphix Marketing Group</a
                     >
                   </li>
