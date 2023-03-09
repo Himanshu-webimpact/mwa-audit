@@ -139,7 +139,7 @@ class Footer extends HTMLElement {
                     <a href="woorank-alternative.html" class="hover:underline">WooRank Alternative</a>
                   </li>
                   <li class="mb-3">
-                    <a href="#" class="hover:underline">BrightLocal Alternative</a>
+                    <a href="brightlocal-alternative.html" class="hover:underline">BrightLocal Alternative</a>
                   </li>
                   <li class="mb-3">
                     <a href="success-stories.html" class="hover:underline">Success Stories</a>
