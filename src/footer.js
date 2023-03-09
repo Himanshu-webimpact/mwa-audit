@@ -21,7 +21,7 @@ class Footer extends HTMLElement {
             src="../src/assets/home/case-study-paul-stoute-only-image.svg"
             alt=""
           />
-          <h4 class="mt-4 mb-2 text-lg">Paul Stoute</h4>
+          <h4 class="mt-4 mb-2 text-lg hover:text-[#0d96df]">Paul Stoute</h4>
           <span class="text-[#21323b99] my-5 text-base"
             >Stoute Web Solutions</span
           ></a>
@@ -32,7 +32,7 @@ class Footer extends HTMLElement {
             src="../src/assets/home/case-study-john-falke-only-image.svg"
             alt=""
           />
-          <h4 class="mt-4 mb-2 text-lg">John Falke</h4>
+          <h4 class="mt-4 mb-2 text-lg hover:text-[#0d96df]">John Falke</h4>
           <span class="text-[#21323b99] my-5 text-base"
             >Johnny Flash</span
           ></a>
@@ -43,7 +43,7 @@ class Footer extends HTMLElement {
             src="../src/assets/home/case-study-rob-riggs-only-image.svg"
             alt=""
           />
-          <h4 class="mt-4 mb-2 text-lg">Rob Riggs</h4>
+          <h4 class="mt-4 mb-2 text-lg hover:text-[#0d96df]">Rob Riggs</h4>
           <span class="text-[#21323b99] my-5 text-base"
             >Code Conspirators</span
           ></a>
@@ -54,7 +54,7 @@ class Footer extends HTMLElement {
             src="../src/assets/home/case-study-carol-stambaugh-only-image.svg"
             alt=""
           />
-          <h4 class="mt-4 mb-2 text-lg">Carol Stambaugh</h4>
+          <h4 class="mt-4 mb-2 text-lg hover:text-[#0d96df]">Carol Stambaugh</h4>
           <span class="text-[#21323b99] my-5 text-base">RadiateWP</span>
           </a>
         </div>
@@ -64,7 +64,7 @@ class Footer extends HTMLElement {
             src="../src/assets/home/case-study-barry-belotti-only-image.svg"
             alt=""
           />
-          <h4 class="mt-4 mb-2 text-lg">Barry Belotti</h4>
+          <h4 class="mt-4 mb-2 text-lg hover:text-[#0d96df]">Barry Belotti</h4>
           <span class="text-[#21323b99] my-5 text-base"
             >Belgraphix Marketing Group</span
           ></a>
