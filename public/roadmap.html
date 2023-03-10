@@ -24,8 +24,8 @@
 <body>
     <header-component></header-component>
     <main class="pt-[90px] overflow-hidden">
-        <section class="relative ">
-            <div class="container xl:max-w-screen-xl mx-auto py-8">
+        <section class="relative roadmap-hero-section ">
+            <div class="container xl:max-w-screen-xl mx-auto py-8 relative ">
                 <h1 class="text-[#2b333f] text-[34px] leading-10 font-[poppins-medium] text-center mb-5">
                     My Web Audit Product Roadmap
                 </h1>
@@ -52,9 +52,10 @@
                         <!-- Modal content -->
                         <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
                             <!-- Modal header -->
-                            <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
-                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-                                    Terms of Service
+                            <div
+                                class="flex items-start justify-between py-[15px] px-[20px]   rounded-t dark:border-gray-600 bg-[#f5f7fa]">
+                                <h3 class="text-base font-semibold text-[#667689] dark:text-white">
+                                    Suggest a feature
                                 </h3>
                                 <button type="button"
                                     class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
@@ -70,31 +71,863 @@
                             </div>
                             <!-- Modal body -->
                             <div class="p-6 space-y-6">
-                                <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                    With less than a month to go before the European Union enacts new consumer privacy
-                                    laws for its citizens, companies around the world are updating their terms of
-                                    service agreements to comply.
+                                <p class="text-[17px] leading-relaxed text-[#2b333f] font-[roboto-light]">
+                                    If you have a feature, suggestion or idea you would like to see in My Web Audit, we
+                                    would love to hear about it. Our
+                                    team reads every suggestion we receive, and may contact you if we require further
+                                    information.
                                 </p>
-                                <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                    The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect
-                                    on May 25 and is meant to ensure a common set of data rights in the European Union.
-                                    It requires organizations to notify users as soon as possible of high-risk data
-                                    breaches that could personally affect them.
-                                </p>
+                                <textarea id="message" rows="4"
+                                    class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 border border-[#e2e2e2] mb-4 "
+                                    placeholder="In the future I'd love My Web Audit to..."></textarea>
+                                <input type="text" placeholder="Short summary" name="your summary"
+                                    class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 border border-[#e2e2e2] mb-4 " />
+                                <input type="text" placeholder="Your email* (will not be published)"
+                                    name="feeback-input required email"
+                                    class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 border border-[#e2e2e2] mb-4 " />
+                                <input type="text" placeholder="Your name*" name="your_name"
+                                    class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 border border-[#e2e2e2] mb-4 " />
                             </div>
                             <!-- Modal footer -->
                             <div
-                                class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+                                class="flex items-center justify-end px-6 py-4 space-x-2 border-t border-[#e5e5e5]   bg-[#f5f7fa]">
+
                                 <button data-modal-hide="defaultModal" type="button"
-                                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">I
-                                    accept</button>
-                                <button data-modal-hide="defaultModal" type="button"
-                                    class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Decline</button>
+                                    class="text-[#fff] bg-[#0bc85f]    text-sm font-medium px-5 py-2.5  focus:z-10 ">
+                                    Submit
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="w-[70%] bg-[#fff] pt-7 px-7 mx-auto mt-6">
+                    <p class="text-[#000] font-[roboto-light] border-l-2 border-[#1b75bb] pl-2 text-[22px] mb-5">Last
+                        Updated:
+                        01/18/2023</p>
+                    <p class="text-[#000] font-[roboto-light] text-lg mb-5 leading-8">We make small improvements
+                        frequently, this
+                        roadmap
+                        highlights
+                        the key
+                        features &amp; improvements planned for My
+                        Web Audit. Priorities may change as we grow, reevaluate features or face new challenges. Don't
+                        hesitate to
+                        contact us with your ideas and feedback.</p>
+                    <h2 class="text-2xl text-[#000] font-[roboto-light]">
+                        <b class="font-[roboto-regural] text-[#010101]">Currently In Progress</b> (Anticipated rollout
+                        Q1)
+                    </h2>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-5 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                53
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8"> New sales & lead
+                                generation strategy videos
+                                (ongoing)</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                35
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8"> Agency Toolkit page
+                                (directory of most popular
+                                agency resources)
+                            </p>
+                        </div>
+                    </div>
 
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                28
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+                                New landing page templates &amp; copy (ongoing)
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                18
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                FB Ads Audit
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                16
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Branding Styles &amp; Settings
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                14
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Pause Plan Option (on hold)
+
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                11
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                MWA Projects — Client Performance Reports for Google AdWords
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                10
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                FB Profile Audit
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                9
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                MWA Projects — Client Performance Reports for Facebook Ads
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                9
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Revamp of Lead Widgets &amp; Templates (Q1/Q2)
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                9
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Additional Report Covers &amp; Designs (ongoing)
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                7
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Embeddable Project reports on client websites
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                7
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Playbook — Generate leads from your Agency website
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                7
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Enable Google Keyword planner data - SEO Report
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                4
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Local Citations Audit for USA &amp; Canada
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                2
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Playbook — Get Featured on Podcasts
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                2
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Enabled US letter print format
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                1
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Growth Audit
+
+                            </p>
+                        </div>
+                    </div>
+                    <h2 class="text-2xl text-[#000] font-[roboto-light] mt-5">
+                        <b class="font-[roboto-regural] text-[#010101]">Next Phase</b> (Q2 2023)
+                    </h2>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                25
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+
+                                Advanced SEO Analysis —Analyze hundreds of data points to rank better
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                21
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+
+                                Ecommerce Analytics reports
+
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                17
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+
+                                Custom Variables &amp; Custom fields
+
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                17
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+
+                                Google Analytics Audit
+
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                15
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+                                Customer Persona Builder
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                14
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Google AdWords Audit
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                6
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+                                Custom grading management and control of audit points
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                5
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Revamp Report Editor w/ More Flexibility & Control
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                3
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Integration w/ Integromat
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                1
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Review & update report copy by editor
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Presentation View Themer
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <h2 class="text-2xl text-[#000] font-[roboto-light] mt-5">
+                        <b class="font-[roboto-regural] text-[#010101]">Dreaming Up The Future</b>(2023 & Beyond)
+                    </h2>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                15
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Brand Audit
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                14
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Use of machine learning & AI in our reporting
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+                            <span
+                                class="absolute -top-[15px] -left-[25px] bg-[#010101] rounded-sm text-[11px] text-[#fff] px-1">
+                                7
+                            </span>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Voice / AI SEO
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-4 border border-[#e5e5e5] mt-3 items-center  px-4">
+                        <div class="border-r border-dashed border-[#dadada] pr-2 py-2 relative">
+                            <img class="w-[20px] " src="../src/assets/roadmap/thumbs-up-solid.svg" alt="" />
+
+                        </div>
+                        <div class="py-2">
+                            <p class="text-[#000] font-[roboto-regural] text-[15px] leading-8">
+
+                                Agency Reporting
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="container mx-auto xl:max-w-screen-xl">
+                <div class="w-[70%] mx-auto pb-7 px-7">
+                    <h2 class="text-2xl text-[#000] font-[roboto-light] mb-5">
+                        <b class="font-[roboto-regural] text-[#010101]">Completed Improvements:</b>
+                    </h2>
+                    <div
+                        class="bg-[#f3f8f3] border-l-4 border-l-[#62bb72] border-r border-t border-b border-[#eee]  py-5 px-4">
+
+                        <h3 class="text-[#010101] font-[roboto-regural] text-xl">Q2, Q3 & Q4 of 2022</h3>
+                        <ul class="pl-12  list-disc my-2">
+                            <li class=" text-[15px] text-[#010101]  font-[roboto-regural] ">
+
+                                Revamped Competitor Analysis Audit
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural]  ">
+                                Integration w/ SEMRUSH for Keyword & Backlink data
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Launched Accessibility Audit
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Added Italian translation
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Enabled ROI/ROI Ecommerce on Competitor Analysis Audit
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Enabled ROI/ROI Ecommerce on On-Page SEO Audit
+
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Enabled ROI on Website Audit
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Enabled ROI Ecommerce on Ecommerce Audit
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Enabled reviewing a company position on the Local Search Grid for a keyword
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Improved the Project scan speed
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Updated reports to be print-friendly using the browser print option
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Enabled an option to add an accounting email
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Enabled an option to update the style of the CTA button on the report
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Enabled an option for the user to save the audit as template
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Miscellaneous UI/UX improvements
+
+                            </li>
+                        </ul>
+                        <h3 class="text-[#010101] font-[roboto-regural] text-xl mt-2">Q4 2021 & Q1 of 2022</h3>
+                        <ul class="pl-12  list-disc my-2">
+                            <li class=" text-[15px] text-[#010101]  font-[roboto-regural] ">
+
+                                Revamped Google Business Profile audit
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural]  ">
+                                Integration of Local Search Grid w/ GBP Audit
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Automated Google Business Profile audit + Lead Widget
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Google SERP Location Changer Tool
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Implementation of favicon for white label reports
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Official Zapier Integration goes live
+
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] border-b-2 border-dashed pb-1 w-fit tooltip-inside">
+                                Enabled ROI on Website Audit<p class="tooltip-inside-text">Follow this playbook to help you build lead lists in minutes of hundreds of local businesses that need your agency services.</p>
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] border-b-2 border-dashed pb-1 w-fit tooltip-inside ">
+                                Agency Client Meeting playbook<p class="tooltip-inside-text">Follow this playbook to help you follow a monthly process to help you close more leads in your pipeline</p>
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Updated the UI/UX for the notifications module
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Reduced audit & project audit scan times by 50%
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Email notifications options for lead widgets
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Date picker on Google Analytics insights
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Support for international date formats
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Lead widget management for sub accounts on agency plan
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Report Builder page UI updates
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Revamp the CTA module
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Revamp the Award module
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Revamp the testimonial module
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                            Revamped edit audit UI/UX
+
+                            </li>
+                        </ul>
+                        <h3 class="text-[#010101] font-[roboto-regural] text-xl mt-2">Q2 - Q3 2021</h3>
+                        <ul class="pl-12  list-disc my-2">
+                            <li class=" text-[15px] text-[#010101]  font-[roboto-regural] ">
+
+                                Implemented the import pages functionality (Projects)
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural]  ">
+                                Added SERP features to the ranked keywords module (Projects)
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Translation module to allow users to translate the reports in their own language
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Updated UI/UX for testimonial management on the report builder
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Updated UI/UX for awards management on the report builder
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Updated UI/UX for CTA management on the report builder
+
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                UI/UX updates to audit dashboard & Reports Manager
+
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Zapier integration is now Public for My Web Audit
+
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] border-b-2 border-dashed pb-1 w-fit tooltip-inside">
+                                Launched new product called MWA Projects<p class="tooltip-inside-text">We built Projects—the intelligent way to analyze websites—from the ground up for SEO, page performance, security, accessibility, and more. Now you can support, manage and report on standard agency services like care plans, page performance, security, SEO, monthly reporting, and so on. Watch Video</p>
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] border-b-2 border-dashed pb-1 w-fit tooltip-inside ">
+                                Agency Client Meeting playbook<p class="tooltip-inside-text">Follow this playbook to help you follow a monthly process to help you close more leads in your pipeline</p>
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Updated the UI/UX for the notifications module
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Reduced audit & project audit scan times by 50%
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Email notifications options for lead widgets
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Date picker on Google Analytics insights
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Support for international date formats
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Lead widget management for sub accounts on agency plan
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Report Builder page UI updates
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Revamp the CTA module
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Revamp the Award module
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                                Revamp the testimonial module
+
+                            </li>
+                            <li class="pt-[6px] text-[#010101] font-[roboto-regural] ">
+                            Revamped edit audit UI/UX
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
