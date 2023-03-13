@@ -1538,6 +1538,10 @@ input:checked + .toggle-bg {
   height: calc(100% - 1rem);
 }
 
+.h-0 {
+  height: 0px;
+}
+
 .h-14 {
   height: 3.5rem;
 }
@@ -1865,6 +1869,22 @@ input:checked + .toggle-bg {
 
 .w-64 {
   width: 16rem;
+}
+
+.w-\[440px\] {
+  width: 440px;
+}
+
+.w-\[380px\] {
+  width: 380px;
+}
+
+.w-\[290px\] {
+  width: 290px;
+}
+
+.w-\[295px\] {
+  width: 295px;
 }
 
 .max-w-\[700px\] {
@@ -2424,6 +2444,10 @@ input:checked + .toggle-bg {
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
 }
 
+.border-\[\] {
+  border-color: ;
+}
+
 .border-l-\[\#62bb72\] {
   --tw-border-opacity: 1;
   border-left-color: rgb(98 187 114 / var(--tw-border-opacity));
@@ -2818,6 +2842,11 @@ input:checked + .toggle-bg {
 .px-\[30px\] {
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.py-\[6px\] {
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .pt-\[90px\] {
@@ -3553,6 +3582,10 @@ input:checked + .toggle-bg {
   background: url(../src/assets/playbooks/playbook-header-background.svg) 0 -130px/100% auto #f7f7f7;
 }
 
+.transition-roadmap {
+  transition: 0.2s ease-in;
+}
+
 .swiper-button-next {
   background-image: url(../src/assets/home/arrow-right-solid.svg);
   background-repeat: no-repeat;
@@ -3602,6 +3635,15 @@ input:checked + .toggle-bg {
 .mwa-text-active {
   transition: all 0.5s ease-out;
   background-color: #ffffff;
+}
+
+.transition-roadmap.hidden {
+  height: 0;
+}
+
+.transition-roadmap.flex {
+  height: auto;
+  transition: 0.2s ease-in;
 }
 
 .mwa-text-active.active {
@@ -4045,7 +4087,8 @@ height:20px;
 }
 
 .tooltip:hover .tooltiptext,
-.tooltip-inside:hover .tooltip-inside-text {
+.tooltip-inside:hover .tooltip-inside-text,
+.tooltip-inside-roadmap:hover .tooltip-inside-text-roadmap {
   visibility: visible;
 }
 
@@ -4064,7 +4107,8 @@ height:20px;
 }
 
 .tooltip,
-.tooltip-inside {
+.tooltip-inside,
+.tooltip-inside-roadmap {
   position: relative;
 }
 
@@ -4109,6 +4153,40 @@ height:20px;
   top: 50%;
   margin-left: -11px;
   transform: translateY(-50%);
+}
+
+.tooltip-inside-text-roadmap {
+  visibility: hidden;
+  position: absolute;
+  width: 450px;
+  font-size: 15px !important;
+  text-align: left;
+  top: 0%;
+  left: 0%;
+  /* border: 1px solid rgba(0, 0, 0, .2); */
+  box-shadow: rgb(0 0 0 / 15%) 0 0 10px;
+  font-family: roboto-regural;
+  z-index: 10;
+  background: #fff;
+  padding: 15px 10px;
+  transform: translateY(-100%);
+  color: #2b333f;
+  border-radius: 5px;
+}
+
+.tooltip-inside-text-roadmap::after {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 15px;
+  top: auto;
+  bottom: -7px;
+  margin-top: auto;
+  content: "";
+  background: 0 0;
+  border-color: #fff transparent transparent;
+  border-width: 8px 9px 0;
+  border-style: solid;
 }
 
 .feature-rounded-circle {
@@ -4458,7 +4536,7 @@ height:20px;
   }
 
   .faster-video-wrapper,
-  .faster-video-wrapper-left {
+                .faster-video-wrapper-left {
     width: 690px;
   }
 }
@@ -4484,7 +4562,7 @@ height:20px;
   }
 
   .faster-video-wrapper,
-  .faster-video-wrapper-left {
+                .faster-video-wrapper-left {
     width: 560px;
   }
 }
@@ -4790,10 +4868,6 @@ height:20px;
 
   .md\:h-\[38rem\] {
     height: 38rem;
-  }
-
-  .md\:h-full {
-    height: 100%;
   }
 
   .md\:h-auto {

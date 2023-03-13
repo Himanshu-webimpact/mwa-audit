@@ -1,66 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="blog.js" type="text/javascript" defer></script>
-    <link rel="icon" type="image/x-icon" href="../src/assets/logo/MWA Icon.svg" />
+    <link rel="icon" type="image/x-icon" href="../src/assets/logo/mwa-favicon.svg">
     <link rel="stylesheet" href="output-style.css" />
     <link rel="stylesheet" href="../src/input-style.css" />
     <script src="/src/header.js" type="text/javascript" defer></script>
     <script src="/src/footer.js" type="text/javascript" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <title>
-        MWA Blog - Actionable Guides & Resources For Growing Your Agency
+      MWA Blog - Actionable Guides & Resources For Growing Your Agency
     </title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section>
-        <header-component></header-component>
-        <main class="pt-[90px] overflow-hidden">
-            <section class="blog-section relative">
-                <div class="container xl:max-w-screen-xl m-auto py-10 z-20 relative">
-                    <h1 class="text-center text-[#2b333f] text-[34px] leading-10 font-[poppins-medium]">
-                        Actionable website audit and lead generation resources
-                    </h1>
+      <header-component></header-component>
+      <main class="pt-[90px] overflow-hidden">
+        <section class="blog-section relative">
+          <div class="container xl:max-w-screen-xl m-auto py-10 z-20 relative">
+            <h1
+              class="text-center text-[#2b333f] text-[34px] leading-10 font-[poppins-medium]"
+            >
+              Actionable website audit and lead generation resources
+            </h1>
 
-                    <div class="mt-10">
-                        <div class="flex justify-between items-start w-[100%] flex-wrap" id="data-container"></div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer-component></footer-component>
+            <div class="mt-10">
+              <div
+                class="flex justify-between items-start w-[100%] flex-wrap"
+                id="data-container"
+              ></div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer-component></footer-component>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 6,
-            spaceBetween: 40,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 6,
+        spaceBetween: 40,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
 
-        $(document).ready(function () {
-            $("ul li.mwa-text-active").click(function () {
-                $("ul li.mwa-text-active").removeClass("active");
-                $(this).addClass("active");
-            });
+      $(document).ready(function () {
+        $("ul li.mwa-text-active").click(function () {
+          $("ul li.mwa-text-active").removeClass("active");
+          $(this).addClass("active");
         });
+      });
     </script>
 
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
-</body>
-
+  </body>
 </html>
