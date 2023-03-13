@@ -54,6 +54,9 @@
 .box-shadow-mysiteAuditor {
   box-shadow: 0 0 25px rgb(0 0 0 / 30%);
 }
+.box-shadow-mwa-signup-offer{
+  box-shadow: 0 0 150px 10px rgb(0 0 0 / 12%);
+}
 
 .playbook-hero-section {
   background: url(../src/assets/playbooks/playbook-header-background.svg) 0 -130px/100% auto #f7f7f7;
