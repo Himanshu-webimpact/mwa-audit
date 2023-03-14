@@ -1,361 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="../src/assets/logo/mwa-favicon.svg"
-    />
-    <link rel="stylesheet" href="output-style.css" />
-    <link rel="stylesheet" href="../src/input-style.css" />
-    <script src="/src/header.js" type="text/javascript" defer></script>
-    <script src="/src/footer.js" type="text/javascript" defer></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <title>Signup and start closing more deals - My Web Audit</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="../src/assets/logo/mwa-favicon.svg" />
+  <link rel="stylesheet" href="output-style.css" />
+  <link rel="stylesheet" href="../src/input-style.css" />
+  <script src="/src/header.js" type="text/javascript" defer></script>
+  <script src="/src/footer.js" type="text/javascript" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <body>
-    <section class="container xl:max-w-screen-xl mx-auto py-5 ">
-      <div class="max-w-[1014px] mx-auto">
-        <div class="flex justify-between items-center">
-          <div class="w-[20%]">
-            <img
-              class="h-[36px]"
-              src="../src/assets/logo/MyWebAudit Logo in Dark Gray.png"
-              alt=""
-            />
-          </div>
-          <div>
-            <h1 class="text-[#2b333f] text-[28px] font-[poppins-medium]">
-              Secure Order Form - Starter Annual Plan
-            </h1>
-          </div>
-        </div>
-        <div
-          class="bg-[#fff] border border-[#ededed] p-10 mt-12 mb-5 rounded-[10px] box-shadow-mwa-signup-offer flex justify-between items-start"
-        >
-          <div class="w-[47%]">
-            <h2
-              class="text-lg leading-7 font-[roboto-medium] text-[#2b333f] mb-4"
-            >
-              Join today for just $399/Year and get $3,200+ of training &
-              resources - 100% free.
-            </h2>
-            <h4
-              class="text-sm leading-6 font-[roboto-regural] text-[#5b626f] mb-5"
-            >
-              You'll have <u>instant access</u> once you sign up
-            </h4>
-            <h5
-              class="text-base p-4 text-[#2b333f] bg-[#f1f9ff] font-[roboto-medium] mb-3"
-            >
-              STEP #1: Contact Information
-            </h5>
-            <input
-              type="text"
-              id="first_name"
-              class="bg-[#fcfcfc] border border-[#e2e8f0] text-[#070707] text-sm rounded-sm block w-full py-2.5 px-4 mb-3"
-              placeholder="Name"
-              required
-            />
-            <input
-              type="text"
-              id="bussines_email"
-              class="bg-[#fcfcfc] border border-[#e2e8f0] text-[#070707] text-sm rounded-sm block w-full py-2.5 px-4 mb-3"
-              placeholder="Business Email"
-              required
-            />
-            <input
-              type="text"
-              id="password"
-              class="bg-[#fcfcfc] border border-[#e2e8f0] text-[#070707] text-sm rounded-sm block w-full py-2.5 px-4 mb-5"
-              placeholder="Password"
-              required
-            />
-            <h5
-              class="text-base p-4 text-[#2b333f] bg-[#f1f9ff] font-[roboto-medium] mb-3"
-            >
-              STEP #2: Payment Information
-            </h5>
-            <input
-              type="text"
-              id="card"
-              class="bg-[#fcfcfc] border border-[#e2e8f0] text-[#070707] text-sm rounded-sm block w-full py-2.5 px-4 mb-3"
-              placeholder="Name on Card"
-              required
-            />
-            <input
-              type="number"
-              id="card_number"
-              class="bg-[#fcfcfc] border border-[#e2e8f0] text-[#070707] text-sm rounded-sm block w-full py-2.5 px-4 mb-3"
-              placeholder="Card Number"
-              required
-            />
-            <h6 class="text-sm mb-5">
-              Have a coupon?
-              <a href="#" class="text-[#1885f2]">Click here</a> to enter your
-              code.
-            </h6>
-            <h5
-              class="text-base p-4 text-[#2b333f] bg-[#f1f9ff] font-[roboto-medium] mb-3"
-            >
-              Order Summary
-            </h5>
-            <div
-              class="flex justify-between items-center border-l border-r border-t px-4 py-3"
-            >
-              <h5 class="text-sm text-[#2b333f] font-[roboto-medium]">
-                My Web Audit Starter Annual Plan
-              </h5>
-              <h6 class="text-[#20c85f]">
-                <strike class="text-[red]">$480</strike> $400 / Year
-              </h6>
-            </div>
-            <div
-              class="flex justify-between items-center border-[#ddd] bg-[#ececec] px-4 py-3 mb-5"
-            >
-              <h5 class="text-sm text-[#2b333f] font-[roboto-medium]">
-                Total:
-              </h5>
-              <h6 class="text-[#20c85f]">$400 / Year</h6>
-            </div>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <title>Signup and start closing more deals - My Web Audit</title>
+</head>
 
-            <div class="flex items-center mb-4">
-              <input
-                checked
-                id="checked-checkbox"
-                type="checkbox"
-                value=""
-                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm"
-              />
-              <label
-                for="checked-checkbox"
-                class="ml-2 text-sm text-[#2b333f] font-[roboto-regural]"
-              >
-                You agree to the our
-                <a href="#" class="text-[#1885f2]">Terms of Service</a> &
-                <a href="" class="text-[#1885f2]">Privacy Notice</a></label
-              >
-            </div>
-
-            <div class="flex items-center mb-5">
-              <input
-                checked
-                id="checked-checkbox"
-                type="checkbox"
-                value=""
-                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm"
-              />
-              <label
-                for="checked-checkbox"
-                class="ml-2 text-sm text-[#2b333f] font-[roboto-regural]"
-              >
-                You agree to receive email communications from us</label
-              >
-            </div>
-            <button
-              type="button"
-              class="w-full text-white bg-[#0bc85f] font-medium rounded-sm text-base py-3 mt-2 mb-5"
-            >
-              Place Order Now
-            </button>
-            <img
-              class="max-w-[162px] mx-auto"
-              src="../src/assets/mwa-signup/cards.png"
-              alt=""
-            />
-          </div>
-          <div class="w-[47%]">
-            <h2
-              class="text-lg leading-7 font-[roboto-medium] text-[#2b333f] mb-4"
-            >
-              Here's some of the exclusive bonuses you're getting with your
-              subscription.
-            </h2>
-            <div class="flex justify-between items-start mb-5">
-              <div class="flex justify-start items-center gap-3">
-                <img
-                  class=""
-                  src="../src/assets/mysiteauditor/checkmark-green-style.svg"
-                  alt=""
-                />
-                <p
-                  class="text-[16px] leading-5 font-[roboto-regural] text-[#3d3e40]"
-                >
-                  Call Script & Email Templates
-                </p>
-              </div>
-              <h5 class="text-[#20c85f] text-base">
-                <b class="font-[roboto-bold]">$999</b>
-              </h5>
-            </div>
-            <div class="flex justify-between items-start mb-5">
-              <div class="flex justify-start items-center gap-3">
-                <img
-                  class=""
-                  src="../src/assets/mysiteauditor/checkmark-green-style.svg"
-                  alt=""
-                />
-                <p
-                  class="text-[16px] leading-5 font-[roboto-regural] text-[#3d3e40]"
-                >
-                  Audit LP Offer & Upsell Copy
-                </p>
-              </div>
-              <h5 class="text-[#20c85f] text-base">
-                <b class="font-[roboto-bold]">$999</b>
-              </h5>
-            </div>
-            <div class="flex justify-between items-start mb-5">
-              <div class="flex justify-start items-center gap-3">
-                <img
-                  class=""
-                  src="../src/assets/mysiteauditor/checkmark-green-style.svg"
-                  alt=""
-                />
-                <p
-                  class="text-[16px] leading-5 font-[roboto-regural] text-[#3d3e40]"
-                >
-                  Close More Deals Webinar
-                </p>
-              </div>
-              <h5 class="text-[#20c85f] text-base">
-                <b class="font-[roboto-bold]">$199</b>
-              </h5>
-            </div>
-            <div class="flex justify-between items-start mb-5">
-              <div class="flex justify-start items-center gap-3">
-                <img
-                  class=""
-                  src="../src/assets/mysiteauditor/checkmark-green-style.svg"
-                  alt=""
-                />
-                <p
-                  class="text-[16px] leading-5 font-[roboto-regural] text-[#3d3e40]"
-                >
-                  Private FB Mastermind Group
-                </p>
-              </div>
-              <h5 class="text-[#20c85f] text-base">
-                <b class="font-[roboto-bold]">$999</b>
-              </h5>
-            </div>
-            <div
-              class="py-5 px-5 flex items-center justify-between relative z-20 m-auto lg-audit-deal my-8 gap-6"
-            >
-              <img
-                class="w-[125px]"
-                src="https://ywusq.s3-us-west-2.amazonaws.com/img/risk-free.png"
-                alt="logo"
-              />
-              <div>
-                <h4 class="font-[roboto-bold] text-[22px]">7-Day Guarantee</h4>
-                <p class="text-base font-[roboto-regural] my-3 text-[#273a50]">
-                  Your purchase is 100% protected by our no hassle, no questions
-                  7-Day Money Back Guarantee.
-                </p>
-              </div>
-            </div>
-            <div class="pb-7 border-b-2 border-[#e2e8f0] mb-5">
-              <p
-                class="text-[#2b333f] font-[roboto-regural] italic text-[15px] leading-7"
-              >
-                I recently subscribed to my web audit and out of the five
-                website audits I sent out today, I've already secured two new
-                clients. The other three haven't read the email yet but wow 🤩
-              </p>
-              <div class="flex justify-start items-center gap-3 mt-4">
-                <img
-                  class="rounded-full w-[40px]"
-                  src="../src/assets/success-stories/kreete-tokman.png"
-                  alt=""
-                />
-                <strong class="text-[#0b5071] text-base font-[roboto-medium]"
-                  >Kreete Tokman</strong
-                >
-              </div>
-            </div>
-            <div class="pb-7 border-b-2 border-[#e2e8f0] mb-5">
-              <p
-                class="text-[#2b333f] font-[roboto-regural] italic text-[15px] leading-7"
-              >
-                It has increased our project revenue and allowed us to win
-                projects of over 15k to 20k in total since we start using My Web
-                Audit.
-              </p>
-              <div class="flex justify-start items-center gap-3 mt-4">
-                <img
-                  class="rounded-full w-[40px]"
-                  src="../src/assets/success-stories/mark-werle.jpeg"
-                  alt=""
-                />
-                <strong class="text-[#0b5071] text-base font-[roboto-medium]"
-                  >Mark Werle</strong
-                >
-              </div>
+<body>
+  <main class=" overflow-hidden">
+    <section class="relative about-hero-section">
+      <section class="container xl:max-w-screen-xl mx-auto py-5 relative z-20">
+        <div class="max-w-[1014px] mx-auto">
+          <div class="flex justify-between items-center">
+            <div class="w-[20%]">
+              <img class="h-[36px]" src="../src/assets/logo/MyWebAudit Logo in Dark Gray.png" alt="" />
             </div>
             <div>
-              <p
-                class="text-[#2b333f] font-[roboto-regural] italic text-[15px] leading-7"
-              >
-                My Web Audit helped us close over $4,500 in new business in the
-                first 90 days! We’ve sold these audits for as high as $1,000
-                each and clients love them! My Web Audit provides the
-                plug-and-play framework to produce quick, professional, and
-                customizable audits to get more business.
-              </p>
-              <div class="flex justify-start items-center gap-3 mt-4">
-                <img
-                  class="rounded-full w-[40px]"
-                  src="../src/assets/success-stories/david-wauters.jpeg"
-                  alt=""
-                />
-                <strong class="text-[#0b5071] text-base font-[roboto-medium]">
-                  David Wauters</strong
-                >
-              </div>
+              <h1 class="text-[#2b333f] text-[28px] font-[poppins-medium]">
+                Secure Order Form - Starter Annual Plan
+              </h1>
             </div>
-        
-        </div>
-      </div>
-    </section>
-    <section class="bg-[#fafafb] py-[10px] text-xs text-center text-[#515a67] font-[roboto-regural]">
-        © 2023 MY WEB AUDIT. A <a rel="nofollow" target="_blank" href="https://www.hireawiz.com/" title="HireAWiz">HIREAWIZ</a> VENTURE.
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 6,
-        spaceBetween: 40,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
+          </div>
+          <div
+            class="bg-[#fff] border border-[#ededed] p-10 mt-9 mb-5 rounded-[10px] box-shadow-mwa-signup-offer flex justify-between items-start">
+            <div class="w-[47%]">
+              <h2 class="text-lg leading-7 font-[roboto-medium] text-[#2b333f] mb-4">
+                Join today for just $399/Year and get $3,200+ of training &
+                resources - 100% free.
+              </h2>
+              <h4 class="text-sm leading-6 font-[roboto-regural] text-[#5b626f] mb-5">
+                You'll have <u>instant access</u> once you sign up
+              </h4>
+              <h5 class="text-base p-4 text-[#2b333f] bg-[#f1f9ff] font-[roboto-medium] mb-3">
+                STEP #1: Contact Information
+              </h5>
+              <input type="text" id="first_name"
+                class="bg-[#fcfcfc] border border-[#e2e8f0] text-[#070707] text-sm rounded-sm block w-full py-2.5 px-4 mb-3"
+                placeholder="Name" required />
+              <input type="text" id="bussines_email"
+                class="bg-[#fcfcfc] border border-[#e2e8f0] text-[#070707] text-sm rounded-sm block w-full py-2.5 px-4 mb-3"
+                placeholder="Business Email" required />
+              <input type="text" id="password"
+                class="bg-[#fcfcfc] border border-[#e2e8f0] text-[#070707] text-sm rounded-sm block w-full py-2.5 px-4 mb-5"
+                placeholder="Password" required />
+              <h5 class="text-base p-4 text-[#2b333f] bg-[#f1f9ff] font-[roboto-medium] mb-3">
+                STEP #2: Payment Information
+              </h5>
+              <input type="text" id="card"
+                class="bg-[#fcfcfc] border border-[#e2e8f0] text-[#070707] text-sm rounded-sm block w-full py-2.5 px-4 mb-3"
+                placeholder="Name on Card" required />
+              <input type="number" id="card_number"
+                class="bg-[#fcfcfc] border border-[#e2e8f0] text-[#070707] text-sm rounded-sm block w-full py-2.5 px-4 mb-3"
+                placeholder="Card Number" required />
+              <h6 class="text-sm mb-5">
+                Have a coupon?
+                <a href="#" class="text-[#1885f2]">Click here</a> to enter your
+                code.
+              </h6>
+              <h5 class="text-base p-4 text-[#2b333f] bg-[#f1f9ff] font-[roboto-medium] mb-3">
+                Order Summary
+              </h5>
+              <div class="flex justify-between items-center border-l border-r border-t px-4 py-3">
+                <h5 class="text-sm text-[#2b333f] font-[roboto-medium]">
+                  My Web Audit Starter Annual Plan
+                </h5>
+                <h6 class="text-[#20c85f]">
+                  <strike class="text-[red] font-light">$480</strike> $400 / Year
+                </h6>
+              </div>
+              <div class="flex justify-between items-center border-[#ddd] bg-[#ececec] px-4 py-3 mb-5">
+                <h5 class="text-sm text-[#2b333f] font-[roboto-medium]">
+                  Total:
+                </h5>
+                <h6 class="text-[#20c85f]">$400 / Year</h6>
+              </div>
 
-      $(document).ready(function () {
-        $("ul li.mwa-text-active").click(function () {
-          $("ul li.mwa-text-active").removeClass("active");
-          $(this).addClass("active");
-        });
-      });
-    </script>
+              <div class="flex items-center mb-4">
+                <input checked id="checked-checkbox" type="checkbox" value=""
+                  class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm" />
+                <label for="checked-checkbox" class="ml-2 text-sm text-[#2b333f] font-[roboto-regural]">
+                  You agree to the our
+                  <a href="#" class="text-[#1885f2]">Terms of Service</a> &
+                  <a href="" class="text-[#1885f2]">Privacy Notice</a></label>
+              </div>
 
-    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
-  </body>
+              <div class="flex items-center mb-5">
+                <input checked id="checked-checkbox" type="checkbox" value=""
+                  class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm" />
+                <label for="checked-checkbox" class="ml-2 text-sm text-[#2b333f] font-[roboto-regural]">
+                  You agree to receive email communications from us</label>
+              </div>
+              <button type="button"
+                class="w-full text-white bg-[#0bc85f] font-medium rounded-sm text-base py-3 mt-2 mb-5">
+                Place Order Now
+              </button>
+              <img class="max-w-[162px] mx-auto" src="../src/assets/mwa-signup/cards.png" alt="" />
+            </div>
+            <div class="w-[47%]">
+              <h2 class="text-lg leading-7 font-[roboto-medium] text-[#2b333f] mb-4">
+                Here's some of the exclusive bonuses you're getting with your
+                subscription.
+              </h2>
+              <div class="flex justify-between items-start mb-5">
+                <div class="flex justify-start items-center gap-3">
+                  <img class="" src="../src/assets/mysiteauditor/checkmark-green-style.svg" alt="" />
+                  <p class="text-[16px] leading-5 font-[roboto-regural] text-[#3d3e40]">
+                    Call Script & Email Templates
+                  </p>
+                </div>
+                <h5 class="text-[#20c85f] text-base">
+                  <b class="font-[roboto-bold]">$999</b>
+                </h5>
+              </div>
+              <div class="flex justify-between items-start mb-5">
+                <div class="flex justify-start items-center gap-3">
+                  <img class="" src="../src/assets/mysiteauditor/checkmark-green-style.svg" alt="" />
+                  <p class="text-[16px] leading-5 font-[roboto-regural] text-[#3d3e40]">
+                    Audit LP Offer & Upsell Copy
+                  </p>
+                </div>
+                <h5 class="text-[#20c85f] text-base">
+                  <b class="font-[roboto-bold]">$999</b>
+                </h5>
+              </div>
+              <div class="flex justify-between items-start mb-5">
+                <div class="flex justify-start items-center gap-3">
+                  <img class="" src="../src/assets/mysiteauditor/checkmark-green-style.svg" alt="" />
+                  <p class="text-[16px] leading-5 font-[roboto-regural] text-[#3d3e40]">
+                    Close More Deals Webinar
+                  </p>
+                </div>
+                <h5 class="text-[#20c85f] text-base">
+                  <b class="font-[roboto-bold]">$199</b>
+                </h5>
+              </div>
+              <div class="flex justify-between items-start mb-5">
+                <div class="flex justify-start items-center gap-3">
+                  <img class="" src="../src/assets/mysiteauditor/checkmark-green-style.svg" alt="" />
+                  <p class="text-[16px] leading-5 font-[roboto-regural] text-[#3d3e40]">
+                    Private FB Mastermind Group
+                  </p>
+                </div>
+                <h5 class="text-[#20c85f] text-base">
+                  <b class="font-[roboto-bold]">$999</b>
+                </h5>
+              </div>
+              <div class="py-5 px-5 flex items-center justify-between relative z-20 m-auto lg-audit-deal my-8 gap-6">
+                <img class="w-[125px]" src="https://ywusq.s3-us-west-2.amazonaws.com/img/risk-free.png" alt="logo" />
+                <div>
+                  <h4 class="font-[roboto-bold] text-[22px]">7-Day Guarantee</h4>
+                  <p class="text-base font-[roboto-regural] my-3 text-[#273a50]">
+                    Your purchase is 100% protected by our no hassle, no questions
+                    7-Day Money Back Guarantee.
+                  </p>
+                </div>
+              </div>
+              <div class="pb-7 border-b-2 border-[#e2e8f0] mb-5">
+                <p class="text-[#2b333f] font-[roboto-regural] italic text-[15px] leading-7">
+                  I recently subscribed to my web audit and out of the five
+                  website audits I sent out today, I've already secured two new
+                  clients. The other three haven't read the email yet but wow 🤩
+                </p>
+                <div class="flex justify-start items-center gap-3 mt-4">
+                  <img class="rounded-full w-[40px]" src="../src/assets/success-stories/kreete-tokman.png" alt="" />
+                  <strong class="text-[#0b5071] text-base font-[roboto-medium]">Kreete Tokman</strong>
+                </div>
+              </div>
+              <div class="pb-7 border-b-2 border-[#e2e8f0] mb-5">
+                <p class="text-[#2b333f] font-[roboto-regural] italic text-[15px] leading-7">
+                  It has increased our project revenue and allowed us to win
+                  projects of over 15k to 20k in total since we start using My Web
+                  Audit.
+                </p>
+                <div class="flex justify-start items-center gap-3 mt-4">
+                  <img class="rounded-full w-[40px]" src="../src/assets/success-stories/mark-werle.jpeg" alt="" />
+                  <strong class="text-[#0b5071] text-base font-[roboto-medium]">Mark Werle</strong>
+                </div>
+              </div>
+              <div>
+                <p class="text-[#2b333f] font-[roboto-regural] italic text-[15px] leading-7">
+                  My Web Audit helped us close over $4,500 in new business in the
+                  first 90 days! We’ve sold these audits for as high as $1,000
+                  each and clients love them! My Web Audit provides the
+                  plug-and-play framework to produce quick, professional, and
+                  customizable audits to get more business.
+                </p>
+                <div class="flex justify-start items-center gap-3 mt-4">
+                  <img class="rounded-full w-[40px]" src="../src/assets/success-stories/david-wauters.jpeg" alt="" />
+                  <strong class="text-[#0b5071] text-base font-[roboto-medium]">
+                    David Wauters</strong>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </section>
+      <section class="bg-[#fafafb] py-[10px] text-xs text-center text-[#515a67] font-[roboto-regural] relative z-20">
+        © 2023 MY WEB AUDIT. A <a rel="nofollow" target="_blank" href="https://www.hireawiz.com/"
+          title="HireAWiz">HIREAWIZ</a> VENTURE.
+      </section>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 6,
+      spaceBetween: 40,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    $(document).ready(function () {
+      $("ul li.mwa-text-active").click(function () {
+        $("ul li.mwa-text-active").removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+  </script>
+
+  <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+
 </html>
