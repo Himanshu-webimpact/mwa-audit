@@ -92,7 +92,7 @@ const content = data
     (item) => `   
                 
 
-  <div class="w-[47.4%] my-7">
+  <div class="lg:w-[47.4%] my-7 w-[100%] md:px-0 px-[15px] ">
               <img
               class="border border-[#e8e8e8]"
                 src="${item.src}"
@@ -104,8 +104,8 @@ const content = data
                   >Clifford Almeida</span
                 >
               </div>
-              <h2 class="mt-3 text-[#1b75bb] text-2xl font-[poppins-medium]">${item.heading}</h2>
-              <p class="mt-3 text-lg font-[roboto-light] text-[#004053]">${item.para}</p>
+              <h2 class="mt-5 text-[#1b75bb] text-xl  md:text-2xl font-[poppins-medium]">${item.heading}</h2>
+              <p class="mt-6 md:text-lg  font-[roboto-light] text-[#004053]">${item.para}</p>
               <button
               type="button"
               onclick="window.location.href='#';"
