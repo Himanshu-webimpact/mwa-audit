@@ -57,7 +57,9 @@
 .box-shadow-mwa-signup-offer{
   box-shadow: 0 0 150px 10px rgb(0 0 0 / 12%);
 }
-
+.box-shadow-header-mega-menu{
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+}
 .playbook-hero-section {
   background: url(../src/assets/playbooks/playbook-header-background.svg) 0 -130px/100% auto #f7f7f7;
 }
