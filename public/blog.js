@@ -3,6 +3,7 @@ const data = [
     src: "../src/assets/blog/ultimate-guide-to-chatgpt-for-agencies.jpeg",
     heading: "The Ultimate Guide to ChatGPT for Web Agencies",
     para: "Improve Your SEO, Quickly Create Content, Augment Your Marketing Team, And More — With The Power and Speed of Artificial Intelligence.",
+    link:"the-ultimate-guide-to-chatgpt-for-web-agencies.html",
   },
   {
     src: "../src/assets/blog/how-to-generate-more-leads-from-your-agency-website-cover.jpeg",
@@ -108,7 +109,7 @@ const content = data
               <p class="mt-6 md:text-lg  font-[roboto-light] text-[#004053]">${item.para}</p>
               <button
               type="button"
-              onclick="window.location.href='#';"
+              onclick="window.location.href='${item.link}';"
               class="py-3 !mt-5 !ml-0 text-sm  font-[roboto-regural] rounded-sm border-[#1b75bb] border text-[#1b75bb] w-[190px] btn-slider-animation"
             >
             Continue Reading
