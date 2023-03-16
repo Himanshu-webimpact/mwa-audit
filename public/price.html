@@ -34,7 +34,9 @@
       <header-component></header-component>
       <main class="md:pt-[90px]">
         <section class="price-section relative">
-          <div class="relative z-20 container xl:max-w-screen-xl mx-auto pt-8">
+          <div
+            class="relative z-20 container xl:max-w-screen-xl mx-auto pt-8 px-[15px]"
+          >
             <h3
               class="text-4xl text-[#2b333f] font-[poppins-medium] text-center"
             >
@@ -42,7 +44,7 @@
             </h3>
 
             <div
-              class="inline-flex rounded-md justify-center items-center lg:flex mx-auto mt-20 border-[#1885f2] border w-[295px] py-1"
+              class="rounded-md justify-center items-center lg:flex mx-auto mt-20 border-[#1885f2] border w-[295px] py-1"
               role="group"
             >
               <button
@@ -76,7 +78,7 @@
               >
                 <!-- Pricing Card -->
                 <div
-                  class="flex flex-col p-3 mx-auto max-w-lg text-gray-900 bg-white rounded-lg border border-[#eef2f6] shadow xl:p-6"
+                  class="flex flex-col p-6 mx-auto max-w-lg text-gray-900 bg-white rounded-lg border border-[#eef2f6] shadow"
                 >
                   <h3 class="mb-2 text-2xl font-semibold font-[poppins-medium]">
                     Starter
@@ -630,7 +632,7 @@
               </div>
             </div>
           </div>
-          <div class="py-2 relative z-20 w-[63%] m-auto">
+          <div class="py-2 relative z-20 mx-auto container xl:max-w-screen-xl">
             <h3
               class="text-[20px] text-center font-[poppins-medium] flex items-center justify-center flex-col gap-4 cursor-pointer"
             >
@@ -643,45 +645,47 @@
               /></a>
             </h3>
           </div>
-          <div
-            class="py-8 px-12 flex items-center justify-between gap-12 relative z-20 w-[57%] m-auto lg-audit-deal my-8 lg:w-[1084px]"
-          >
-            <div class="flex items-center justify-start w-[55%] gap-14">
-              <img
-                class="w-[135px]"
-                src="https://ywusq.s3-us-west-2.amazonaws.com/img/risk-free.png"
-                alt="logo"
-              />
-              <div>
-                <h4 class="font-[roboto-bold] text-[26px]">7-Day Guarantee</h4>
-                <p class="text-sm font-[roboto-regural] my-3">
-                  Your purchase is 100% protected by our no hassle, no questions
-                  7-Day Money Back Guarantee.
-                </p>
-              </div>
-            </div>
-            <div class="w-[30%] flex justify-end">
-              <button
-                type="button"
-                onclick="window.location.href='#feature-list-text';"
-                class="text-white bg-[#1b75bb] font-medium rounded-[3px] text-sm px-5 py-3.5 mr-2 mb-2"
+          <div class="container xl:max-w-screen-xl mx-auto px-[15px]">
+            <div
+              class="py-8 px-12 flex items-center justify-between xl:gap-12 lg:gap-7 gap-4 relative z-20 xl:w-[85%] w-full m-auto lg-audit-deal my-8 flex-col lg:flex-row"
+            >
+              <div
+                class="flex items-center justify-start w-full lg:w-[55%] xl:gap-14 gap-4"
               >
-                View and Compare All Plan Details
-              </button>
+                <img
+                  class="w-[135px]"
+                  src="https://ywusq.s3-us-west-2.amazonaws.com/img/risk-free.png"
+                  alt="logo"
+                />
+                <div>
+                  <h4 class="font-[roboto-bold] text-[26px]">
+                    7-Day Guarantee
+                  </h4>
+                  <p class="text-sm font-[roboto-regural] my-3">
+                    Your purchase is 100% protected by our no hassle, no
+                    questions 7-Day Money Back Guarantee.
+                  </p>
+                </div>
+              </div>
+              <div class="xl:w-[30%] w-[50%] flex justify-end">
+                <button
+                  type="button"
+                  onclick="window.location.href='#feature-list-text';"
+                  class="text-white bg-[#1b75bb] font-medium rounded-[3px] text-sm px-5 py-3.5 mr-2 mb-2"
+                >
+                  View and Compare All Plan Details
+                </button>
+              </div>
             </div>
           </div>
         </section>
-        <section>
+        <section class="container xl:max-w-screen-xl mx-auto px-[15px]">
           <div class="pt-8 text-center">
             <h3 class="text-3xl text-[#2b333f] font-[poppins-medium]">
               Our users love to rave about us
             </h3>
           </div>
-          <div
-            id="controls-carousel"
-            class="relative w-[65%] m-auto"
-            data-carousel="static"
-          >
+          <div id="controls-carousel" class="relative" data-carousel="static">
             <!-- Carousel wrapper -->
             <div class="relative h-56 overflow-hidden rounded-lg md:h-[38rem]">
               <!-- Item 1 -->
@@ -866,50 +870,466 @@
             </button>
           </div>
         </section>
-        <section class="w-[54%] m-auto py-12" id="feature-list-text">
-          <div
-            class="text-2xl flex justify-end items-center gap-24 mt-9 mb-4 mr-20"
-          >
-            <h2>Starter</h2>
-            <h2>
-              Pro<span
-                class="bg-[#139adc] py-[5px] px-[10px] ml-3 text-[#ffff] font-[roboto-light] text-xs w-[100px] tracking-wider rounded"
-                >Recommended</span
-              >
-            </h2>
-            <h2>Agency</h2>
-          </div>
-          <div id="accordion-collapse" data-accordion="collapse">
-            <h2 id="accordion-collapse-heading-1">
-              <button
-                type="button"
-                class="flex items-center gap-4 w-full py-5 font-medium text-left text-black border-t border-gray-200 !bg-none feature-list-audit-report"
-                data-accordion-target="#accordion-collapse-body-1"
-                aria-expanded="true"
-                aria-controls="accordion-collapse-body-1"
-              >
-                <svg
-                  data-accordion-icon
-                  class="w-6 h-6 -rotate-90 shrink-0"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span class="text-lg"> Audit Reports </span>
-              </button>
-            </h2>
+        <section
+          class="container xl:max-w-screen-xl m-auto py-12 px-[15px]"
+          id="feature-list-text"
+        >
+          <div class="xl:w-[85%] w-full mx-auto">
             <div
-              id="accordion-collapse-body-1"
-              class="hidden"
-              aria-labelledby="accordion-collapse-heading-1"
+              class="text-2xl flex justify-end items-center gap-24 mt-9 mb-4 mr-20"
             >
-              <div class="relative overflow-x-auto">
+              <h2>Starter</h2>
+              <h2>
+                Pro<span
+                  class="bg-[#139adc] py-[5px] px-[10px] ml-3 text-[#ffff] font-[roboto-light] text-xs w-[100px] tracking-wider rounded"
+                  >Recommended</span
+                >
+              </h2>
+              <h2>Agency</h2>
+            </div>
+            <div id="accordion-collapse" data-accordion="collapse">
+              <h2 id="accordion-collapse-heading-1">
+                <button
+                  type="button"
+                  class="flex items-center gap-4 w-full py-5 font-medium text-left text-black border-t border-gray-200 !bg-none feature-list-audit-report"
+                  data-accordion-target="#accordion-collapse-body-1"
+                  aria-expanded="true"
+                  aria-controls="accordion-collapse-body-1"
+                >
+                  <svg
+                    data-accordion-icon
+                    class="w-6 h-6 -rotate-90 shrink-0"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span class="text-lg"> Audit Reports </span>
+                </button>
+              </h2>
+              <div
+                id="accordion-collapse-body-1"
+                class="hidden"
+                aria-labelledby="accordion-collapse-heading-1"
+              >
+                <div class="relative overflow-x-auto">
+                  <table
+                    class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+                  >
+                    <tbody>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px] w-[44%]"
+                        >
+                          Website Audit
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                        >
+                          Landing Page Audit
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                        >
+                          Audit Chrome Extension
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                        >
+                          E-commerce Website Audit
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            class="opacity-20"
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                        >
+                          Website Accessibility Assessment Audit
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            class="opacity-20"
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                        >
+                          On Page SEO Audit
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            class="opacity-20"
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                        >
+                          Page Speed Insights Audit
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            class="opacity-20"
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                        >
+                          Lead Magnet: Page Speed
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            class="opacity-20"
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                        >
+                          Lead Magnet: Website
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            class="opacity-20"
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                        >
+                          Competitive Analysis Audit
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            class="opacity-20"
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                        >
+                          ROI Calculator & Audit
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            class="opacity-20"
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                        >
+                          Google Analytics KPI Audit
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            class="opacity-20"
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                        >
+                          WP Technical Audit
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            class="opacity-20"
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                        <th
+                          scope="row"
+                          class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                        >
+                          Google Business Profile Audit
+                        </th>
+                        <td class="px-6 py-4">
+                          <img
+                            class="opacity-20"
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                        <td class="px-6 py-4">
+                          <img
+                            src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                            alt="image-right"
+                          />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <h2 id="accordion-collapse-heading-2">
+                <button
+                  type="button"
+                  class="flex items-center w-full py-5 font-medium text-left text-black border-t border-gray-200 gap-4 feature-list-audit-report"
+                  data-accordion-target="#accordion-collapse-body-2"
+                  aria-expanded="false"
+                  aria-controls="accordion-collapse-body-2"
+                >
+                  <svg
+                    data-accordion-icon
+                    class="w-6 h-6 -rotate-90 shrink-0"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span class="text-lg"> Reporting Features </span>
+                </button>
+              </h2>
+              <div
+                id="accordion-collapse-body-2"
+                class="hidden"
+                aria-labelledby="accordion-collapse-heading-2"
+              >
                 <table
                   class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
                 >
@@ -919,7 +1339,7 @@
                         scope="row"
                         class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px] w-[44%]"
                       >
-                        Website Audit
+                        White Label Reporting
                       </th>
                       <td class="px-6 py-4">
                         <img
@@ -945,7 +1365,7 @@
                         scope="row"
                         class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
                       >
-                        Landing Page Audit
+                        HTML Reports
                       </th>
                       <td class="px-6 py-4">
                         <img
@@ -971,7 +1391,7 @@
                         scope="row"
                         class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
                       >
-                        Audit Chrome Extension
+                        Mobile Friendly Reports
                       </th>
                       <td class="px-6 py-4">
                         <img
@@ -997,12 +1417,12 @@
                         scope="row"
                         class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
                       >
-                        E-commerce Website Audit
+                        Audit Storage (90 days)
                       </th>
                       <td class="px-6 py-4">
                         <img
-                          class="opacity-20"
-                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                          class=""
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
                           alt="image-right"
                         />
                       </td>
@@ -1028,8 +1448,8 @@
                       </th>
                       <td class="px-6 py-4">
                         <img
-                          class="opacity-20"
-                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                          class=""
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
                           alt="image-right"
                         />
                       </td>
@@ -1051,7 +1471,35 @@
                         scope="row"
                         class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
                       >
-                        On Page SEO Audit
+                        Add Your Own Audit Points
+                      </th>
+                      <td class="px-6 py-4">
+                        <img
+                          class=""
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                    </tr>
+
+                    <tr class="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                      >
+                        Create Your Own Report Template
                       </th>
                       <td class="px-6 py-4">
                         <img
@@ -1078,7 +1526,7 @@
                         scope="row"
                         class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
                       >
-                        Page Speed Insights Audit
+                        Export to Google Doc
                       </th>
                       <td class="px-6 py-4">
                         <img
@@ -1105,7 +1553,7 @@
                         scope="row"
                         class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
                       >
-                        Lead Magnet: Page Speed
+                        Export to PDF
                       </th>
                       <td class="px-6 py-4">
                         <img
@@ -1132,7 +1580,7 @@
                         scope="row"
                         class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
                       >
-                        Lead Magnet: Website
+                        Export to Excel
                       </th>
                       <td class="px-6 py-4">
                         <img
@@ -1159,7 +1607,7 @@
                         scope="row"
                         class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
                       >
-                        Competitive Analysis Audit
+                        Export to PowerPoint
                       </th>
                       <td class="px-6 py-4">
                         <img
@@ -1186,88 +1634,7 @@
                         scope="row"
                         class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
                       >
-                        ROI Calculator & Audit
-                      </th>
-                      <td class="px-6 py-4">
-                        <img
-                          class="opacity-20"
-                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                          alt="image-right"
-                        />
-                      </td>
-                      <td class="px-6 py-4">
-                        <img
-                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                          alt="image-right"
-                        />
-                      </td>
-                      <td class="px-6 py-4">
-                        <img
-                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                          alt="image-right"
-                        />
-                      </td>
-                    </tr>
-                    <tr class="bg-white dark:bg-gray-800">
-                      <th
-                        scope="row"
-                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                      >
-                        Google Analytics KPI Audit
-                      </th>
-                      <td class="px-6 py-4">
-                        <img
-                          class="opacity-20"
-                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                          alt="image-right"
-                        />
-                      </td>
-                      <td class="px-6 py-4">
-                        <img
-                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                          alt="image-right"
-                        />
-                      </td>
-                      <td class="px-6 py-4">
-                        <img
-                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                          alt="image-right"
-                        />
-                      </td>
-                    </tr>
-                    <tr class="bg-white dark:bg-gray-800">
-                      <th
-                        scope="row"
-                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                      >
-                        WP Technical Audit
-                      </th>
-                      <td class="px-6 py-4">
-                        <img
-                          class="opacity-20"
-                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                          alt="image-right"
-                        />
-                      </td>
-                      <td class="px-6 py-4">
-                        <img
-                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                          alt="image-right"
-                        />
-                      </td>
-                      <td class="px-6 py-4">
-                        <img
-                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                          alt="image-right"
-                        />
-                      </td>
-                    </tr>
-                    <tr class="bg-white dark:bg-gray-800">
-                      <th
-                        scope="row"
-                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                      >
-                        Google Business Profile Audit
+                        White Label Domain
                       </th>
                       <td class="px-6 py-4">
                         <img
@@ -1292,796 +1659,442 @@
                   </tbody>
                 </table>
               </div>
-            </div>
-            <h2 id="accordion-collapse-heading-2">
-              <button
-                type="button"
-                class="flex items-center w-full py-5 font-medium text-left text-black border-t border-gray-200 gap-4 feature-list-audit-report"
-                data-accordion-target="#accordion-collapse-body-2"
-                aria-expanded="false"
-                aria-controls="accordion-collapse-body-2"
-              >
-                <svg
-                  data-accordion-icon
-                  class="w-6 h-6 -rotate-90 shrink-0"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
+              <h2 id="accordion-collapse-heading-3">
+                <button
+                  type="button"
+                  class="flex items-center gap-4 w-full py-5 font-medium text-left text-black border-t border-gray-200 feature-list-audit-report"
+                  data-accordion-target="#accordion-collapse-body-3"
+                  aria-expanded="false"
+                  aria-controls="accordion-collapse-body-3"
                 >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span class="text-lg"> Reporting Features </span>
-              </button>
-            </h2>
-            <div
-              id="accordion-collapse-body-2"
-              class="hidden"
-              aria-labelledby="accordion-collapse-heading-2"
-            >
-              <table
-                class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+                  <svg
+                    data-accordion-icon
+                    class="w-6 h-6 -rotate-90 shrink-0"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span class="text-lg">Sales & Marketing Features</span>
+                </button>
+              </h2>
+              <div
+                id="accordion-collapse-body-3"
+                class="hidden"
+                aria-labelledby="accordion-collapse-heading-3"
               >
-                <tbody>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px] w-[44%]"
-                    >
-                      White Label Reporting
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      HTML Reports
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Mobile Friendly Reports
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Audit Storage (90 days)
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class=""
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Website Accessibility Assessment Audit
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class=""
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Add Your Own Audit Points
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class=""
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Create Your Own Report Template
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class="opacity-20"
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Export to Google Doc
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class="opacity-20"
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Export to PDF
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class="opacity-20"
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Export to Excel
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class="opacity-20"
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Export to PowerPoint
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class="opacity-20"
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      White Label Domain
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class="opacity-20"
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <h2 id="accordion-collapse-heading-3">
-              <button
-                type="button"
-                class="flex items-center gap-4 w-full py-5 font-medium text-left text-black border-t border-gray-200 feature-list-audit-report"
-                data-accordion-target="#accordion-collapse-body-3"
-                aria-expanded="false"
-                aria-controls="accordion-collapse-body-3"
-              >
-                <svg
-                  data-accordion-icon
-                  class="w-6 h-6 -rotate-90 shrink-0"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
+                <table
+                  class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
                 >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span class="text-lg">Sales & Marketing Features</span>
-              </button>
-            </h2>
-            <div
-              id="accordion-collapse-body-3"
-              class="hidden"
-              aria-labelledby="accordion-collapse-heading-3"
-            >
-              <table
-                class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
-              >
-                <tbody>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px] w-[44%]"
-                    >
-                      Reviews, Trust Factors & CTA's
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Notifications & Link Tracking
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Email Templates
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Email Lead Nurturing
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class="opacity-20"
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Personalize Audit Points & Messaging
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class="opacity-20"
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Embeddable Website Audit Form
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class="opacity-20"
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Embeddable ROI Calculator Form
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class="opacity-20"
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Chat App Integration
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class="opacity-20"
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      3rd Party Integrations W/ Zapier
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class="opacity-20"
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
-                    >
-                      Remarketing Pixels
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        class="opacity-20"
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <h2 id="accordion-collapse-heading-4">
-              <button
-                type="button"
-                class="flex items-center gap-4 w-full py-5 font-medium text-left text-black border-t border-gray-200 feature-list-audit-report"
-                data-accordion-target="#accordion-collapse-body-4"
-                aria-expanded="false"
-                aria-controls="accordion-collapse-body-4"
-              >
-                <svg
-                  data-accordion-icon
-                  class="w-6 h-6 -rotate-90 shrink-0"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
+                  <tbody>
+                    <tr class="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px] w-[44%]"
+                      >
+                        Reviews, Trust Factors & CTA's
+                      </th>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                    </tr>
+                    <tr class="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                      >
+                        Notifications & Link Tracking
+                      </th>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                    </tr>
+                    <tr class="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                      >
+                        Email Templates
+                      </th>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                    </tr>
+                    <tr class="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                      >
+                        Email Lead Nurturing
+                      </th>
+                      <td class="px-6 py-4">
+                        <img
+                          class="opacity-20"
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                    </tr>
+                    <tr class="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                      >
+                        Personalize Audit Points & Messaging
+                      </th>
+                      <td class="px-6 py-4">
+                        <img
+                          class="opacity-20"
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                    </tr>
+                    <tr class="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                      >
+                        Embeddable Website Audit Form
+                      </th>
+                      <td class="px-6 py-4">
+                        <img
+                          class="opacity-20"
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                    </tr>
+                    <tr class="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                      >
+                        Embeddable ROI Calculator Form
+                      </th>
+                      <td class="px-6 py-4">
+                        <img
+                          class="opacity-20"
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                    </tr>
+                    <tr class="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                      >
+                        Chat App Integration
+                      </th>
+                      <td class="px-6 py-4">
+                        <img
+                          class="opacity-20"
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                    </tr>
+                    <tr class="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                      >
+                        3rd Party Integrations W/ Zapier
+                      </th>
+                      <td class="px-6 py-4">
+                        <img
+                          class="opacity-20"
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                    </tr>
+                    <tr class="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px]"
+                      >
+                        Remarketing Pixels
+                      </th>
+                      <td class="px-6 py-4">
+                        <img
+                          class="opacity-20"
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <h2 id="accordion-collapse-heading-4">
+                <button
+                  type="button"
+                  class="flex items-center gap-4 w-full py-5 font-medium text-left text-black border-t border-gray-200 feature-list-audit-report"
+                  data-accordion-target="#accordion-collapse-body-4"
+                  aria-expanded="false"
+                  aria-controls="accordion-collapse-body-4"
                 >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span class="text-lg">Setup & Support</span>
-              </button>
-            </h2>
-            <div
-              id="accordion-collapse-body-4"
-              class="hidden"
-              aria-labelledby="accordion-collapse-heading-4"
-            >
-              <table
-                class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+                  <svg
+                    data-accordion-icon
+                    class="w-6 h-6 -rotate-90 shrink-0"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span class="text-lg">Setup & Support</span>
+                </button>
+              </h2>
+              <div
+                id="accordion-collapse-body-4"
+                class="hidden"
+                aria-labelledby="accordion-collapse-heading-4"
               >
-                <tbody>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px] w-[44%]"
-                    >
-                      Priority Email & Chat Support
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                  </tr>
-                  <tr class="bg-white dark:bg-gray-800">
-                    <th
-                      scope="row"
-                      class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px] w-[40%]"
-                    >
-                      Concierge Setup & 1-on-1 Product Walkthrough
-                    </th>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <img
-                        src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
-                        alt="image-right"
-                      />
-                    </td>
-                    <td class="px-6 py-4">
-                      <p>Annual</p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                <table
+                  class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+                >
+                  <tbody>
+                    <tr class="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px] w-[44%]"
+                      >
+                        Priority Email & Chat Support
+                      </th>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                    </tr>
+                    <tr class="bg-white dark:bg-gray-800">
+                      <th
+                        scope="row"
+                        class="pr-6 pl-10 py-4 font-normal text-gray-900 whitespace-nowrap dark:text-white text-[15px] w-[40%]"
+                      >
+                        Concierge Setup & 1-on-1 Product Walkthrough
+                      </th>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/cross-icon.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <img
+                          src="https://ywusq.s3-us-west-2.amazonaws.com/img/green-checkmark.svg"
+                          alt="image-right"
+                        />
+                      </td>
+                      <td class="px-6 py-4">
+                        <p>Annual</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </section>
         <section class="bg-[#fafafa]">
-          <div class="py-[40px] w-[63%] text-center m-auto">
-            <h3 class="text-[#2b333f] text-[26px] font-[poppins-medium]">
-              Still exploring My Web Audit?
-            </h3>
-            <h3 class="text-[#2b333f] text-[26px] font-[poppins-medium]">
-              Select an option below to learn more.
-            </h3>
-            <div class="flex justify-center gap-12 items-center my-8">
-              <div>
-                <button
-                  type="button"
-                  onclick="window.location.href='/public/sample.html';"
-                  class="py-3.5 px-10 text-sm font-medium text-gray-900 rounded-sm border-[#1b75bb] border text-[#1b75bb] w-[260px] btn-slider-animation"
-                >
-                  View All Audits
-                </button>
-              </div>
-              <div>
-                <button
-                  type="button"
-                  onclick="window.location.href='/public/feature.html';"
-                  class="py-3.5 px-10 text-sm font-medium text-gray-900 rounded-sm border-[#1b75bb] border text-[#1b75bb] w-[260px] btn-slider-animation"
-                >
-                  View Features
-                </button>
-              </div>
-              <div>
-                <button
-                  type="button"
-                  onclick="window.location.href='/public/blog.html';"
-                  class="py-3.5 px-10 text-sm font-medium text-gray-900 rounded-sm border-[#1b75bb] border text-[#1b75bb] w-[260px] btn-slider-animation"
-                >
-                  View Free Resources
-                </button>
+          <div
+            class="py-[40px] text-center mx-auto container xl:max-w-screen-xl"
+          >
+            <div class="xl:w-[78%] mx-auto">
+              <h3 class="text-[#2b333f] text-[26px] font-[poppins-medium]">
+                Still exploring My Web Audit?
+              </h3>
+              <h3 class="text-[#2b333f] text-[26px] font-[poppins-medium]">
+                Select an option below to learn more.
+              </h3>
+              <div class="flex justify-center gap-12 items-center my-8 flex-wrap">
+                <div>
+                  <button
+                    type="button"
+                    onclick="window.location.href='/public/sample.html';"
+                    class="py-3.5 px-10 text-sm font-medium  rounded-sm border-[#1b75bb] border text-[#1b75bb] w-[260px] btn-slider-animation"
+                  >
+                    View All Audits
+                  </button>
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    onclick="window.location.href='/public/feature.html';"
+                    class="py-3.5 px-10 text-sm font-medium rounded-sm border-[#1b75bb] border text-[#1b75bb] w-[260px] btn-slider-animation"
+                  >
+                    View Features
+                  </button>
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    onclick="window.location.href='/public/blog.html';"
+                    class="py-3.5 px-10 text-sm font-medium  rounded-sm border-[#1b75bb] border text-[#1b75bb] w-[260px] btn-slider-animation"
+                  >
+                    View Free Resources
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </section>
-        <section>
-          <div class="w-[54%] m-auto py-7">
+        <section class="container xl:max-w-screen-xl mx-auto px-[15px]">
+          <div class="xl:w-[80%] m-auto py-7">
             <h3
               class="text-[26px] font-[poppins-medium] text-[#2b333f] text-center"
             >
