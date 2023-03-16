@@ -115,7 +115,7 @@
                     </div>
                 </div>
                 <div
-                    class="flex items-center justify-between z-10 relative py-12 flex-wrap flex-col-reverse lg:flex-nowrap lg:flex-row container xl:max-w-screen-xl m-auto">
+                    class="flex items-center justify-between z-10 relative py-12 flex-wrap flex-col lg:flex-nowrap lg:flex-row container xl:max-w-screen-xl m-auto">
                     <div class="lg:w-[46%] w-[90%] m-auto md:m-0">
                         <img class="max-w-full" src="../src/assets/landing-page/run-a-landing-page-audit.png" alt="" />
                     </div>
@@ -168,8 +168,8 @@
                     </div>
                 </div>
             </section>
-            <section>
-                <div class="w-[54%] m-auto py-7">
+            <section class="container xl:max-w-screen-xl mx-auto px-4 md:px-0">
+                <div class="lg:w-[80%] w-[100%]  m-auto py-7">
                     <h3 class="text-[26px] font-[poppins-medium] text-[#2b333f] text-center">
                         Landing Page Audit FAQ
                     </h3>
@@ -763,8 +763,8 @@
                     Related Audit Reports
                 </h2>
             </div>
-            <section class="container xl:max-w-screen-xl m-auto mb-8">
-                <div class=" xl:w-[93%] w-[90%] m-auto  relative z-20">
+            <section class="container xl:max-w-screen-xl m-auto mb-8 px-4 md:px-0">
+                <div class=" xl:w-[93%] w-[100%] m-auto  relative z-20">
                     <div class="flex items-center justify-center">
                         <div class="swiper mySwiper my-10 !py-4  !mx-[3.25rem]">
                             <div class="swiper-wrapper px-2">
@@ -1027,8 +1027,13 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 40,
+            breakpoints: {
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    }},
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",

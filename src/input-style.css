@@ -143,19 +143,6 @@
   position: relative;
 }
 
-.playbooks-list::before {
-  content: "";
-  position: absolute;
-  z-index: 0;
-  background: #daeffa;
-  left: 15px;
-  right: -15px;
-  top: 15px;
-  bottom: -15px;
-  border-radius: 8px;
-  height: auto;
-  width: auto;
-}
 
 .mwa-text-active.active::after {
   width: 100%;
@@ -815,6 +802,19 @@ height:20px;
     content: "";
   }
 
+  .playbooks-list::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    background: #daeffa;
+    left: 15px;
+    right: -25px;
+    top: 20px;
+    bottom: -15px;
+    border-radius: 8px;
+    height: auto;
+    width: auto;
+  }
   .close-more-hero-section::before {
     background: #fbfbfb;
     transform: skewY(10deg) scaleY(1);
@@ -1123,6 +1123,9 @@ height:20px;
   }
   p {
     font-size: 18px !important;
+  }
+  .swiper-slide {
+    width: 100% !important;
   }
 }
 

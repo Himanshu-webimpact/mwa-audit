@@ -118,7 +118,7 @@
         </div>
       </section>
       <section class="container xl:max-w-screen-xl m-auto mb-8">
-        <div class=" xl:w-[93%] w-[90%] m-auto  relative z-20">
+        <div class=" xl:w-[93%] w-[98%] m-auto  relative z-20">
           <div class="flex items-center justify-center">
             <div class="swiper mySwiper my-10 !py-4  !mx-[3.25rem]">
               <div class="swiper-wrapper px-2">
@@ -360,8 +360,13 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 40,
+      breakpoints: {
+    1024: {
       slidesPerView: 2,
       spaceBetween: 40,
+    }},
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -370,6 +375,7 @@
         el: ".swiper-pagination",
         clickable: true,
       },
+     
     });
 
     $(document).ready(function () {

@@ -10,7 +10,7 @@ class Header extends HTMLElement {
          class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900  m-auto py-3 fixed top-0 w-[100%] z-50 "
        >
          <div
-           class="flex flex-wrap justify-between items-center mx-auto xl:max-w-screen-xl  py-2.5   container"
+           class="flex flex-wrap justify-between items-center mx-auto xl:max-w-screen-xl  py-2.5   container px-[15px]"
          >
            <a href="/public/home.html" class="flex items-center">
              <img

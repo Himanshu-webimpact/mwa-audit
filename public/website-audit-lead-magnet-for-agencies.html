@@ -82,8 +82,8 @@
                     </h2>
                 </div>
             </section>
-            <section class="container xl:max-w-screen-xl m-auto mb-8">
-                <div class=" xl:w-[93%] w-[90%] m-auto  relative z-20">
+            <section class="container xl:max-w-screen-xl m-auto mb-8 py-4 md:py-0">
+                <div class=" xl:w-[93%] w-[100%] m-auto  relative z-20">
                     <div class="flex items-center justify-center">
                         <div class="swiper mySwiper my-10 !py-4  !mx-[3.25rem]">
                             <div class="swiper-wrapper px-2">
@@ -341,8 +341,13 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 40,
+            breakpoints: {
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    }},
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
