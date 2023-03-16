@@ -1470,16 +1470,12 @@ input:checked + .toggle-bg {
   margin-bottom: 15px;
 }
 
-.ml-1 {
-  margin-left: 0.25rem;
+.ml-8 {
+  margin-left: 2rem;
 }
 
-.mb-\[6px\] {
-  margin-bottom: 6px;
-}
-
-.ml-4 {
-  margin-left: 1rem;
+.mb-\[5px\] {
+  margin-bottom: 5px;
 }
 
 .ml-\[15px\] {
@@ -1490,24 +1486,20 @@ input:checked + .toggle-bg {
   margin-bottom: 10px;
 }
 
-.ml-8 {
-  margin-left: 2rem;
-}
-
-.mb-\[5px\] {
-  margin-bottom: 5px;
-}
-
-.mb-\[1opx\] {
-  margin-bottom: 1opx;
+.mb-\[18px\] {
+  margin-bottom: 18px;
 }
 
 .ml-9 {
   margin-left: 2.25rem;
 }
 
-.mb-\[18px\] {
-  margin-bottom: 18px;
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.mb-\[6px\] {
+  margin-bottom: 6px;
 }
 
 .block {
@@ -2529,6 +2521,11 @@ input:checked + .toggle-bg {
   border-color: rgb(218 218 218 / var(--tw-border-opacity));
 }
 
+.border-\[\#0a96da\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(10 150 218 / var(--tw-border-opacity));
+}
+
 .border-blue-700 {
   --tw-border-opacity: 1;
   border-color: rgb(26 86 219 / var(--tw-border-opacity));
@@ -2546,11 +2543,6 @@ input:checked + .toggle-bg {
 
 .border-\[\#e0e6e999\] {
   border-color: #e0e6e999;
-}
-
-.border-\[\#0a96da\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(10 150 218 / var(--tw-border-opacity));
 }
 
 .border-l-\[\#62bb72\] {
@@ -3598,18 +3590,14 @@ input:checked + .toggle-bg {
   color: rgb(149 165 164 / var(--tw-text-opacity));
 }
 
-.text-\[\#21323b\] {
-  --tw-text-opacity: 1;
-  color: rgb(33 50 59 / var(--tw-text-opacity));
-}
-
 .text-\[\#1695e4\] {
   --tw-text-opacity: 1;
   color: rgb(22 149 228 / var(--tw-text-opacity));
 }
 
-.text-\[\] {
-  color: ;
+.text-\[\#21323b\] {
+  --tw-text-opacity: 1;
+  color: rgb(33 50 59 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -4004,7 +3992,7 @@ input:checked + .toggle-bg {
   content: "";
 }
 
-.ultimate-guide-chatgpt-table{
+.ultimate-guide-chatgpt-table {
   color: #fff;
   background: #b3b4b5;
   margin: 0 20px 15px 0;
@@ -4018,12 +4006,24 @@ input:checked + .toggle-bg {
   transform: rotate(180deg);
   direction: ltr;
   text-align: center;
-  font-family: 'robotomedium';
+  font-family: "robotomedium";
   min-height: 441px;
 }
 
 .arrow-bounce {
   animation: features-arrow-bounce 2s infinite;
+}
+
+.footer-success-stories-page {
+  padding-bottom: 2px;
+  border-bottom: 2px solid;
+  -o-border-image: linear-gradient(to right, #00d2ff, #3a7bd5);
+     border-image: linear-gradient(to right, #00d2ff, #3a7bd5);
+  border-image-slice: 1;
+  text-decoration: none;
+  display: inline;
+  animation: text-deco-underline-gradient 1.5s linear infinite;
+  color: inherit;
 }
 
 @keyframes features-arrow-bounce {

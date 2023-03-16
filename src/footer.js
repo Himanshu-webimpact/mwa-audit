@@ -9,7 +9,7 @@ class Footer extends HTMLElement {
       <h2
         class="text-[22px] text-[#2b333f] text-center my-4 font-[poppins-medium]"
       >
-        View Our Case Studies Below Or Visit Our Success Stories Page >>
+        View Our Case Studies Below Or Visit <a class="footer-success-stories-page hover:text-[#0d96df]" href="success-stories.html"> Our Success Stories Page >></a>
       </h2>
 
       <div

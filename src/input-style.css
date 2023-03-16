@@ -297,25 +297,36 @@
   width: 100%;
   content: "";
 }
-.ultimate-guide-chatgpt-table{
+.ultimate-guide-chatgpt-table {
   color: #fff;
-    background: #b3b4b5;
-    margin: 0 20px 15px 0;
-    padding: 15px 6px;
-    font-size: 22px;
-    letter-spacing: 0.6px;
-    width: 54px;
-    min-width: 54px;
-    writing-mode: vertical-lr;
-    text-orientation: sideways;
-    transform: rotate(180deg);
-    direction: ltr;
-    text-align: center;
-    font-family: 'robotomedium';
- min-height: 441px; 
+  background: #b3b4b5;
+  margin: 0 20px 15px 0;
+  padding: 15px 6px;
+  font-size: 22px;
+  letter-spacing: 0.6px;
+  width: 54px;
+  min-width: 54px;
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+  transform: rotate(180deg);
+  direction: ltr;
+  text-align: center;
+  font-family: "robotomedium";
+  min-height: 441px;
 }
 .arrow-bounce {
   animation: features-arrow-bounce 2s infinite;
+}
+.footer-success-stories-page {
+  padding-bottom: 2px;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, #00d2ff, #3a7bd5);
+  border-image-slice: 1;
+  text-decoration: none;
+  display: inline;
+  -webkit-animation: text-deco-underline-gradient 1.5s linear infinite;
+  animation: text-deco-underline-gradient 1.5s linear infinite;
+  color: inherit;
 }
 
 @keyframes features-arrow-bounce {
@@ -909,8 +920,6 @@ height:20px;
     content: "";
     height: 100%;
   }
-
- 
 
   .mwa-text-active::before {
     position: absolute;
