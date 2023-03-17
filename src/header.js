@@ -17,6 +17,7 @@ class Header extends HTMLElement {
                src="../src/assets/logo/MyWebAudit Logo in Dark Gray.png"
                class="h-7 mr-3 xl:h-10"
                alt="my web audit Logo"
+               title="My Web Audit"
              />
            </a>
            <button

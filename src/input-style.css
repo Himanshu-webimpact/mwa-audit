@@ -41,8 +41,6 @@
   );
 }
 
-
-
 .box-shadow {
   box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
 }
@@ -65,6 +63,20 @@
 .playbook-hero-section {
   background: url(../src/assets/playbooks/playbook-header-background.svg) 0 -130px/100%
     auto #f7f7f7;
+}
+.home-page-success-caurosal .ease-in{
+transition-timing-function: none !important;
+}
+.home-page-success-caurosal .duration-100{
+  transition-duration: 0s !important;
+}
+.home-page-success-caurosal .transition-transform{
+  transition-property: none !important;
+  transition-timing-function: cubic-bezier(0, 0, 0, 0) !important;
+  transition-duration: 0 !important;
+}
+.home-page-success-caurosal .transform{
+  opacity: 1;
 }
 
 .transition-roadmap {
@@ -140,7 +152,6 @@
 .playbooks-list {
   position: relative;
 }
-
 
 .mwa-text-active.active::after {
   width: 100%;
@@ -770,9 +781,11 @@ height:20px;
 .swiper-pagination-bullet-active {
   background-color: #0d96df !important;
 }
-@media screen and (min-width: 1280px) {.max-inherit {
-  max-width: inherit !important;
-}}
+@media screen and (min-width: 1280px) {
+  .max-inherit {
+    max-width: inherit !important;
+  }
+}
 @media screen and (min-width: 1020px) {
   .feature-hero-section::after {
     background: #f7f7f7;
@@ -808,7 +821,7 @@ height:20px;
     z-index: 0;
     background: #daeffa;
     left: 15px;
-    right: -25px;
+    right: -17px;
     top: 20px;
     bottom: -15px;
     border-radius: 8px;
@@ -1127,7 +1140,7 @@ height:20px;
   .audit-page-slider .swiper-slide {
     width: 100% !important;
   }
-  .feature-video-wrapper{
+  .feature-video-wrapper {
     width: 100%;
   }
 }
@@ -1144,12 +1157,27 @@ height:20px;
     box-shadow: 0 0 20px rgb(0 0 0 / 20%);
     -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 0 20px rgb(0 0 0 / 20%);
-  }}
-  @media screen and (max-width: 767px) {
-    .what-matter-vedio {
+  }
+}
+@media screen and (max-width: 767px) {
+  .what-matter-vedio {
     position: relative;
     top: 0px;
     right: 0;
     width: 100%;
+  }
+  .home-page-logo-slider .swiper-slide {
+    width: 100% !important;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 180px !important;
+  }
 }
+@media screen and (max-width: 410px) {
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 205px !important;
+  }
 }

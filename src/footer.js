@@ -19,7 +19,8 @@ class Footer extends HTMLElement {
          <a href="paul-stoute.html"> <img
             class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-paul-stoute-only-image.svg"
-            alt=""
+            alt="Paul Stoute"
+            title="Paul Stoute"
           />
           <h4 class="mt-4 mb-2 text-lg hover:text-[#0d96df]">Paul Stoute</h4>
           <span class="text-[#21323b99] my-5 text-base"
@@ -30,7 +31,8 @@ class Footer extends HTMLElement {
         <a href="johhny-falke.html"> <img
             class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-john-falke-only-image.svg"
-            alt=""
+            alt="John Falke"
+title="John Falke"             
           />
           <h4 class="mt-4 mb-2 text-lg hover:text-[#0d96df]">John Falke</h4>
           <span class="text-[#21323b99] my-5 text-base"
@@ -41,7 +43,8 @@ class Footer extends HTMLElement {
         <a href="rob-riggs.html"><img
             class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-rob-riggs-only-image.svg"
-            alt=""
+            alt="Rob Riggs"
+            title="Rob Riggs"
           />
           <h4 class="mt-4 mb-2 text-lg hover:text-[#0d96df]">Rob Riggs</h4>
           <span class="text-[#21323b99] my-5 text-base"
@@ -52,7 +55,8 @@ class Footer extends HTMLElement {
         <a href="carol-stambaugh.html"> <img
             class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-carol-stambaugh-only-image.svg"
-            alt=""
+            alt="Carol Stambaugh"
+            title="Carol Stambaugh"
           />
           <h4 class="mt-4 mb-2 text-lg hover:text-[#0d96df]">Carol Stambaugh</h4>
           <span class="text-[#21323b99] my-5 text-base">RadiateWP</span>
@@ -62,7 +66,8 @@ class Footer extends HTMLElement {
         <a href="barry-belotti.html"> <img
             class="xl:w-[200px] w-[140px] m-auto"
             src="../src/assets/home/case-study-barry-belotti-only-image.svg"
-            alt=""
+            alt="Barry Belotti"
+            title=" Barry Belotti"
           />
           <h4 class="mt-4 mb-2 text-lg hover:text-[#0d96df]">Barry Belotti</h4>
           <span class="text-[#21323b99] my-5 text-base"
@@ -219,39 +224,39 @@ class Footer extends HTMLElement {
                   <li class="mb-3">
                       <a href="#" class="hover:text-[#0d96df] flex items-center gap-2"><img
                               src="../src/assets/footer-logo/german-language-flag-icon.svg" class="sm:h-4"
-                              alt="german Logo" /> Deutsch</a>
+                              alt="Deutsch" title="Deutsch" /> Deutsch</a>
                   </li>
                   <li class="mb-3">
                       <a href="#" class="hover:text-[#0d96df] flex items-center gap-2"><img
                               src="../src/assets/footer-logo/english-language-flag-icon.svg" class="sm:h-4"
-                              alt="linkedin Logo" /> English</a>
+                              alt="English" title="English"/> English</a>
                   </li>
                   <li class="mb-3">
                       <a href="#" class="hover:text-[#0d96df] flex items-center gap-2"><img
                               src="../src/assets/footer-logo/spanish-language-flag-icon.svg" class="sm:h-4"
-                              alt="linkedin Logo" /> Español</a>
+                              alt="Español" title="Español" /> Español</a>
                   </li>
                   <li class="mb-3">
                       <a href="#" class="hover:text-[#0d96df] flex items-center gap-2"><img
                               src="../src/assets/footer-logo/french-language-flag-icon.svg" class="sm:h-4"
-                              alt="linkedin Logo" /> Français</a>
+                              alt="Français" title="Français"/> Français</a>
                   </li>
                   <li class="mb-3">
                       <a href="#" class="hover:text-[#0d96df] flex items-center gap-2"><img
                               src="../src/assets/footer-logo/dutch-language-flag-icon.svg" class="sm:h-4"
-                              alt="linkedin Logo" /> Nederlands</a>
+                              alt="Nederlands" title="Nederlands" /> Nederlands</a>
                   </li>
                   <li class="mb-3">
                       <a href="#" class="hover:text-[#0d96df] flex items-center gap-2"><img
                               src="../src/assets/footer-logo/portuguese-language-flag-icon.svg" class="sm:h-4"
-                              alt="linkedin Logo" /> Português</a>
+                              alt="Português" title="Português"/> Português</a>
                   </li>
               </ul>
           </div>
           <div>
               <a href="#" class="flex items-center">
                   <img src="../src/assets/logo/MyWebAudit Logo in Dark Gray.png" class="h-5 mr-3 sm:h-7 mb-4"
-                      alt="my web audit Logo" />
+                      alt="My Web Audit" title="My Web Audit" />
               </a>
               <p class="text-[#3d3d4d] dark:text-gray-400 text-xs">
                   Website Audits that help you close more deals.
@@ -259,17 +264,18 @@ class Footer extends HTMLElement {
               <div class="flex items-center mt-5 gap-2">
                   <a href="https://www.linkedin.com/company/mywebaudit/" target="_blank" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
                       <img src="../src/assets/footer-logo/linkedin-footer-icon.svg" class="mr-3 sm:h-4 mb-4"
-                          alt="linkedin Logo" />
+                          alt="Linkedin" 
+                          title="Linkedin" />
                       <span class="sr-only">Linkedin page</span>
                   </a>
                   <a href="https://www.youtube.com/channel/UCDYPGSJbjc9-pBsVCzMBHWg" target="_blank" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
                       <img src="../src/assets/footer-logo/youtube-footer-icon.svg" class="mr-3 sm:h-4 mb-4"
-                          alt="linkedin Logo" />
+                          alt="Youtube"  title="Youtube"/>
                       <span class="sr-only">Youtube page</span>
                   </a>
                   <a href="https://www.facebook.com/MyWebAudit/" target="_blank" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
                       <img src="../src/assets/footer-logo/facebook-footer-icon.svg" class="mr-3 sm:h-4 mb-4"
-                          alt="linkedin Logo" />
+                          alt="Facebook" title="Facebook" />
                       <span class="sr-only">Facebook page</span>
                   </a>
               </div>
