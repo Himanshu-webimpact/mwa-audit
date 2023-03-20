@@ -1188,6 +1188,10 @@ input:checked + .toggle-bg {
   right: 10%;
 }
 
+.top-\[47\%\] {
+  top: 47%;
+}
+
 .z-10 {
   z-index: 10;
 }
