@@ -1907,10 +1907,6 @@ input:checked + .toggle-bg {
   width: 20px;
 }
 
-.w-\[25\%\] {
-  width: 25%;
-}
-
 .w-\[85\%\] {
   width: 85%;
 }
@@ -2188,10 +2184,6 @@ input:checked + .toggle-bg {
 
 .gap-24 {
   gap: 6rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .gap-y-3 {
@@ -3827,7 +3819,7 @@ input:checked + .toggle-bg {
   top: 0;
   left: -91px;
   width: 49%;
-  height: 43%;
+  height: 41%;
 }
 
 .case-studies-gradient-cs {
@@ -4483,7 +4475,7 @@ height:20px;
   }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1024px) {
   .feature-hero-section::after {
     background: #f7f7f7;
     transform: skewY(-15deg) scaleY(1);
@@ -4497,6 +4489,20 @@ height:20px;
     width: 100%;
     content: "";
     z-index: -10;
+  }
+
+  .sample-report-section::after{
+    background: #f7f7f7;
+    transform: skewY(-15deg) scaleY(1);
+    -moz-transform: skewY(-15deg) scaleY(1);
+    -webkit-transform: skewY(-15deg) scaleY(1);
+    position: absolute;
+    top: -76%;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
   }
 
   .close-more-hero-section::after {
@@ -5309,6 +5315,10 @@ height:20px;
     width: 30%;
   }
 
+  .md\:w-\[48\%\] {
+    width: 48%;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -5662,6 +5672,10 @@ height:20px;
     width: 85%;
   }
 
+  .lg\:w-\[32\.3\%\] {
+    width: 32.3%;
+  }
+
   .lg\:w-\[550px\] {
     width: 550px;
   }
@@ -5957,6 +5971,10 @@ height:20px;
 
   .xl\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .xl\:w-\[24\%\] {
+    width: 24%;
   }
 
   .xl\:w-\[690px\] {

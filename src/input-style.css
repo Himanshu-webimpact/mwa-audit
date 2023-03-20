@@ -121,7 +121,7 @@ transition-timing-function: none !important;
   top: 0;
   left: -91px;
   width: 49%;
-  height: 43%;
+  height: 41%;
 }
 
 .case-studies-gradient-cs {
@@ -786,7 +786,7 @@ height:20px;
     max-width: inherit !important;
   }
 }
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1024px) {
   .feature-hero-section::after {
     background: #f7f7f7;
     transform: skewY(-15deg) scaleY(1);
@@ -800,6 +800,19 @@ height:20px;
     width: 100%;
     content: "";
     z-index: -10;
+  }
+  .sample-report-section::after{
+    background: #f7f7f7;
+    transform: skewY(-15deg) scaleY(1);
+    -moz-transform: skewY(-15deg) scaleY(1);
+    -webkit-transform: skewY(-15deg) scaleY(1);
+    position: absolute;
+    top: -76%;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
   }
   .close-more-hero-section::after {
     background: #f7f7f7;
