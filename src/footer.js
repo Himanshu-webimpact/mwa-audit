@@ -13,11 +13,11 @@ class Footer extends HTMLElement {
       </h2>
 
       <div
-        class="flex justify-center gap-16 items-center  pt-5 text-center  m-auto flex-col md:flex-row "
+        class="flex justify-center  items-center  pt-5 text-center  m-auto flex-col md:flex-row "
       >
-        <div>
+        <div class="md:w-[23%] w-[100%]">
          <a href="paul-stoute.html"> <img
-            class="xl:w-[200px] w-[140px] m-auto"
+            class="xl:w-[200px] md:w-[140px] m-auto"
             src="../src/assets/home/case-study-paul-stoute-only-image.svg"
             alt="Paul Stoute"
             title="Paul Stoute"
@@ -27,9 +27,9 @@ class Footer extends HTMLElement {
             >Stoute Web Solutions</span
           ></a>
         </div>
-        <div>
+        <div class="md:w-[23%] w-[100%]">
         <a href="johhny-falke.html"> <img
-            class="xl:w-[200px] w-[140px] m-auto"
+            class="xl:w-[200px] md:w-[140px] m-auto"
             src="../src/assets/home/case-study-john-falke-only-image.svg"
             alt="John Falke"
 title="John Falke"             
@@ -39,9 +39,9 @@ title="John Falke"
             >Johnny Flash</span
           ></a>
         </div>
-        <div>
+        <div class="md:w-[23%] w-[100%]">
         <a href="rob-riggs.html"><img
-            class="xl:w-[200px] w-[140px] m-auto"
+            class="xl:w-[200px] md:w-[140px] m-auto"
             src="../src/assets/home/case-study-rob-riggs-only-image.svg"
             alt="Rob Riggs"
             title="Rob Riggs"
@@ -51,9 +51,9 @@ title="John Falke"
             >Code Conspirators</span
           ></a>
         </div>
-        <div>
+        <div class="md:w-[23%] w-[100%]">
         <a href="carol-stambaugh.html"> <img
-            class="xl:w-[200px] w-[140px] m-auto"
+            class="xl:w-[200px] md:w-[140px] m-auto"
             src="../src/assets/home/case-study-carol-stambaugh-only-image.svg"
             alt="Carol Stambaugh"
             title="Carol Stambaugh"
@@ -62,9 +62,9 @@ title="John Falke"
           <span class="text-[#21323b99] my-5 text-base">RadiateWP</span>
           </a>
         </div>
-        <div>
+        <div class="md:w-[23%] w-[100%]">
         <a href="barry-belotti.html"> <img
-            class="xl:w-[200px] w-[140px] m-auto"
+            class="xl:w-[200px] md:w-[140px] m-auto"
             src="../src/assets/home/case-study-barry-belotti-only-image.svg"
             alt="Barry Belotti"
             title=" Barry Belotti"

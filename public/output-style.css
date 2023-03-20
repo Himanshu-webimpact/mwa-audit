@@ -1927,6 +1927,10 @@ input:checked + .toggle-bg {
   width: 33%;
 }
 
+.w-\[23\%\] {
+  width: 23%;
+}
+
 .max-w-\[700px\] {
   max-width: 700px;
 }
@@ -5325,6 +5329,14 @@ height:20px;
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-\[23\%\] {
+    width: 23%;
+  }
+
+  .md\:w-\[140px\] {
+    width: 140px;
   }
 
   .md\:grid-cols-6 {
