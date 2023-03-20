@@ -71,7 +71,7 @@
             </div>
           </div>
           <div
-            class="flex justify-between mt-14 gap-3 z-20 relative container xl:max-w-screen-xl mx-auto  flex-wrap px-[15px]"
+            class="flex justify-between mt-14  z-20 relative container xl:max-w-screen-xl mx-auto  flex-wrap px-[15px]"
             id="sample-report-container"
           ></div>
         </section>
@@ -102,6 +102,7 @@
           link: "/public/website-audit-template.html",
           src: "../src/assets/report-page/main-report-landing.jpeg",
           heading: " Website Audit Report",
+          
         },
         {
           link: "/public/google-business-profile-audit.html",
@@ -167,7 +168,7 @@
           (item) => `   
                 
 
-    <div class="xl:w-[24%] report-wrapper relative lg:w-[32.3%] md:w-[48%] w-[100%] mx-auto md:mx-0">
+    <div class="xl:w-[24.2%] report-wrapper relative lg:w-[32.3%] md:w-[48%] w-[100%] mx-auto md:mx-0">
               <a
                 class="inline-block"
                 href="${item.link}"
@@ -175,7 +176,8 @@
                 <img
                   class="report-wrapper-img"
                   src="${item.src}"
-                  alt=""
+                  alt="${item.heading}"
+                  title="${item.heading}"
                 /><span class="preview-report">
                   <img
                     class="w-5 mb-1"

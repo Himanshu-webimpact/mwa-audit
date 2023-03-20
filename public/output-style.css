@@ -6001,6 +6001,22 @@ height:20px;
     width: 680px;
   }
 
+  .xl\:w-\[25\%\] {
+    width: 25%;
+  }
+
+  .xl\:w-\[24\.4\%\] {
+    width: 24.4%;
+  }
+
+  .xl\:w-\[24\.3\%\] {
+    width: 24.3%;
+  }
+
+  .xl\:w-\[24\.2\%\] {
+    width: 24.2%;
+  }
+
   .xl\:max-w-screen-xl {
     max-width: 1280px;
   }
