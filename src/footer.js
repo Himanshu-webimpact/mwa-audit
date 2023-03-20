@@ -5,7 +5,7 @@ class Footer extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `<section class="py-5 bg-[#fbfbfb] border-b border-[#f5f5f5]">
-    <div class=" px-[15px] container xl:max-w-screen-xl mx-auto">
+    <div class=" px-[15px] container xl:max-w-screen-xl mx-auto ">
       <h2
         class="text-[22px] text-[#2b333f] text-center my-4 font-[poppins-medium]"
       >
@@ -13,7 +13,7 @@ class Footer extends HTMLElement {
       </h2>
 
       <div
-        class="flex justify-between items-center  pt-5 text-center container xl:max-w-screen-xl m-auto px-[15px]"
+        class="flex justify-center gap-16 items-center  pt-5 text-center  m-auto flex-col md:flex-row "
       >
         <div>
          <a href="paul-stoute.html"> <img
@@ -79,7 +79,7 @@ title="John Falke"
   </section>
   <footer class="bg-[#fbfbfb]">
   <section class="container xl:max-w-screen-xl m-auto px-[15px]">
-      <div class="grid grid-cols-2 gap-3 py-8 md:grid-cols-6">
+      <div class="grid grid-cols-2 gap-3 py-8 md:grid-cols-4 lg:grid-cols-6">
           <div>
               <h2 class="mb-4 text-sm font-semibold text-[#0d0c21] uppercase dark:text-gray-400">
                   Popular Audit Reports

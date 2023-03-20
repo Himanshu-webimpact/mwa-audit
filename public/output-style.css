@@ -3297,6 +3297,10 @@ input:checked + .toggle-bg {
   font-size: 13px !important;
 }
 
+.text-\[222px\] {
+  font-size: 222px;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -5331,6 +5335,10 @@ height:20px;
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -5432,12 +5440,29 @@ height:20px;
     font-size: 30px;
   }
 
+  .md\:text-\[25px\] {
+    font-size: 25px;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-\[22px\] {
+    font-size: 22px;
+  }
+
   .md\:leading-10 {
     line-height: 2.5rem;
   }
 
   .md\:leading-9 {
     line-height: 2.25rem;
+  }
+
+  .md\:leading-loose {
+    line-height: 2;
   }
 
   .md\:hover\:bg-transparent:hover {
@@ -5534,6 +5559,10 @@ height:20px;
 
   .lg\:mt-8 {
     margin-top: 2rem;
+  }
+
+  .lg\:ml-16 {
+    margin-left: 4rem;
   }
 
   .lg\:block {
@@ -5712,6 +5741,10 @@ height:20px;
     width: auto;
   }
 
+  .lg\:w-\[71\%\] {
+    width: 71%;
+  }
+
   .lg\:min-w-\[33\%\] {
     min-width: 33%;
   }
@@ -5722,6 +5755,10 @@ height:20px;
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
@@ -5760,6 +5797,14 @@ height:20px;
 
   .lg\:whitespace-nowrap {
     white-space: nowrap;
+  }
+
+  .lg\:border-r {
+    border-right-width: 1px;
+  }
+
+  .lg\:border-b-0 {
+    border-bottom-width: 0px;
   }
 
   .lg\:border-none {
@@ -5854,6 +5899,14 @@ height:20px;
     padding-top: 140px;
   }
 
+  .lg\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .lg\:pr-11 {
+    padding-right: 2.75rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -5902,6 +5955,10 @@ height:20px;
 
   .lg\:text-\[35px\] {
     font-size: 35px;
+  }
+
+  .lg\:text-\[30px\] {
+    font-size: 30px;
   }
 
   .lg\:leading-9 {
@@ -6029,6 +6086,10 @@ height:20px;
     max-width: 1024px;
   }
 
+  .xl\:max-w-\[700px\] {
+    max-width: 700px;
+  }
+
   .xl\:gap-6 {
     gap: 1.5rem;
   }
@@ -6094,6 +6155,10 @@ height:20px;
 
   .xl\:leading-\[50px\] {
     line-height: 50px;
+  }
+
+  .xl\:leading-\[60px\] {
+    line-height: 60px;
   }
 }
 
