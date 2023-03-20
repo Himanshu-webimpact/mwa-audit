@@ -5428,6 +5428,10 @@ height:20px;
     font-size: 28px;
   }
 
+  .md\:text-\[30px\] {
+    font-size: 30px;
+  }
+
   .md\:leading-10 {
     line-height: 2.5rem;
   }
@@ -5846,6 +5850,10 @@ height:20px;
     padding-bottom: 9rem;
   }
 
+  .lg\:pt-\[140px\] {
+    padding-top: 140px;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -5890,6 +5898,10 @@ height:20px;
 
   .lg\:text-\[45px\] {
     font-size: 45px;
+  }
+
+  .lg\:text-\[35px\] {
+    font-size: 35px;
   }
 
   .lg\:leading-9 {
