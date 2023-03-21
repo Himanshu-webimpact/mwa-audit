@@ -21,7 +21,7 @@
 
 <body>
   <header-component></header-component>
-  <main class="md:pt-[90px] pt-10 overflow-hidden">
+  <main class="pt-[90px] overflow-hidden">
     <section class="relative feature-hero-section">
       <div
         class="container xl:max-w-screen-xl m-auto flex items-center justify-between z-10 relative lg:py-12 flex-wrap flex-col lg:flex-nowrap lg:flex-row px-[15px]">
@@ -35,7 +35,7 @@
             audit reports can be used to close business from anyone in your
             pipeline from prospects to existing customers.
           </p>
-          <div class="flex lg:justify-start items-center gap-5 my-6 justify-center">
+          <div class="flex lg:justify-start items-center gap-5 my-6 justify-center flex-wrap">
             <button type="button" onclick="window.location.href='#view-all-audit-points';"
               class="text-white bg-[#1b75bb] hover:bg-[#1b75bb] focus:ring-4 focus:ring-blue-300 font-medium rounded-sm text-sm px-6 py-4 focus:outline-none">
               View All Audit Points
@@ -226,8 +226,8 @@
       </div>
     </section>
     <section>
-      <div class="container xl:max-w-screen-xl m-auto flex items-center justify-between z-10 relative py-12 px-[15px]">
-        <div class="w-[43%] faster-deal">
+      <div class="container xl:max-w-screen-xl m-auto flex items-center justify-between z-10 relative py-12 px-[15px] flex-col-reverse lg:flex-row">
+        <div class="lg:w-[43%] w-[100%] faster-deal mt-5 lg:mt-0">
           <h1 class="text-[#2b333f] text-[26px] font-[poppins-medium]">
             Win more deals faster,<br />
             with less work
@@ -245,7 +245,7 @@
             <li>"Top priorities" acts as an instant to-do list.</li>
           </ul>
         </div>
-        <div class="w-[54%]">
+        <div class="lg:w-[54%] w-[100%]">
           <div class="faster-video-wrapper">
             <video class="w-full h-full" autoplay muted
               poster="https://embed-ssl.wistia.com/deliveries/ea6bf1f91ab16d0c378344e5cf9eb4734858c60f.webp?image_crop_resized=1580x888"
@@ -258,8 +258,8 @@
       </div>
     </section>
     <section>
-      <div class="container xl:max-w-screen-xl m-auto flex items-center justify-between z-10 relative py-12 px-[15px]">
-        <div class="w-[54%] flex justify-end">
+      <div class="container xl:max-w-screen-xl m-auto flex items-center justify-between z-10 relative py-12 px-[15px] flex-col lg:flex-row ">
+        <div class="lg:w-[54%] w-[100%] flex justify-end">
           <div class="faster-video-wrapper-left">
             <video class="w-full h-full" autoplay muted
               poster="https://embed-ssl.wistia.com/deliveries/ea6bf1f91ab16d0c378344e5cf9eb4734858c60f.webp?image_crop_resized=1580x888"
@@ -269,7 +269,7 @@
             </video>
           </div>
         </div>
-        <div class="w-[43%] faster-deal">
+        <div class="lg:w-[43%] w-[100%] faster-deal mt-5 lg:mt-0">
           <h2 class="text-[#2b333f] text-[26px] font-[poppins-medium]">
             Save hours on audits &<br />
             sales prep work
@@ -291,8 +291,8 @@
       </div>
     </section>
     <section>
-      <div class="container xl:max-w-screen-xl m-auto flex items-center justify-between z-10 relative py-12 px-[15px]">
-        <div class="w-[43%] faster-deal">
+      <div class="container xl:max-w-screen-xl m-auto flex items-center justify-between z-10 relative py-12 px-[15px] flex-col-reverse lg:flex-row">
+        <div class="lg:w-[43%] w-[100%] mt-5 lg:mt-0 faster-deal">
           <h2 class="text-[#2b333f] text-[26px] font-[poppins-medium]">
             Deliver value and stand out from the competition
           </h2>
@@ -308,7 +308,7 @@
             <li>Easy to customize for your website and brand.</li>
           </ul>
         </div>
-        <div class="w-[54%]">
+        <div class="lg:w-[54%] w-[100%]">
           <div class="faster-video-wrapper">
             <img class="w-full h-full" src="https://ywusq.s3-us-west-2.amazonaws.com/img/deliver-value.jpg" alt="Deliver Value and Stand Out From The Competition" title="Deliver Value and Stand Out From The Competition"/>
           </div>
@@ -316,8 +316,8 @@
       </div>
     </section>
     <section>
-      <div class="container xl:max-w-screen-xl m-auto flex items-center justify-between z-10 relative py-12 px-[15px]">
-        <div class="w-[54%] flex justify-end">
+      <div class="container xl:max-w-screen-xl m-auto flex items-center justify-between z-10 relative py-12 px-[15px] flex-col lg:flex-row">
+        <div class="lg:w-[54%] w-[100%] flex justify-end">
           <div class="faster-video-wrapper-left">
             <video class="w-full h-full" autoplay muted
               poster="https://embed-ssl.wistia.com/deliveries/ea6bf1f91ab16d0c378344e5cf9eb4734858c60f.webp?image_crop_resized=1580x888"
@@ -327,7 +327,7 @@
             </video>
           </div>
         </div>
-        <div class="w-[43%] faster-deal">
+        <div class="lg:w-[43%] w-[100%] mt-5 lg:mt-0 faster-deal">
           <h2 class="text-[#2b333f] text-[26px] font-[poppins-medium]">
             Website lead generation tool
           </h2>
@@ -5667,19 +5667,29 @@
 
     </section>
     <setion>
-      <div class="py-14">
-        <h2 class="text-[32px] text-[#2b333f] text-center my-4 font-[poppins-medium]">
+      <div class="py-14 container xl:max-w-screen-xl mx-auto px-[15px]">
+        <h2
+          class="text-[32px] text-[#2b333f] text-center my-4 font-[poppins-medium]"
+        >
           How is My Web Audit different?
         </h2>
-        <h4 class="text-center text-2xl font-extralight leading-9 font-[roboto-light]">
-          We help you close more deals. Here are just a few reasons why we're
-          different.
+        <h4
+          class="text-center text-2xl font-extralight leading-9 font-[roboto-light]"
+        >
+          We help you close more deals. Here are just a few reasons why
+          we're different.
         </h4>
       </div>
       <div
-        class="flex justify-center gap-8 container xl:max-w-screen-xl m-auto lg:flex-nowrap flex-wrap flex-col lg:flex-row">
+        class="flex justify-center gap-8 container xl:max-w-screen-xl m-auto lg:flex-nowrap flex-wrap flex-col lg:flex-row px-[15px]"
+      >
         <div class="flex-1 lg-audit-deal text-center py-10 px-8">
-          <img class="m-auto" src="../src/assets/home/Screenshot 2023-02-13 at 6.47.41 PM.png" alt="Beautiful and actionable" title="Beautiful and actionable"/>
+          <img
+            class="m-auto"
+            src="../src/assets/home/Screenshot 2023-02-13 at 6.47.41 PM.png"
+            alt="Beautiful and actionable"
+            title="Beautiful and actionable"
+          />
           <h3 class="font-[roboto-medium] text-lg py-2">
             Beautiful and actionable
           </h3>
@@ -5690,8 +5700,12 @@
           </h6>
         </div>
         <div class="flex-1 lg-audit-deal text-center py-10 px-8">
-          <img class="m-auto" src="../src/assets/home/search.png" alt="Measure what matters" title="Measure what matters"
-           />
+          <img
+            class="m-auto"
+            src="../src/assets/home/search.png"
+            alt="Measure what matters"
+            title=" Measure what matters"
+          />
           <h3 class="font-[roboto-medium] text-lg py-2">
             Measure what matters
           </h3>
@@ -5701,56 +5715,83 @@
           </h6>
         </div>
         <div class="flex-1 lg-audit-deal text-center py-8 px-6">
-          <img class="m-auto" src="../src/assets/home/Screenshot 2023-02-13 at 6.53.17 PM.png" alt="Doubles as a lead magnet" title="Doubles as a lead magnet"/>
+          <img
+            class="m-auto"
+            src="../src/assets/home/Screenshot 2023-02-13 at 6.53.17 PM.png"
+            alt=" Doubles as a lead magnet"
+            title="Doubles as a lead magnet"
+          />
           <h3 class="font-[roboto-medium] text-lg py-2">
             Doubles as a lead magnet
           </h3>
           <h6>
-            Embed a free audit tool on your site. This high-value tool gets 4
-            times more leads than a general PDF lead magnet.
+            Embed a free audit tool on your site. This high-value tool gets
+            4 times more leads than a general PDF lead magnet.
           </h6>
         </div>
       </div>
       <div
-        class="flex justify-center gap-8 container xl:max-w-screen-xl m-auto my-8 lg:flex-nowrap flex-wrap flex-col lg:flex-row">
+        class="flex justify-center gap-8 container xl:max-w-screen-xl m-auto my-8 lg:flex-nowrap flex-wrap flex-col lg:flex-row px-[15px]"
+      >
         <div class="flex-1 lg-audit-deal text-center py-10 px-8">
-          <img class="m-auto" src="../src/assets/home/Screenshot 2023-02-13 at 6.53.38 PM.png" alt="Crafted to convert" title="Crafted to convert" />
+          <img
+            class="m-auto"
+            src="../src/assets/home/Screenshot 2023-02-13 at 6.53.38 PM.png"
+            alt="Crafted to convert"
+            title="Crafted to convert"
+          />
           <h3 class="font-[roboto-medium] text-lg py-2">
             Crafted to convert
           </h3>
           <h6>
-            Audit recommendations appear in easy-to-understand terms that are
-            perfect for connecting with leads, delivering value and smoothing
-            the sales process.
+            Audit recommendations appear in easy-to-understand terms that
+            are perfect for connecting with leads, delivering value and
+            smoothing the sales process.
           </h6>
         </div>
         <div class="flex-1 lg-audit-deal text-center py-10 px-8">
-          <img class="m-auto" src="../src/assets/home/Screenshot 2023-02-13 at 6.53.32 PM.png" alt="Personalized for you" title="Personalized for you"/>
+          <img
+            class="m-auto"
+            src="../src/assets/home/Screenshot 2023-02-13 at 6.53.32 PM.png"
+            alt="Personalized for you"
+            title="Personalized for you"
+          />
           <h3 class="font-[roboto-medium] text-lg py-2">
             Personalized for you
           </h3>
           <h6>
-            From email messages to CTAs, from logos to countdown timers—we've
-            thought of it all. Just a few clicks and MWA is truly yours.
+            From email messages to CTAs, from logos to countdown
+            timers—we've thought of it all. Just a few clicks and MWA is
+            truly yours.
           </h6>
         </div>
         <div class="flex-1 lg-audit-deal text-center py-8 px-6">
-          <img class="m-auto" src="../src/assets/home/Screenshot 2023-02-13 at 6.53.25 PM.png" alt=" Reviews sites in a snap" title=" Reviews sites in a snap"
-           />
+          <img
+            class="m-auto"
+            src="../src/assets/home/Screenshot 2023-02-13 at 6.53.25 PM.png"
+            alt="Reviews sites in a snap"
+            title="Reviews sites in a snap"
+          />
           <h3 class="font-[roboto-medium] text-lg py-2">
             Reviews sites in a snap
           </h3>
           <h6>
             Our easy-to-use browser extension helps you audit a site and its
-            competitors—using both manual and automatic checks—in less than 5
-            minutes.
+            competitors—using both manual and automatic checks—in less than
+            5 minutes.
           </h6>
         </div>
       </div>
       <div
-        class="flex justify-center gap-8 container xl:max-w-screen-xl m-auto my-8 lg:flex-nowrap flex-wrap flex-col lg:flex-row">
+        class="flex justify-center gap-8 container xl:max-w-screen-xl m-auto my-8 lg:flex-nowrap flex-wrap flex-col lg:flex-row px-[15px]"
+      >
         <div class="flex-1 lg-audit-deal text-center py-10 px-8">
-          <img class="m-auto" src="../src/assets/home/Screenshot 2023-02-13 at 6.54.19 PM.png" alt="Ready for your sales process" title="Ready for your sales process" />
+          <img
+            class="m-auto"
+            src="../src/assets/home/Screenshot 2023-02-13 at 6.54.19 PM.png"
+            alt="Ready for your sales process"
+            title="Ready for your sales process"
+          />
           <h3 class="font-[roboto-medium] text-lg py-2">
             Ready for your sales process
           </h3>
@@ -5760,7 +5801,12 @@
           </h6>
         </div>
         <div class="flex-1 lg-audit-deal text-center py-10 px-8">
-          <img class="m-auto" src="../src/assets/home/Screenshot 2023-02-13 at 6.54.10 PM.png" alt="Monitors client activity" title="Monitors client activity"/>
+          <img
+            class="m-auto"
+            src="../src/assets/home/Screenshot 2023-02-13 at 6.54.10 PM.png"
+            alt=" Monitors client activity"
+            title=" Monitors client activity"
+          />
           <h3 class="font-[roboto-medium] text-lg py-2">
             Monitors client activity
           </h3>
@@ -5770,22 +5816,27 @@
           </h6>
         </div>
         <div class="flex-1 lg-audit-deal text-center py-8 px-6">
-          <img class="m-auto" src="../src/assets/home/Screenshot 2023-02-13 at 6.53.46 PM.png" alt=" Zapier integration & workflows" title=" Zapier integration & workflows"/>
+          <img
+            class="m-auto"
+            src="../src/assets/home/Screenshot 2023-02-13 at 6.53.46 PM.png"
+            alt=" Zapier integration & workflows"
+            title=" Zapier integration & workflows"
+          />
           <h3 class="font-[roboto-medium] text-lg py-2">
             Zapier integration & workflows
           </h3>
           <h6>
-            Connect the apps you use in your lead generation and sales process
-            with My Web Audit so you can automate your workflows.
+            Connect the apps you use in your lead generation and sales
+            process with My Web Audit so you can automate your workflows.
           </h6>
         </div>
       </div>
     </setion>
-    <section class="bg-[#e8e8e8] py-14">
+    <section class="bg-[#e8e8e8] lg:py-14 pt-14 pb-0">
       <h2 class="text-[#2b333f] text-[26px] font-[poppins-medium] text-center">
         My Web Audit helps with...
       </h2>
-      <div class="container xl:max-w-screen-xl m-auto flex justify-between gap-7 py-10 lg:flex-nowrap flex-wrap">
+      <div class="container xl:max-w-screen-xl m-auto flex justify-between lg:gap-7 py-10 lg:flex-nowrap flex-wrap px-[15px]">
         <div class="feature-my-audit-help">
           <a href="/public/close-more-sale.html">
             <img class="m-auto hover:scale-110" src="../src/assets/feature/close-more-sales-help.png" alt=" Close More Sales" title=" Close More Sales"/>
