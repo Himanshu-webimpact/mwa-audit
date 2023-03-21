@@ -1228,11 +1228,18 @@ height:20px;
   height: 50%;
 }
 }
-
+@media screen and (max-width: 639px) {
+ .audit-btn .swiper-button-next, .audit-btn .swiper-button-prev {
+  top: 261px !important;
+}
+}
 @media screen and (max-width: 410px) {
 
   .swiper-button-next,
   .swiper-button-prev {
     top: 205px !important;
   }
+  .audit-mobile-report p , .audit-mobile-report button{
+    display: none;
+   }
 }
