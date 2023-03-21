@@ -1155,6 +1155,7 @@ height:20px;
 
   p {
     font-size: 18px !important;
+    line-height:28px !important;
   }
   .audit-page-slider .swiper-slide {
     width: 100% !important;
@@ -1214,6 +1215,9 @@ height:20px;
     position: absolute;
     left: 10px;
     color: #2b333f;
+}
+h1{
+  font-size: 20px !important;
 }
 .mwa-alternative-page-table table tr{
   border-bottom: 3px solid #ddd;

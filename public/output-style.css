@@ -2966,6 +2966,14 @@ input:checked + .toggle-bg {
   padding-bottom: 10px;
 }
 
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
 .pt-12 {
   padding-top: 3rem;
 }
@@ -3038,20 +3046,12 @@ input:checked + .toggle-bg {
   padding-bottom: 8rem;
 }
 
-.pt-14 {
-  padding-top: 3.5rem;
-}
-
 .pt-2 {
   padding-top: 0.5rem;
 }
 
 .pr-4 {
   padding-right: 1rem;
-}
-
-.pb-0 {
-  padding-bottom: 0px;
 }
 
 .text-left {
@@ -4749,6 +4749,7 @@ height:20px;
 
   p {
     font-size: 18px !important;
+    line-height:28px !important;
   }
 
   .audit-page-slider .swiper-slide {
@@ -4818,6 +4819,10 @@ height:20px;
     position: absolute;
     left: 10px;
     color: #2b333f;
+  }
+
+  h1{
+    font-size: 20px !important;
   }
 
   .mwa-alternative-page-table table tr{
@@ -5393,12 +5398,12 @@ height:20px;
     line-height: 1.75rem;
   }
 
-  .md\:text-\[21px\] {
-    font-size: 21px;
-  }
-
   .md\:text-\[28px\] {
     font-size: 28px;
+  }
+
+  .md\:text-\[21px\] {
+    font-size: 21px;
   }
 
   .md\:leading-loose {
@@ -5796,6 +5801,11 @@ height:20px;
     padding-bottom: 3rem;
   }
 
+  .lg\:py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
   .lg\:py-2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -5811,9 +5821,9 @@ height:20px;
     padding-bottom: 0px;
   }
 
-  .lg\:py-14 {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+  .lg\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .lg\:pb-0 {
