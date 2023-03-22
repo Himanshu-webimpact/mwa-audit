@@ -33,6 +33,7 @@
   display: none !important;
 }
 
+
 .lead-widgets-bg {
   background: linear-gradient(
     135deg,
@@ -64,18 +65,21 @@
   background: url(../src/assets/playbooks/playbook-header-background.svg) 0 -130px/100%
     auto #f7f7f7;
 }
-.home-page-success-caurosal .ease-in , .alternative-page .ease-in{
-transition-timing-function: none !important;
+.home-page-success-caurosal .ease-in,
+.alternative-page .ease-in {
+  transition-timing-function: none !important;
 }
-.home-page-success-caurosal .duration-100 , .alternative-page .duration-100{
+.home-page-success-caurosal .duration-100,
+.alternative-page .duration-100 {
   transition-duration: 0s !important;
 }
-.home-page-success-caurosal .transition-transform ,.alternative-page .transition-transform{
+.home-page-success-caurosal .transition-transform,
+.alternative-page .transition-transform {
   transition-property: none !important;
   transition-timing-function: cubic-bezier(0, 0, 0, 0) !important;
   transition-duration: 0 !important;
 }
-.home-page-success-caurosal .transform{
+.home-page-success-caurosal .transform {
   opacity: 1;
 }
 
@@ -801,7 +805,7 @@ height:20px;
     content: "";
     z-index: -10;
   }
-  .sample-report-section::after{
+  .sample-report-section::after {
     background: #f7f7f7;
     transform: skewY(-15deg) scaleY(1);
     -moz-transform: skewY(-15deg) scaleY(1);
@@ -1141,21 +1145,22 @@ height:20px;
     right: 121px;
     width: 64%;
   }
-  .faster-video-wrapper, .faster-video-wrapper-left {
+  .faster-video-wrapper,
+  .faster-video-wrapper-left {
     width: 100%;
-}
+  }
   .feature-my-audit-help {
     width: 48%;
     flex: inherit;
     margin-bottom: 20px;
   }
-  br{
+  br {
     display: none;
   }
 
   p {
     font-size: 18px !important;
-    line-height:28px !important;
+    line-height: 28px !important;
   }
   .audit-page-slider .swiper-slide {
     width: 100% !important;
@@ -1163,13 +1168,15 @@ height:20px;
   .feature-video-wrapper {
     width: 100%;
   }
-  .img-testimonial::after{background-image: url(../src/assets/home/testimonial-dotted-graphics.svg);
+  .img-testimonial::after {
+    background-image: url(../src/assets/home/testimonial-dotted-graphics.svg);
     content: "";
     position: absolute;
     top: 0;
     left: -31px;
     width: 49%;
-    height: 43%;}
+    height: 43%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1200,7 +1207,7 @@ height:20px;
   .swiper-button-prev {
     top: 180px !important;
   }
-  .mwa-alternative-page-table table tr td{
+  .mwa-alternative-page-table table tr td {
     border-bottom: 1px solid #ddd;
     display: block;
     font-size: 13px;
@@ -1215,41 +1222,41 @@ height:20px;
     position: absolute;
     left: 10px;
     color: #2b333f;
-}
-h1{
-  font-size: 20px !important;
-}
-.mwa-alternative-page-table table tr{
-  border-bottom: 3px solid #ddd;
-  display: block;
-  margin-bottom: 0.625em;
-}
-.mwa-alternative-page-table-header{
-
-  display: none !important;
-}
-.img-testimonial::after {
-  background-image: url(../src/assets/home/testimonial-dotted-graphics.svg);
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 12%;
-  width: 80%;
-  height: 50%;
-}
+  }
+  h1 {
+    font-size: 20px !important;
+  }
+  .mwa-alternative-page-table table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+  .mwa-alternative-page-table-header {
+    display: none !important;
+  }
+  .img-testimonial::after {
+    background-image: url(../src/assets/home/testimonial-dotted-graphics.svg);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 12%;
+    width: 80%;
+    height: 50%;
+  }
 }
 @media screen and (max-width: 639px) {
- .audit-btn .swiper-button-next, .audit-btn .swiper-button-prev {
-  top: 261px !important;
-}
+  .audit-btn .swiper-button-next,
+  .audit-btn .swiper-button-prev {
+    top: 261px !important;
+  }
 }
 @media screen and (max-width: 410px) {
-
   .swiper-button-next,
   .swiper-button-prev {
     top: 205px !important;
   }
-  .audit-mobile-report p , .audit-mobile-report button{
+  .audit-mobile-report p,
+  .audit-mobile-report button {
     display: none;
-   }
+  }
 }
