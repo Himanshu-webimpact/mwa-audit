@@ -47,22 +47,24 @@
             </h3>
 
             <div
-              class="rounded-md justify-center items-center lg:flex mx-auto mt-7 md:mt-16 border-[#1885f2] border w-[295px] py-1"
+              class="rounded-md justify-center items-center lg:flex mx-auto mt-7 md:mt-16 border-[#1885f2] border w-[300px] py-1"
               role="group"
             >
               <button
                 type="button"
-                class="px-4 py-[6px] text-sm font-medium text-gray-900 bg-transparent"
+                class="px-4 py-[6px] text-sm  text-[#333]  btn-price font-[roboto-bold] whitespace-nowrap"
                 onclick="myMonthlyPlan()"
               >
-                View monthly pricing
+                <span class="btn-annual">View monthly pricing</span>
+                <span class=" btn-pricing">Monthly plans</span>
               </button>
               <button
                 type="button"
                 onclick="myAnnalPlan()"
-                class="px-4 py-[6px] text-sm font-medium text-[#fff] bg-[#1885f2] rounded-[3px] border-[#1885f2]"
+                class="px-4 py-[6px] text-sm   text-[#333] btn-price active font-[roboto-bold] whitespace-nowrap"
               >
-                Annual plans
+              <span class=" btn-annual">View Annual pricing</span>
+                <span class="btn-pricing">Annual plans</span>
               </button>
             </div>
             <div class="text-center mt-2 flex justify-center gap-4 items-end">
@@ -3182,6 +3184,14 @@
 $(document).ready(function () {
         $(".tbl-head").click(function () {
           $(this).closest("tr").toggleClass("active");
+        });
+      });
+
+
+      $(document).ready(function () {
+        $(".btn-price").click(function () {
+          $(".btn-price").removeClass("active");
+          $(this).addClass("active");
         });
       });
     </script>

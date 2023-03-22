@@ -327,7 +327,32 @@
   bottom: -13px;
   content: "";
 }
+.btn-price.active .btn-annual{
+  display: none;
+}
+.btn-price .btn-pricing{
+  display: none;
+}
+.btn-price.active .btn-pricing{
+  display:block;
+}
 
+.btn-price.active{
+  font-size: 14px;
+    position: relative;
+    margin: 0 3px;
+    font-weight: 400;
+    background: #1885f2;
+    color: #fff;
+    padding: 6px 16px;
+    white-space: nowrap;
+    border-bottom: 0 solid #1b75bb;
+    border-right: 0 solid #e8eaf1;
+    box-shadow: none;
+    letter-spacing: .6px;
+    border-radius: 3px;
+    font-family: roboto-bold;
+}
 .blog-section::after {
   background: #f7f7f7;
   transform: skewY(-15deg) scaleY(1);
