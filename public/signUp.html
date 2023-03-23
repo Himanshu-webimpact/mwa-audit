@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../src/assets/logo/mwa-favicon.svg"
+    />
+    <link rel="stylesheet" href="output-style.css" />
+    <link rel="stylesheet" href="../src/input-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>Signup - My Web Audit</title>
+  </head>
+
+  <body>
+    <section>
+      <div
+        class="flex justify-center w-[100%] lg:flex-row flex-col lg:min-h-[100vh]"
+      >
+        <div
+          class="lg:w-[42%] w-[100%] py-10 px-7 flex items-center justify-center flex-col mx-[15px] sm:mx-0"
+        >
+          <a href="home.html">
+            <img
+              class="mx-auto mb-16"
+              src="../src/assets/logo/mywebaudit-sign-up.png"
+              alt="My Web Audit"
+              title="My Web Audit"
+          /></a>
+          <h2
+            class="text-[#1695e4] text-[28px] leading-10 font-[roboto-medium] text-center"
+          >
+            Get Your Free 7 Day Trial
+          </h2>
+          <h6 class="text-base text-[#010101] mb-12">
+            Easy Setup. No Credit Card Required. Cancel Anytime.
+          </h6>
+          <input
+            type="text"
+            id="name"
+            class="border border-[#2d66c9] text-[#606060] text-base rounded-sm block xl:w-[450px] lg:w-[360px] sm:w-[500px] w-full py-4 px-6 mb-3 outline-none"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            type="email"
+            id="emails"
+            class="border border-[#2d66c9] text-[#606060] text-base rounded-sm block xl:w-[450px] lg:w-[360px] sm:w-[500px] w-full py-4 px-6 mb-3 outline-none"
+            placeholder="Business Email"
+            required
+          />
+          <input
+            type="password"
+            id="password"
+            class="border border-[#2d66c9] text-[#606060] text-base rounded-sm block xl:w-[450px] lg:w-[360px] sm:w-[500px] w-full py-4 px-6 mb-3 outline-none"
+            placeholder="Password"
+            required
+          />
+          <div class="flex items-center mb-3 !justify-start">
+            <input
+              id="default-checkbox"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 text-[#2d66c9] bg-[#fff] border-[#2d66c9] border-2 rounded-sm"
+            />
+            <label
+              for="default-checkbox"
+              class="ml-2 text-sm font-medium text-[#010101]"
+            >
+              You agree to the our
+              <a class="text-[#1885f2]" href="#" target="_blank"
+                >Terms of Service</a
+              >
+              &
+              <a class="text-[#1885f2]" href="#" target="_blank"
+                >Privacy Notice</a
+              ></label
+            >
+          </div>
+          <div class="flex items-center mb-3 !justify-start">
+            <input
+              id="default-checkbox"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 text-[#2d66c9] bg-[#fff] border-[#2d66c9] border-2 rounded-sm"
+            />
+            <label
+              for="default-checkbox"
+              class="ml-2 text-sm font-medium text-[#010101]"
+            >
+              You agree to receive email communications from us
+              <span
+                class="text-[#fff] bg-[#ff6c26] px-[5px] py-[1px] text-xs leading-4 text-center rounded-full relative tooltip-sign-question cursor-pointer"
+                >?  <span
+                class="text-[13px] font-[roboto-regural] bg-[#273a50] text-[#fff] py-2 px-[10px] absolute bottom-[26px] w-[275px] -left-[20px] rounded tooltip-signup text-left "
+              >
+                By submitting your email you`re agreeing to receive promotional
+                email from us. You may unsubscribe at any time by clicking the
+                'unsubscribe' link within the email or contacting us. For more
+                details, see our <a href="#" class="underline" target="_blank">Privacy Notice</a>
+              </span></span
+              >
+             
+            </label>
+           
+          </div>
+          <button
+            type="button"
+            class="text-white bg-[#0bc85f] xl:w-[450px] lg:w-[360px] sm:w-[500px] w-full font-medium mx-auto rounded-sm text-lg px-6 py-4 mb-5 uppercase outline-none "
+          >
+            Start your free trial
+          </button>
+          <div class="border border-[#282828] p-3 w-[200px] mx-auto">
+            <a href="#" class="flex items-center justify-start gap-9">
+              <img src="../src/assets/login/google-icon.png" alt="google" />
+              <h6 class="text-[#606060] text-xs uppercase">Google</h6></a
+            >
+          </div>
+        </div>
+        <div
+          class="lg:w-[58%] w-[100%] bg-login flex flex-col items-center justify-center h-[60vh] md:h-[80vh] lg:h-auto px-8"
+        >
+          <h5
+            class="text-[#fff] font-[poppins-medium] font-bold leading-7 md:text-[26px] text-xl text-center"
+          >
+            I’ve got a dream that’s worth than my sleep.
+          </h5>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 6,
+        spaceBetween: 40,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      $(document).ready(function () {
+        $("ul li.mwa-text-active").click(function () {
+          $("ul li.mwa-text-active").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>

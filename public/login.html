@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../src/assets/logo/mwa-favicon.svg"
+    />
+    <link rel="stylesheet" href="output-style.css" />
+    <link rel="stylesheet" href="../src/input-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>My Web Audit Account Login</title>
+  </head>
+
+  <body>
+    <section >
+      <div
+        class="flex justify-center w-[100%] lg:flex-row flex-col lg:min-h-[100vh] "
+      >
+        <div
+          class="lg:w-[42%] w-[100%] py-10 px-7 flex items-center justify-center flex-col mx-[15px] sm:mx-0"
+        >
+          <a href="home.html">
+            <img
+              class="mx-auto mb-16"
+              src="../src/assets/logo/mywebaudit-sign-up.png"
+              alt="My Web Audit"
+              title="My Web Audit"
+          /></a>
+          <input
+            type="email"
+            id="emails"
+            class="border border-[#2d66c9] text-[#606060] text-base rounded-sm block xl:w-[450px] lg:w-[360px] sm:w-[500px] w-full py-4 px-6 mb-3"
+            placeholder="Your E-mail"
+            required
+          />
+          <input
+            type="password"
+            id="password"
+            class="border border-[#2d66c9] text-[#606060] text-base rounded-sm block xl:w-[450px] lg:w-[360px] sm:w-[500px] w-full py-4 px-6 mb-3"
+            placeholder="Password"
+            required
+          />
+          <button
+            type="button"
+            class="text-white bg-[#0bc85f] xl:w-[450px] lg:w-[360px] sm:w-[500px] w-full font-medium mx-auto rounded-sm text-lg px-6 py-4 mb-3"
+          >
+            LOGIN
+          </button>
+          <h6 class="text-[#333] font-[roboto-regural] mt-3 mb-2 text-sm ">
+            Don't have an account?
+            <a class="underline" href="signUp.html">Register</a>
+          </h6>
+          <h6 class="text-[#333] font-[roboto-regural] text-sm">
+            Forgot Your <a class="underline" href="#">Password?</a>
+          </h6>
+        </div>
+        <div class="lg:w-[58%] w-[100%] bg-login flex flex-col items-center justify-center h-[60vh] md:h-[80vh] lg:h-auto px-8">
+            <h5 class="text-[#fff] font-[poppins-medium] font-bold leading-7 md:text-[26px] text-xl text-center">  I’ve got a dream that’s worth than my sleep. </h5>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 6,
+        spaceBetween: 40,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      $(document).ready(function () {
+        $("ul li.mwa-text-active").click(function () {
+          $("ul li.mwa-text-active").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>

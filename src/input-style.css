@@ -33,7 +33,6 @@
   display: none !important;
 }
 
-
 .lead-widgets-bg {
   background: linear-gradient(
     135deg,
@@ -41,29 +40,50 @@
     rgba(229, 246, 255, 1) 100%
   );
 }
-
+.bg-login {
+  background-image: url(../src/assets/login/sign-up-right-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .box-shadow {
   box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
 }
 
+.tooltip-signup::after {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #273a50 transparent transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 10px;
+  content: "";
+  height: 0;
+  left: 18px;
+  pointer-events: none;
+  position: absolute;
+  bottom: -18px;
+  width: 0;
+}
 .box-shadow-roadmap-btn {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   box-shadow: 0 4px 8px rgb(0 0 0 / 13%);
 }
-.show-all-features tbody>tr>td:first-child{
+.show-all-features tbody > tr > td:first-child {
   padding-left: 30px;
 }
-.show-all-features .tbl-head td{
+.show-all-features .tbl-head td {
   position: relative;
   cursor: pointer;
 }
-.show-all-features .tbl-head td::after{
-  transition: all .5s ease 0s;
-  -moz-transition: all .5s ease 0s;
-  -webkit-transition: all .5s ease 0s;
-  -ms-transition: all .5s ease 0s;
-  -o-transition: all .5s ease 0s;
+.show-all-features .tbl-head td::after {
+  transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
   display: block;
   position: absolute;
   left: 3px;
@@ -72,19 +92,20 @@
   height: 12px;
   content: "";
   z-index: 1;
-  background: url(https://ywusq.s3.us-west-2.amazonaws.com/img/down-arrow.svg) no-repeat;
+  background: url(https://ywusq.s3.us-west-2.amazonaws.com/img/down-arrow.svg)
+    no-repeat;
   transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
 }
-.show-all-features .tbl-head.active td::after{
-  transition: all .5s ease 0s;
-  -moz-transition: all .5s ease 0s;
-  -webkit-transition: all .5s ease 0s;
-  -ms-transition: all .5s ease 0s;
-  -o-transition: all .5s ease 0s;
+.show-all-features .tbl-head.active td::after {
+  transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
   display: block;
   position: absolute;
   left: 3px;
@@ -93,7 +114,8 @@
   height: 12px;
   content: "";
   z-index: 1;
-  background: url(https://ywusq.s3.us-west-2.amazonaws.com/img/down-arrow.svg) no-repeat;
+  background: url(https://ywusq.s3.us-west-2.amazonaws.com/img/down-arrow.svg)
+    no-repeat;
   transform: rotate(0deg);
 }
 .box-shadow-mysiteAuditor {
@@ -327,31 +349,31 @@
   bottom: -13px;
   content: "";
 }
-.btn-price.active .btn-annual{
+.btn-price.active .btn-annual {
   display: none;
 }
-.btn-price .btn-pricing{
+.btn-price .btn-pricing {
   display: none;
 }
-.btn-price.active .btn-pricing{
-  display:block;
+.btn-price.active .btn-pricing {
+  display: block;
 }
 
-.btn-price.active{
+.btn-price.active {
   font-size: 14px;
-    position: relative;
-    margin: 0 3px;
-    font-weight: 400;
-    background: #1885f2;
-    color: #fff;
-    padding: 6px 16px;
-    white-space: nowrap;
-    border-bottom: 0 solid #1b75bb;
-    border-right: 0 solid #e8eaf1;
-    box-shadow: none;
-    letter-spacing: .6px;
-    border-radius: 3px;
-    font-family: roboto-bold;
+  position: relative;
+  margin: 0 3px;
+  font-weight: 400;
+  background: #1885f2;
+  color: #fff;
+  padding: 6px 16px;
+  white-space: nowrap;
+  border-bottom: 0 solid #1b75bb;
+  border-right: 0 solid #e8eaf1;
+  box-shadow: none;
+  letter-spacing: 0.6px;
+  border-radius: 3px;
+  font-family: roboto-bold;
 }
 .blog-section::after {
   background: #f7f7f7;
@@ -700,10 +722,14 @@ height:20px;
 
 .tooltip:hover .tooltiptext,
 .tooltip-inside:hover .tooltip-inside-text,
-.tooltip-inside-roadmap:hover .tooltip-inside-text-roadmap {
+.tooltip-inside-roadmap:hover .tooltip-inside-text-roadmap,
+.tooltip-sign-question:hover .tooltip-signup {
   visibility: visible;
 }
 
+.tooltip-signup{
+  visibility: hidden;
+}
 .tooltiptext {
   visibility: hidden;
   position: absolute;
@@ -907,7 +933,7 @@ height:20px;
     z-index: 0;
     background: #daeffa;
     left: 15px;
-    right: -17px;
+    right: -29px;
     top: 20px;
     bottom: -15px;
     border-radius: 8px;
