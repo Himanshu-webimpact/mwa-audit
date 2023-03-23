@@ -3153,6 +3153,10 @@ input:checked + .toggle-bg {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-\[poppins-medim\] {
+  font-family: poppins-medim;
+}
+
 .text-\[22px\] {
   font-size: 22px;
 }
@@ -3263,6 +3267,10 @@ input:checked + .toggle-bg {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.\!text-\[24px\] {
+  font-size: 24px !important;
 }
 
 .font-semibold {
@@ -6307,6 +6315,14 @@ height:20px;
 
   .xl\:w-\[680px\] {
     width: 680px;
+  }
+
+  .xl\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .xl\:w-\[82\%\] {
+    width: 82%;
   }
 
   .xl\:max-w-screen-xl {
