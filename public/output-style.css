@@ -3149,6 +3149,10 @@ input:checked + .toggle-bg {
   font-family: roboto-bold;
 }
 
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 .text-\[22px\] {
   font-size: 22px;
 }
@@ -5629,6 +5633,10 @@ height:20px;
 
   .md\:text-\[21px\] {
     font-size: 21px;
+  }
+
+  .md\:text-\[32px\] {
+    font-size: 32px;
   }
 
   .md\:leading-loose {
