@@ -3077,6 +3077,10 @@ input:checked + .toggle-bg {
   padding-bottom: 120px;
 }
 
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
 }
@@ -3115,10 +3119,6 @@ input:checked + .toggle-bg {
 
 .pr-6 {
   padding-right: 1.5rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
 }
 
 .text-left {
@@ -4374,7 +4374,7 @@ height:20px;
   transition: opacity 0.3s ease;
   border-radius: 0;
   display: inline-block;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   position: relative;
   cursor: pointer;
 }
@@ -5528,6 +5528,14 @@ height:20px;
     width: auto;
   }
 
+  .md\:w-\[46\%\] {
+    width: 46%;
+  }
+
+  .md\:w-\[46\.5\%\] {
+    width: 46.5%;
+  }
+
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -5966,6 +5974,10 @@ height:20px;
     width: auto;
   }
 
+  .lg\:w-\[30\.3\%\] {
+    width: 30.3%;
+  }
+
   .lg\:min-w-\[33\%\] {
     min-width: 33%;
   }
@@ -6318,6 +6330,22 @@ height:20px;
 
   .xl\:w-\[680px\] {
     width: 680px;
+  }
+
+  .xl\:w-\[23\.2\%\] {
+    width: 23.2%;
+  }
+
+  .xl\:w-\[22\.5\%\] {
+    width: 22.5%;
+  }
+
+  .xl\:w-\[22\%\] {
+    width: 22%;
+  }
+
+  .xl\:w-\[22\.3\%\] {
+    width: 22.3%;
   }
 
   .xl\:max-w-screen-xl {
