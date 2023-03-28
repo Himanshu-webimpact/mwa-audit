@@ -87,6 +87,24 @@
   display: block;
   position: absolute;
   left: 3px;
+  top: 34px;
+  width: 12px;
+  height: 12px;
+  content: "";
+  z-index: 1;
+  background: url(https://ywusq.s3.us-west-2.amazonaws.com/img/down-arrow.svg)
+    no-repeat;
+  transform: rotate(0deg);
+}
+.show-all-features .tbl-head.active td::after {
+  transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  display: block;
+  position: absolute;
+  left: 3px;
   top: 29px;
   width: 12px;
   height: 12px;
@@ -99,24 +117,6 @@
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
-}
-.show-all-features .tbl-head.active td::after {
-  transition: all 0.5s ease 0s;
-  -moz-transition: all 0.5s ease 0s;
-  -webkit-transition: all 0.5s ease 0s;
-  -ms-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
-  display: block;
-  position: absolute;
-  left: 3px;
-  top: 34px;
-  width: 12px;
-  height: 12px;
-  content: "";
-  z-index: 1;
-  background: url(https://ywusq.s3.us-west-2.amazonaws.com/img/down-arrow.svg)
-    no-repeat;
-  transform: rotate(0deg);
 }
 .box-shadow-mysiteAuditor {
   box-shadow: 0 0 25px rgb(0 0 0 / 30%);
@@ -727,7 +727,7 @@ height:20px;
   visibility: visible;
 }
 
-.tooltip-signup{
+.tooltip-signup {
   visibility: hidden;
 }
 .tooltiptext {
