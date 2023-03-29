@@ -40,6 +40,13 @@
     rgba(229, 246, 255, 1) 100%
   );
 }
+
+.welcome-page-box:hover{
+  box-shadow: 0 0.15rem 0.5rem rgba(31,156,214,.35);
+    -webkit-box-shadow: 0 0.15rem 0.5rem rgba(31,156,214,.35);
+    -moz-box-shadow: 0 .15rem .5rem rgba(31,156,214,.35);
+    border: 1px solid rgba(31,156,214,.3);
+}
 .bg-login {
   background-image: url(../src/assets/login/sign-up-right-bg.jpeg);
   background-repeat: no-repeat;
@@ -118,6 +125,7 @@
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
 }
+
 .box-shadow-mysiteAuditor {
   box-shadow: 0 0 25px rgb(0 0 0 / 30%);
 }
