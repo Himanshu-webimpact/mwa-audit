@@ -38,7 +38,7 @@ const content = playbooks
   .map(
     (item) => `   
     <div class="lg:w-[44.5%] my-7 w-[100%]">
-    <div class="playbooks-list">
+    <div class="playbooks-list-two">
       <img
         class="border border-[#e8e8e8] relative z-20 rounded-lg"
         src="${item.src}"

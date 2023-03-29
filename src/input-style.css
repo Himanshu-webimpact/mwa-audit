@@ -230,7 +230,9 @@
 .playbooks-list {
   position: relative;
 }
-
+.playbooks-list-two{
+  position: relative;
+}
 .mwa-text-active.active::after {
   width: 100%;
   border: 1px solid #b3dff9;
@@ -690,7 +692,20 @@ height:20px;
   padding-left: 38px;
   margin-top: 10px;
 }
-
+.dashboard-dropdown-menu-notification{
+  position: relative;
+}
+ .dashboard-dropdown-menu-notification::after {
+  border-color: transparent transparent #fff;
+  border-style: solid;
+  border-width: 0 8px 10px;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 20px;
+  top: -9px;
+  width: 0;
+}
 .faster-video-wrapper-left {
   height: auto;
   width: 745px;
@@ -942,6 +957,19 @@ height:20px;
     background: #daeffa;
     left: 15px;
     right: -29px;
+    top: 20px;
+    bottom: -15px;
+    border-radius: 8px;
+    height: auto;
+    width: auto;
+  }
+  .playbooks-list-two::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    background: #daeffa;
+    left: 15px;
+    right: -17px;
     top: 20px;
     bottom: -15px;
     border-radius: 8px;
