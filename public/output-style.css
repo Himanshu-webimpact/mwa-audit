@@ -1962,6 +1962,10 @@ input:checked + .toggle-bg {
   width: 33%;
 }
 
+.w-\[440px\] {
+  width: 440px;
+}
+
 .max-w-\[90\%\] {
   max-width: 90%;
 }
