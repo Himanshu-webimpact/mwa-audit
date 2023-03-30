@@ -1,10 +1,10 @@
 class InAppHeader extends HTMLElement {
-    constructor() {
-      super();
-    }
-  
-    connectedCallback() {
-      this.innerHTML = `
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    this.innerHTML = `
       <div
       class="flex justify-between items-center py-[10px] px-5 bg-[#203145]"
     >
@@ -83,7 +83,7 @@ class InAppHeader extends HTMLElement {
               </li>
               <li class="">
                 <a
-                  href="/public/about.html"
+                  href="#"
                   class="flex justify-center gap-1 items-center pl-3 pr-4 text-[#fff] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 ] md:p-0 dark:text-gray-400 md:dark:hover:text-[#0d96df] dark:hover:bg-gray-700 dark:hover:text-[#0d96df] md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   <img
@@ -107,7 +107,7 @@ class InAppHeader extends HTMLElement {
               </li>
               <li class="">
                 <a
-                  href="/public/about.html"
+                  href="#"
                   class="flex justify-center gap-1 items-center pl-3 pr-4 text-[#fff] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-[#0d96df] dark:hover:bg-gray-700 dark:hover:text-[#0d96df] md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   <img
@@ -256,7 +256,7 @@ class InAppHeader extends HTMLElement {
               </li>
               <li class="">
                 <a
-                  href="/public/about.html"
+                  href="#"
                   class="flex justify-center gap-1 items-center pl-3 pr-4 text-[#fff] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-[#0d96df] dark:hover:bg-gray-700 dark:hover:text-[#0d96df] md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   <svg
@@ -760,12 +760,7 @@ class InAppHeader extends HTMLElement {
       </div>
     </div>
     `;
-    }
   }
-  
-  customElements.define("insideheader-component", InAppHeader);
+}
 
-
-
-
-  
+customElements.define("insideheader-component", InAppHeader);

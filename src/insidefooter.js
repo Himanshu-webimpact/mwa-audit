@@ -1,10 +1,10 @@
 class InAppFooter extends HTMLElement {
-    constructor() {
-      super();
-    }
-  
-    connectedCallback() {
-      this.innerHTML = `
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    this.innerHTML = `
       <div class="bg-[#203145] px-[15px] py-[10px]">
         <h6 class="text-[10px] text-[#fff] text-center">
           © 2023 My Web Audit.
@@ -15,12 +15,7 @@ class InAppFooter extends HTMLElement {
         </h6>
       </div>
     `;
-    }
   }
-  
-  customElements.define("insidefooter-component", InAppFooter);
+}
 
-
-
-
-  
+customElements.define("insidefooter-component", InAppFooter);
