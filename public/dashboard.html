@@ -32,419 +32,1051 @@
   <body>
     <section>
       <insideheader-component></insideheader-component>
-      <div
-        class="border-l-[15px] border-r-[15px] border-[#203145] w-[100%] px-5 py-[15px]"
-      >
+      <section class="pt-[70px]">
         <div
-          class="flex justify-between items-center pb-[15px] border-b border-[#f0f1f3]"
+          class="border-l-[15px] border-r-[15px] border-[#203145] w-[100%] px-5 py-[15px]"
         >
-          <div>
-            <h1 class="text-[#070707] text-xl font-normal font-[nunito-bold]">
-              Audit Dashboard
-            </h1>
-          </div>
-          <div class="flex justify-center items-center gap-3">
-            <label class="text-[#768194] text-[13px] font-[nunito-semibold]"
-              >Filter By:</label
-            >
-            <ul class="flex gap-3 justify-center items-center">
-              <li>
-                <button
-                  id="dropdownDefaultButton-6"
-                  data-dropdown-toggle="dropdown-6"
-                  class="bg-[#ced7de4d] rounded-sm text-[13px] py-[2px] px-3 text-center items-center flex gap-2 relative"
-                  type="button"
-                >
-                  <img
-                    class="w-[16px]"
-                    src="../src/assets/dashboard/dash-status-icon.svg"
-                    alt=""
-                    title=""
-                  />
-                  <h5
-                    class="text-[#070707] flex items-center flex-nowrap gap-[2px] font-[nunito-regural] leading-8"
+          <div
+            class="flex justify-between items-center pb-[15px] border-b border-[#f0f1f3]"
+          >
+            <div>
+              <h1 class="text-[#070707] text-xl font-normal font-[nunito-bold]">
+                Audit Dashboard
+              </h1>
+            </div>
+            <div class="flex justify-center items-center gap-3">
+              <label class="text-[#768194] text-[13px] font-[nunito-semibold]"
+                >Filter By:</label
+              >
+              <ul class="flex gap-3 justify-center items-center">
+                <li>
+                  <button
+                    id="dropdownDefaultButton-6"
+                    data-dropdown-toggle="dropdown-6"
+                    class="bg-[#ced7de4d] rounded-sm text-[13px] py-[2px] px-3 text-center items-center flex gap-2"
+                    type="button"
                   >
-                    Status
-                    <svg
-                      class="w-[8px] ml-2"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 320 512"
-                      fill="#070707"
+                    <img
+                      class="w-[16px]"
+                      src="../src/assets/dashboard/dash-status-icon.svg"
+                      alt=""
+                      title=""
+                    />
+                    <h5
+                      class="text-[#070707] flex items-center flex-nowrap gap-[2px] font-[nunito-regural] leading-8"
                     >
-                      <path
-                        d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
-                      />
-                    </svg>
-                  </h5>
-                </button>
-                <!-- Dropdown menu -->
-                <div
-                  id="dropdown-6"
-                  class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-56 !absolute !-top-[10px] !-left-[17px] dashboard-dropdown-menu-notification"
-                >
-                  <ul
-                    class="py-2 text-sm text-[#297cab]"
-                    aria-labelledby="dropdownDefaultButton-6"
-                  >
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap"
-                        >Account & Billing</a
-                      >
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        My Team
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        SMTP Settings
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Add-ons
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        White Label Settings
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        My Members
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Payment Method &amp; Invoices
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Refer A Friend, Get 10%
-                      </a>
-                    </li>
-                    <li class="">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Logout
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <button
-                  id="dropdownDefaultButton-7"
-                  data-dropdown-toggle="dropdown-7"
-                  class="bg-[#ced7de4d] rounded-sm text-[13px] py-[2px] px-3 text-center items-center flex gap-2 relative"
-                  type="button"
-                >
-                  <img
-                    class="w-[16px]"
-                    src="../src/assets/dashboard/dash-tag-icon.svg "
-                    alt=""
-                    title=""
-                  />
-                  <h5
-                    class="text-[#070707] flex items-center flex-nowrap gap-[2px] font-[nunito-regural] leading-8"
-                  >
-                    Tag
-
-                    <svg
-                      class="w-[8px] ml-2"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 320 512"
-                      fill="#070707"
-                    >
-                      <path
-                        d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
-                      />
-                    </svg>
-                  </h5>
-                </button>
-                <!-- Dropdown menu -->
-                <div
-                  id="dropdown-7"
-                  class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-56 !absolute !-top-[10px] !-left-[17px] dashboard-dropdown-menu-notification"
-                >
-                  <ul
-                    class="py-2 text-sm text-[#297cab]"
-                    aria-labelledby="dropdownDefaultButton-7"
-                  >
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap"
-                        >Account & Billing</a
-                      >
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        My Team
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        SMTP Settings
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Add-ons
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        White Label Settings
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        My Members
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Payment Method &amp; Invoices
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Refer A Friend, Get 10%
-                      </a>
-                    </li>
-                    <li class="">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Logout
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <button
-                  id="dropdownDefaultButton-8"
-                  data-dropdown-toggle="dropdown-8"
-                  class="bg-[#ced7de4d] rounded-sm text-[13px] py-[2px] px-3 text-center items-center flex gap-2 relative"
-                  type="button"
-                >
-                  <img
-                    class="w-[14px]"
-                    src="../src/assets/dashboard/dash-report-icon.svg"
-                    alt=""
-                    title=""
-                  />
-                  <h5
-                    class="text-[#070707] flex items-center flex-nowrap gap-[2px] font-[nunito-regural] leading-8"
-                  >
-                    Report
-
-                    <svg
-                      class="w-[8px] ml-2"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 320 512"
-                      fill="#070707"
-                    >
-                      <path
-                        d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
-                      />
-                    </svg>
-                  </h5>
-                </button>
-                <!-- Dropdown menu -->
-                <div
-                  id="dropdown-8"
-                  class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-56 !absolute !-top-[10px] !-left-[17px] dashboard-dropdown-menu-notification"
-                >
-                  <ul
-                    class="py-2 text-sm text-[#297cab]"
-                    aria-labelledby="dropdownDefaultButton-8"
-                  >
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap"
-                        >Account & Billing</a
-                      >
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        My Team
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        SMTP Settings
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Add-ons
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        White Label Settings
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        My Members
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Payment Method &amp; Invoices
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Refer A Friend, Get 10%
-                      </a>
-                    </li>
-                    <li class="">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Logout
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <button
-                  id="dropdownDefaultButton-9"
-                  data-dropdown-toggle="dropdown-9"
-                  class="bg-[#ced7de4d] rounded-sm text-[13px] py-[2px] px-3 text-center items-center flex gap-2 relative"
-                  type="button"
-                >
-                  <img
-                    class="w-[17px]"
-                    src="../src/assets/dashboard/dash-report-user_filter-icon.svg"
-                    alt=""
-                    title=""
-                  />
-                  <h5
-                    class="text-[#070707] flex items-center flex-nowrap gap-[2px] font-[nunito-regural] leading-8"
-                  >
-                    View My AuditsReport
-
-                    <svg
-                      class="w-[8px] ml-2"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 320 512"
-                      fill="#070707"
-                    >
-                      <path
-                        d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
-                      />
-                    </svg>
-                  </h5>
-                </button>
-                <!-- Dropdown menu -->
-                <div
-                  id="dropdown-9"
-                  class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-56 !absolute !-top-[10px] !-left-[17px] dashboard-dropdown-menu-notification"
-                >
-                  <ul
-                    class="py-2 text-sm text-[#297cab]"
-                    aria-labelledby="dropdownDefaultButton-9"
-                  >
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap"
-                        >Account & Billing</a
-                      >
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        My Team
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        SMTP Settings
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Add-ons
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        White Label Settings
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        My Members
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Payment Method &amp; Invoices
-                      </a>
-                    </li>
-                    <li class="border-b border-[#f2f2f2]">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Refer A Friend, Get 10%
-                      </a>
-                    </li>
-                    <li class="">
-                      <a href="#" class="block px-4 py-3 whitespace-nowrap">
-                        Logout
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li>
-                <form>
-                
-                  <div class="relative">
-                    <div
-                      class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none"
-                    >
+                      Status
                       <svg
-                        aria-hidden="true"
-                        class="w-5 h-5 text-gray-500 dark:text-gray-400"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
+                        class="w-[8px] ml-2"
                         xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512"
+                        fill="#070707"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                        ></path>
+                          d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
+                        />
                       </svg>
-                    </div>
-                    <input
-                      type="search"
-                      id="default-search"
-                      class="block w-full py-1 pl-2 text-[13px] text-[#070707] border border-[#e2e6e8] rounded-sm bg-[#fbfcfc] font-[font-family: nunito-regular]"
-                      placeholder="Search for an audit"
-                     
-                    />
+                    </h5>
+                  </button>
+                  <!-- Dropdown menu -->
+                  <div
+                    id="dropdown-6"
+                    class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44"
+                  >
+                    <ul
+                      class="py-2 text-[13px] text-[#444343] tracking-[0.2px] leading-8"
+                      aria-labelledby="dropdownDefaultButton-6"
+                    >
+                      <li class="">
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Lead</label
+                            >
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Contacted</label
+                            >
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Interested</label
+                            >
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Audit Presented</label
+                            >
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Won</label
+                            >
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Lost</label
+                            >
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
                   </div>
-                </form>
-              </li>
-            </ul>
-            <div class="border border-[#1885f2] text-[13px] rounded-sm px-3 py-2">
-              <img class="w-[15px]" src="../src/assets/dashboard/import-icon-blue.svg" alt="" title="" />
+                </li>
+                <li>
+                  <button
+                    id="dropdownDefaultButton-7"
+                    data-dropdown-toggle="dropdown-7"
+                    class="bg-[#ced7de4d] rounded-sm text-[13px] py-[2px] px-3 text-center items-center flex gap-2"
+                    type="button"
+                  >
+                    <img
+                      class="w-[16px]"
+                      src="../src/assets/dashboard/dash-tag-icon.svg "
+                      alt=""
+                      title=""
+                    />
+                    <h5
+                      class="text-[#070707] flex items-center flex-nowrap gap-[2px] font-[nunito-regural] leading-8"
+                    >
+                      Tag
 
-            </div>
-            <div>
-              <button type="button" class="text-[#fff] bg-[#46cc8c] rounded-sm    text-sm px-4  font-[nunito-regural] leading-[34px]">
-                New Audit
-            </button>
+                      <svg
+                        class="w-[8px] ml-2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512"
+                        fill="#070707"
+                      >
+                        <path
+                          d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
+                        />
+                      </svg>
+                    </h5>
+                  </button>
+                  <!-- Dropdown menu -->
+                  <div
+                    id="dropdown-7"
+                    class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44"
+                  >
+                    <ul
+                      class="py-2 text-[13px] text-[#444343] tracking-[0.2px] leading-8"
+                      aria-labelledby="dropdownDefaultButton-7"
+                    >
+                      <li class="border-b border-[#f2f2f2]">
+                        <a href="#" class="block whitespace-nowrap">
+                          <form class="flex items-center">
+                            <label for="simple-search" class="sr-only"
+                              >Search</label
+                            >
+                            <div class="relative w-full">
+                              <div
+                                class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  class="w-5 h-5 text-gray-500 dark:text-gray-400"
+                                  fill="currentColor"
+                                  viewBox="0 0 20 20"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                    clip-rule="evenodd"
+                                  ></path>
+                                </svg>
+                              </div>
+                              <input
+                                type="text"
+                                id="simple-search"
+                                class="border-none pl-9 text-[#717981] w-full text-[13px] font-[nunito-regural]"
+                                placeholder="Search..."
+                                required
+                              />
+                            </div>
+                          </form>
+                        </a>
+                      </li>
+                      <li class="mt-[2px]">
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Test</label
+                            >
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Test</label
+                            >
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <button
+                    id="dropdownDefaultButton-8"
+                    data-dropdown-toggle="dropdown-8"
+                    class="bg-[#ced7de4d] rounded-sm text-[13px] py-[2px] px-3 text-center items-center flex gap-2"
+                    type="button"
+                  >
+                    <img
+                      class="w-[14px]"
+                      src="../src/assets/dashboard/dash-report-icon.svg"
+                      alt=""
+                      title=""
+                    />
+                    <h5
+                      class="text-[#070707] flex items-center flex-nowrap gap-[2px] font-[nunito-regural] leading-8"
+                    >
+                      Report
+
+                      <svg
+                        class="w-[8px] ml-2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512"
+                        fill="#070707"
+                      >
+                        <path
+                          d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
+                        />
+                      </svg>
+                    </h5>
+                  </button>
+                  <!-- Dropdown menu -->
+                  <div
+                    id="dropdown-8"
+                    class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-64"
+                  >
+                    <ul
+                      class="py-2 text-[13px] text-[#444343] tracking-[0.2px] leading-8"
+                      aria-labelledby="dropdownDefaultButton-7"
+                    >
+                      <li class="border-b border-[#f2f2f2]">
+                        <a href="#" class="block whitespace-nowrap">
+                          <form class="flex items-center">
+                            <label for="simple-search" class="sr-only"
+                              >Search</label
+                            >
+                            <div class="relative w-full">
+                              <div
+                                class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  class="w-5 h-5 text-gray-500 dark:text-gray-400"
+                                  fill="currentColor"
+                                  viewBox="0 0 20 20"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                    clip-rule="evenodd"
+                                  ></path>
+                                </svg>
+                              </div>
+                              <input
+                                type="text"
+                                id="simple-search"
+                                class="border-none pl-9 text-[#717981] w-full text-[13px] font-[nunito-regural]"
+                                placeholder="Search..."
+                                required
+                              />
+                            </div>
+                          </form>
+                        </a>
+                      </li>
+                      <li class="mt-[2px]">
+                        <a
+                          href="#"
+                          class="px-4 whitespace-nowrap flex justify-between items-center"
+                        >
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Website Audit</label
+                            >
+                          </div>
+                          <div>
+                            <span
+                              class="bg-[#e6f2ff] text-[10px] px-[5px] py-[5px] rounded-sm text-[#444343]"
+                              >11
+                            </span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a
+                          href="#"
+                          class="px-4 whitespace-nowrap flex justify-between items-center"
+                        >
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >E-commerce Website Audit</label
+                            >
+                          </div>
+                          <div>
+                            <span
+                              class="bg-[#e6f2ff] text-[10px] px-[5px] py-[5px] rounded-sm text-[#444343]"
+                              >2
+                            </span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a
+                          href="#"
+                          class="px-4 whitespace-nowrap flex justify-between items-center"
+                        >
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >On Page SEO Report</label
+                            >
+                          </div>
+                          <div>
+                            <span
+                              class="bg-[#e6f2ff] text-[10px] px-[5px] py-[5px] rounded-sm text-[#444343]"
+                              >10
+                            </span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a
+                          href="#"
+                          class="px-4 whitespace-nowrap flex justify-between items-center"
+                        >
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Google Business Profile (G...</label
+                            >
+                          </div>
+                          <div>
+                            <span
+                              class="bg-[#e6f2ff] text-[10px] px-[5px] py-[5px] rounded-sm text-[#444343]"
+                              >19
+                            </span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a
+                          href="#"
+                          class="px-4 whitespace-nowrap flex justify-between items-center"
+                        >
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Landing Page Audit</label
+                            >
+                          </div>
+                          <div>
+                            <span
+                              class="bg-[#e6f2ff] text-[10px] px-[5px] py-[5px] rounded-sm text-[#444343]"
+                              >5</span
+                            >
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a
+                          href="#"
+                          class="px-4 whitespace-nowrap flex justify-between items-center"
+                        >
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Page Speed Insights Report</label
+                            >
+                          </div>
+                          <div>
+                            <span
+                              class="bg-[#e6f2ff] text-[10px] px-[5px] py-[5px] rounded-sm text-[#444343]"
+                              >6
+                            </span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a
+                          href="#"
+                          class="px-4 whitespace-nowrap flex justify-between items-center"
+                        >
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Accessibility Audit</label
+                            >
+                          </div>
+                          <div>
+                            <span
+                              class="bg-[#e6f2ff] text-[10px] px-[5px] py-[5px] rounded-sm text-[#444343]"
+                              >4
+                            </span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a
+                          href="#"
+                          class="px-4 whitespace-nowrap flex justify-between items-center"
+                        >
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Lead Magnet: On-Page SE...</label
+                            >
+                          </div>
+                          <div>
+                            <span
+                              class="bg-[#e6f2ff] text-[10px] px-[5px] py-[5px] rounded-sm text-[#444343]"
+                              >2
+                            </span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a
+                          href="#"
+                          class="px-4 whitespace-nowrap flex justify-between items-center"
+                        >
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Competitive Analysis</label
+                            >
+                          </div>
+                          <div>
+                            <span
+                              class="bg-[#e6f2ff] text-[10px] px-[5px] py-[5px] rounded-sm text-[#444343]"
+                              >11
+                            </span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a
+                          href="#"
+                          class="px-4 whitespace-nowrap flex justify-between items-center"
+                        >
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Return On Investment (R...</label
+                            >
+                          </div>
+                          <div>
+                            <span
+                              class="bg-[#e6f2ff] text-[10px] px-[5px] py-[5px] rounded-sm text-[#444343]"
+                              >3
+                            </span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a
+                          href="#"
+                          class="px-4 whitespace-nowrap flex justify-between items-center"
+                        >
+                          <div
+                            class="flex items-center text-[13px] font-[nunito-regural]"
+                          >
+                            <input
+                              id="default-checkbox"
+                              type="checkbox"
+                              value=""
+                              class="w-4 h-4 bg-[#fff] border-[#1885f266] rounded-sm"
+                            />
+                            <label for="default-checkbox" class="ml-2"
+                              >Landing Page Direct Mail....</label
+                            >
+                          </div>
+                          <div>
+                            <span
+                              class="bg-[#e6f2ff] text-[10px] px-[5px] py-[5px] rounded-sm text-[#444343]"
+                              >3
+                            </span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <button
+                    id="dropdownDefaultButton-9"
+                    data-dropdown-toggle="dropdown-9"
+                    class="bg-[#ced7de4d] rounded-sm text-[13px] py-[2px] px-3 text-center items-center flex gap-2"
+                    type="button"
+                  >
+                    <img
+                      class="w-[17px]"
+                      src="../src/assets/dashboard/dash-report-user_filter-icon.svg"
+                      alt=""
+                      title=""
+                    />
+                    <h5
+                      class="text-[#070707] flex items-center flex-nowrap gap-[2px] font-[nunito-regural] leading-8"
+                    >
+                      View My Audits
+
+                      <svg
+                        class="w-[8px] ml-2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512"
+                        fill="#070707"
+                      >
+                        <path
+                          d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
+                        />
+                      </svg>
+                    </h5>
+                  </button>
+                  <!-- Dropdown menu -->
+                  <div
+                    id="dropdown-9"
+                    class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-52"
+                  >
+                    <ul
+                      class="py-2 text-[13px] text-[#444343] tracking-[0.2px] leading-8"
+                      aria-labelledby="dropdownDefaultButton-7"
+                    >
+                      <li class="">
+                        <a href="#" class="block whitespace-nowrap">
+                          <form class="flex items-center justify-center ml-3">
+                            <label for="simple-search" class="sr-only"
+                              >Search</label
+                            >
+                            <div class="relative w-full">
+                              <input
+                                type="text"
+                                id="simple-search"
+                                class="border-[#e2e2e2] pl-9 text-[#717981] w-[94%] mx-auto text-[13px] font-[nunito-regural] rounded-sm"
+                                placeholder=""
+                                required
+                              />
+                            </div>
+                          </form>
+                        </a>
+                      </li>
+                      <li
+                        class="mt-[2px] dashboard-check-leads border-b border-[]"
+                      >
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center justify-between text-[13px] font-[nunito-regural]"
+                          >
+                            <h5>View All Audits &amp; Leads</h5>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        class="mt-[2px] dashboard-check-leads border-b border-[]"
+                      >
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center justify-between text-[13px] font-[nunito-regural]"
+                          >
+                            <h5>View My Audits</h5>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        class="mt-[2px] dashboard-check-leads border-b border-[]"
+                      >
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center justify-between text-[13px] font-[nunito-regural]"
+                          >
+                            <h5>View MM's Audits</h5>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        class="mt-[2px] dashboard-check-leads border-b border-[]"
+                      >
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center justify-between text-[13px] font-[nunito-regural]"
+                          >
+                            <h5>View Haw's Audits</h5>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        class="mt-[2px] dashboard-check-leads border-b border-[]"
+                      >
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center justify-between text-[13px] font-[nunito-regural]"
+                          >
+                            <h5>View RM's Audits</h5>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        class="mt-[2px] dashboard-check-leads border-b border-[]"
+                      >
+                        <a href="#" class="block px-4 whitespace-nowrap">
+                          <div
+                            class="flex items-center justify-between text-[13px] font-[nunito-regural]"
+                          >
+                            <h5>View Subaccount's Audits</h5>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <form>
+                    <div class="relative">
+                      <div
+                        class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="w-5 h-5 text-gray-500 dark:text-gray-400"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <input
+                        type="search"
+                        id="default-search"
+                        class="block w-full py-1 pl-2 text-[13px] text-[#070707] border border-[#e2e6e8] rounded-sm bg-[#fbfcfc] font-[font-family: nunito-regular]"
+                        placeholder="Search for an audit"
+                      />
+                    </div>
+                  </form>
+                </li>
+              </ul>
+              <div
+                class="border border-[#1885f2] text-[13px] rounded-sm px-3 py-2"
+              >
+                <img
+                  class="w-[15px]"
+                  src="../src/assets/dashboard/import-icon-blue.svg"
+                  alt=""
+                  title=""
+                />
+              </div>
+              <div>
+                <button
+                  type="button"
+                  class="text-[#fff] bg-[#46cc8c] rounded-sm text-sm px-4 font-[nunito-regural] leading-[34px]"
+                >
+                  New Audit
+                </button>
+              </div>
             </div>
           </div>
+          <div class="flex justify-between items-center pt-[15px]">
+            <div>
+              <ul class="flex items-center justify-center gap-5">
+                <li
+                  class="bg-[#e6f2ff] rounded-sm px-[9px] text-[#203145] text-sm leading-8 relative dashboard-audit-active active"
+                >
+                  <a href="#"> Audits </a>
+
+                  <div class="absolute -top-[12px] -right-[11px]">
+                    <span
+                      class="text-[10px] bg-[#f01] px-[3px] py-[3px] text-[#fff] rounded-sm"
+                      >77</span
+                    >
+                  </div>
+                </li>
+                <li
+                  class="bg-[#e6f2ff] rounded-sm px-[9px] text-[#203145] text-sm leading-8 relative dashboard-audit-active"
+                >
+                  <a href="#"> Saved / Incomplete Audits </a>
+
+                  <div class="absolute -top-[12px] -right-[11px]">
+                    <span
+                      class="text-[10px] bg-[#f01] px-[3px] py-[3px] text-[#fff] rounded-sm"
+                      >14</span
+                    >
+                  </div>
+                </li>
+
+                <li
+                  class="bg-[#e6f2ff] rounded-sm px-[9px] text-[#203145] text-sm leading-8 relative dashboard-audit-active"
+                >
+                  <a href="#"> Leads </a>
+
+                  <div class="absolute -top-[12px] -right-[7px]">
+                    <span
+                      class="text-[10px] bg-[#f01] px-[4px] py-[3px] text-[#fff] rounded-sm"
+                      >1</span
+                    >
+                  </div>
+                </li>
+
+                <li
+                  class="bg-[#e6f2ff] rounded-sm px-[9px] text-[#203145] text-sm leading-8 relative dashboard-audit-active"
+                >
+                  <a href="#"> Archived Audits </a>
+
+                  <div class="absolute -top-[12px] -right-[7px]">
+                    <span
+                      class="text-[10px] bg-[#f01] px-[4px] py-[3px] text-[#fff] rounded-sm"
+                      >1</span
+                    >
+                  </div>
+                </li>
+
+                <li
+                  class="bg-[#e6f2ff] rounded-sm px-[9px] text-[#203145] text-sm leading-8 relative dashboard-audit-active"
+                >
+                  <a class="flex justify-center items-center gap-3" href="#">
+                    <img
+                      src="../src/assets/dashboard/email-icon (1).svg"
+                      alt=""
+                      title=""
+                    />
+                    Direct Mail Reports
+                  </a>
+
+                  <div class="absolute -top-[12px] -right-[7px]">
+                    <span
+                      class="text-[10px] bg-[#f01] px-[4px] py-[3px] text-[#fff] rounded-sm"
+                      >7</span
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="flex justify-center gap-4 items-center">
+                <li>
+                  <button
+                    type="button"
+                    onclick="btnCollapse()"
+                    id="myBtncollapse"
+                    value="- Collapse All"
+                    class="text-[#1885f2] bg-transparent border border-[#1885f2] font-medium rounded-sm text-xs px-3 py-2 font-[nunito-regural]"
+                  >
+                    - Collapse All
+                  </button>
+                </li>
+                <li class="relative text-xs">
+                  <select
+                    name="page"
+                    id="pages"
+                    class="text-[#273a50] w-[180px] rounded-sm text-xs py-2 inline-flex items-center border-[#dcdcdc] border font-[nunito-regural]"
+                  >
+                    <option value="ten">10</option>
+                    <option value="twenty-five">25</option>
+                    <option value="fifty">50</option>
+                    <option value="hundred">100</option>
+                  </select>
+                  <div class="absolute top-[10px] right-[38px] text-xs">
+                    Records Per Page
+                  </div>
+                </li>
+                <li class="relative text-xs">
+                  <label class="text-[#203145] text-xs mr-1">Pages </label>
+                  <select
+                    name="number"
+                    id="numbers"
+                    class="text-[#273a50] text-center rounded-sm text-xs py-2 inline-flex items-center border-[#dcdcdc] border font-[nunito-regural]"
+                  >
+                    <option value="ten">1</option>
+                    <option value="twenty-five">2</option>
+                    <option value="fifty">3</option>
+                    <option value="hundred">4</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="relative overflow-x-auto shadow-md  mt-[15px]">
+            <table
+              class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+            >
+              <thead
+                class="text-xs text-gray-700 uppercase bg-[#505F78]  "
+              >
+                <tr>
+                  <th scope="col" class="px-6 py-3 rounded-l">Product name</th>
+                  <th scope="col" class="px-6 py-3">Color</th>
+                  <th scope="col" class="px-6 py-3">Category</th>
+                  <th scope="col" class="px-6 py-3">Price</th>
+                  <th scope="col" class="px-6 py-3 rounded-r ">Action</th>
+                </tr>
+              </thead>
+              <tbody >
+                <tr
+                  class="bg-white border-b dark:bg-gray-900 dark:border-gray-700"
+                >
+                  <td class="px-6 py-4">Silver</td>
+                  <td class="px-6 py-4">Laptop</td>
+                  <td class="px-6 py-4">$2999</td>
+                  <td class="px-6 py-4">
+                    <a
+                      href="#"
+                      class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                      >Edit</a
+                    >
+                  </td>
+                </tr>
+                <tr
+                  class="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
+                >
+                  <td class="px-6 py-4">White</td>
+                  <td class="px-6 py-4">Laptop PC</td>
+                  <td class="px-6 py-4">$1999</td>
+                  <td class="px-6 py-4">
+                    <a
+                      href="#"
+                      class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                      >Edit</a
+                    >
+                  </td>
+                </tr>
+                <tr
+                  class="bg-white border-b dark:bg-gray-900 dark:border-gray-700"
+                >
+                  <td class="px-6 py-4">Black</td>
+                  <td class="px-6 py-4">Accessories</td>
+                  <td class="px-6 py-4">$99</td>
+                  <td class="px-6 py-4">
+                    <a
+                      href="#"
+                      class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                      >Edit</a
+                    >
+                  </td>
+                </tr>
+                <tr
+                  class="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
+                >
+                  <td class="px-6 py-4">Gray</td>
+                  <td class="px-6 py-4">Phone</td>
+                  <td class="px-6 py-4">$799</td>
+                  <td class="px-6 py-4">
+                    <a
+                      href="#"
+                      class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                      >Edit</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td class="px-6 py-4">Red</td>
+                  <td class="px-6 py-4">Wearables</td>
+                  <td class="px-6 py-4">$999</td>
+                  <td class="px-6 py-4">
+                    <a
+                      href="#"
+                      class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                      >Edit</a
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-      </div>
-     <insidefooter-component></insidefooter-component>
+      </section>
+      <insidefooter-component></insidefooter-component>
     </section>
 
+    <script>
+      $(document).ready(function () {
+        $("ul li.dashboard-audit-active").click(function () {
+          $("ul li.dashboard-audit-active").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+
+      function btnCollapse() {
+        var btn = document.getElementById("myBtncollapse");
+
+        if (btn.value == "- Collapse All") {
+          btn.value = "+ Expand All";
+          btn.innerHTML = "+ Expand All";
+        } else {
+          btn.value = "- Collapse All";
+          btn.innerHTML = "- Collapse All";
+        }
+      }
+    </script>
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>
 </html>

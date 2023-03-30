@@ -5,8 +5,9 @@ class InAppHeader extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+    <div class="fixed top-0 w-[100%] z-50">
       <div
-      class="flex justify-between items-center py-[10px] px-5 bg-[#203145]"
+      class="flex justify-between items-center py-[10px] px-5 bg-[#203145] "
     >
       <nav>
         <div class="flex flex-wrap justify-between items-center">
@@ -758,6 +759,7 @@ class InAppHeader extends HTMLElement {
           </ul>
         </div>
       </div>
+    </div>
     </div>
     `;
   }
