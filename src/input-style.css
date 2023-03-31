@@ -3,6 +3,123 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "nunito-bold";
+  src: url("../src/assets/fonts/NunitoSans-Bold.woff2") format("woff2"),
+    url("../src/assets/fonts/NunitoSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "nunito-light";
+  src: url("../src/assets/fonts/NunitoSans-Light.woff2") format("woff2"),
+    url("../src/assets/fonts/NunitoSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "nunito-extra-bold";
+  src: url("../src/assets/fonts/NunitoSans-ExtraBold.woff2") format("woff2"),
+    url("../src/assets/fonts/NunitoSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../src/assets/fonts/Poppins-Black.woff2") format("woff2"),
+    url("../src/assets/fonts/Poppins-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "nunito-regular";
+  src: url("../src/assets/fonts/NunitoSans-Regular.woff2") format("woff2"),
+    url("../src/assets/fonts/NunitoSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "nunito-semibold";
+  src: url("../src/assets/fonts/NunitoSans-SemiBold.woff2") format("woff2"),
+    url("../src/assets/fonts/NunitoSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../src/assets/fonts/Poppins-Regular.woff2") format("woff2"),
+    url("../src/assets/fonts/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../src/assets/fonts/Poppins-Bold.woff2") format("woff2"),
+    url("../src/assets/fonts/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "poppins-medium";
+  src: url("../src/assets/fonts/Poppins-Medium.woff2") format("woff2"),
+    url("../src/assets/fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto-bold";
+  src: url("../src/assets/fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../src/assets/fonts/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto-light";
+  src: url("../src/assets/fonts/Roboto-Light.woff2") format("woff2"),
+    url("../src/assets/fonts/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto-medium";
+  src: url("../src/assets/fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../src/assets/fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto-regural";
+  src: url("../src/assets/fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../src/assets/fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* 
+@font-face {
   font-family: roboto-medium;
   src: url(../src/assets/fonts/Roboto-Medium.ttf);
 }
@@ -42,11 +159,12 @@
 @font-face {
   font-family: nunito-regular;
   src: url(../src/assets/fonts/NunitoSans-Regular.ttf);
+  font-weight: 400;
 }
 @font-face {
   font-family: nunito-semibold;
   src: url(../src/assets/fonts/NunitoSans-SemiBold.ttf);
-}
+} */
 .swiper-button-next::after,
 .swiper-button-prev::after {
   display: none !important;
@@ -75,23 +193,6 @@
   box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
 }
 
-.tooltip-signup::after {
-  -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  border-color: #273a50 transparent transparent;
-  border-image: none;
-  border-style: solid;
-  border-width: 10px;
-  content: "";
-  height: 0;
-  left: 18px;
-  pointer-events: none;
-  position: absolute;
-  bottom: -18px;
-  width: 0;
-}
 .box-shadow-roadmap-btn {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -148,6 +249,19 @@
 .box-shadow-mysiteAuditor {
   box-shadow: 0 0 25px rgb(0 0 0 / 30%);
 }
+
+.dashboard-thead-icon::after {
+  position: absolute;
+  content: "";
+  background-image: url(../src/assets/dashboard/Sorting-decending-icon.svg);
+  bottom: 17px;
+  right: 18px;
+  display: block;
+  opacity: 0.5;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
 .box-shadow-mwa-signup-offer {
   box-shadow: 0 0 150px 10px rgb(0 0 0 / 12%);
 }
@@ -174,6 +288,40 @@
 }
 .home-page-success-caurosal .transform {
   opacity: 1;
+}
+.table-dashboard-sub-cat{
+  position: relative;
+}
+.table-dashboard-sub-cat::after{
+  width: 1px;
+  height: 102%;
+  background: #d3d3d3;
+  content: "";
+  top: 0;
+  left: 27px;
+  position: absolute;
+  height: 50%;
+}
+
+.table-dashboard-mwa table{
+  border-spacing: 0px;
+  border-collapse: separate !important;
+}
+.table-dashboard-mwa table tr.audit-table-border td{
+  border-top:10px solid #fff;
+}
+.table-dashboard-mwa table tr td{
+  border-bottom: 1px solid #eee;
+}
+.table-dashboard-sub-cat::before{
+  width: 18px;
+  height: 1px;
+  background: #d3d3d3;
+  content: "";
+  top: 50%;
+  left: 27px;
+  position: absolute;
+  margin-top: -1px;
 }
 
 .dashboard-check-leads::after {
@@ -746,7 +894,8 @@ height:20px;
 }
 .dashboard-dropdown-menu-notification,
 .dashboard-dropdown-menu-support,
-.dashboard-check-leads {
+.dashboard-check-leads,
+.dashboard-thead-icon {
   position: relative;
 }
 .dashboard-dropdown-menu-notification::after {
@@ -812,11 +961,13 @@ height:20px;
 .tooltip:hover .tooltiptext,
 .tooltip-inside:hover .tooltip-inside-text,
 .tooltip-inside-roadmap:hover .tooltip-inside-text-roadmap,
-.tooltip-sign-question:hover .tooltip-signup {
+.tooltip-sign-question:hover .tooltip-signup,
+.tooltip-dashboard-thead:hover .tooltip-dashboard-tracking {
   visibility: visible;
 }
 
-.tooltip-signup {
+.tooltip-signup,
+.tooltip-dashboard-tracking {
   visibility: hidden;
 }
 .tooltiptext {
@@ -831,6 +982,41 @@ height:20px;
   top: 35px;
   left: 50%;
   color: #2b333f;
+}
+.tooltip-signup::after {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #273a50 transparent transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 10px;
+  content: "";
+  height: 0;
+  left: 18px;
+  pointer-events: none;
+  position: absolute;
+  bottom: -18px;
+  width: 0;
+}
+.tooltip-dashboard-tracking::after {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #273a50 transparent transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 10px;
+  content: "";
+  height: 0;
+  right: 10px;
+  top: -20px;
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  transform: rotate(180deg);
 }
 
 .tooltip,
